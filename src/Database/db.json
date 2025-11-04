@@ -1,0 +1,711 @@
+{
+  "products": {
+    "kids_kits": [
+      {
+        "id": "1",
+        "name": "Home Kit 25/26 - Lamine Yamal Edition",
+        "category": "Home Kit",
+        "gender": "Boys",
+        "price_inr": 9500,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ5216-456_431720906_D_A_1X1_2.jpg?v=1751429539&width=823",
+        "label": "2025/26"
+      },
+      {
+        "id": "2",
+        "name": "Home Kit 25/26 - Pedri Edition",
+        "category": "Home Kit",
+        "gender": "Girls",
+        "price_inr": 9100,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/pedri-ucl_fe2c2d3d-ef36-45c8-93d8-80a01e00910a.webp?v=1752566115&width=823"
+      },
+      {
+        "id": "3",
+        "name": "Home Kit 25/26 - Classic Edition",
+        "category": "Home Kit",
+        "gender": "Boys",
+        "price_inr": 8700,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/lamineyamal-ucl_7c9afdfb-cfe5-43ff-bf30-b74e4e5b837b.webp?v=1752684023&width=823",
+        "label": "Trending"
+      },
+      {
+        "id": "4",
+        "name": "Home Kit 25/26 - Women's Player Version",
+        "category": "Home Kit",
+        "gender": "Girls",
+        "price_inr": 10500,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FE70420026_1_2ucl.jpg?v=1751429913&width=823"
+      },
+      {
+        "id": "5",
+        "name": "Home Kit 25/26 - Youth Edition",
+        "category": "Home Kit",
+        "gender": "Boys",
+        "price_inr": 8200,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Disenosintitulo_38_e900aa6e-6f22-481e-9d0c-27cfa5b14cdd.jpg?v=1758635058&width=823",
+        "label": "Limited Edition"
+      },
+      {
+        "id": "6",
+        "name": "Home Kit 25/26 - Player’s Edition",
+        "category": "Home Kit",
+        "gender": "Girls",
+        "price_inr": 11200,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ5589-455_415116210_D_B_1X1_81324cc2-e5e9-4c07-b842-f583039182c9_1.jpg?v=1753810671&width=823"
+      },
+      {
+        "id": "7",
+        "name": "Home Kit 25/26 - Kids Edition",
+        "category": "Home Kit",
+        "gender": "Boys",
+        "price_inr": 7600,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/20_11edcba9-f63c-4e4e-89f2-19aac0effe95.jpg?v=1753180328&width=823"
+      },
+      {
+        "id": "8",
+        "name": "Home Kit 25/26 - Retro Collection",
+        "category": "Home Kit",
+        "gender": "Girls",
+        "price_inr": 9700,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/fermin-ucl.webp?v=1752566115&width=823"
+      },
+      {
+        "id": "9",
+        "name": "Home Kit 25/26 - Stadium Fan Edition",
+        "category": "Home Kit",
+        "gender": "Boys",
+        "price_inr": 8800,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/85b00cce-943a-4056-a821-e10a245bffd1/FCB+M+NK+DF+JSY+LS+STAD+HM.png"
+      },
+      {
+        "id": "10",
+        "name": "Home Kit 25/26 - Heritage Edition",
+        "category": "Home Kit",
+        "gender": "Girls",
+        "price_inr": 10000,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/base-ambilight.webp?v=12057333375252784091"
+      },
+      {
+        "id": "11",
+        "name": "Away Kit 25/26 - Kobe Bryant Edition",
+        "category": "Away Kit",
+        "gender": "Boys",
+        "price_inr": 12150,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ4603-784_431735711_D_A_1X1_4ebdb94b-be58-4c4a-bceb-d3900f4fdc4f.jpg?v=1753762314&width=823"
+      },
+      {
+        "id": "12",
+        "name": "Away Kit 25/26 - Player Edition",
+        "category": "Away Kit",
+        "gender": "Boys",
+        "price_inr": 18550,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HQ9290-511_419456431_D_C_1X1_1ba3ddeb-0a13-42ca-adca-248455d512f0.jpg?v=1753764003&width=823"
+      },
+      {
+        "id": "13",
+        "name": "Away Kit 25/26 - Junior Limited",
+        "category": "Away Kit",
+        "gender": "Boys",
+        "price_inr": 11300,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/IM0461-510_419461958_D_B_1X1_6def7b6c-ab21-4394-b240-020214c3d003.jpg?v=1753773903&width=823"
+      },
+      {
+        "id": "14",
+        "name": "Away Kit 25/26 - Special Tribute",
+        "category": "Away Kit",
+        "gender": "Girls",
+        "price_inr": 11000,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Imagen21_c534efa6-44a0-470d-8c83-e0f8cbcefdad.jpg?v=1755588297&width=823"
+      },
+      {
+        "id": "15",
+        "name": "Away Kit 25/26 - Fan Edition",
+        "category": "Away Kit",
+        "gender": "Boys",
+        "price_inr": 8900,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/19180236-5c30-4bfd-af83-0135482a95ea/FCB+M+NK+DF+JSY+LS+STAD+GKAW.png"
+      },
+      {
+        "id": "16",
+        "name": "Away Kit 25/26 - Womens Edition",
+        "category": "Away Kit",
+        "gender": "Girls",
+        "price_inr": 9100,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Imagen23.jpg?v=1755587196&width=823"
+      },
+      {
+        "id": "17",
+        "name": "Away Kit 25/26 - Retro Collection",
+        "category": "Away Kit",
+        "gender": "Boys",
+        "price_inr": 9700,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250919A53446_med.jpg?v=1758276145&width=823"
+      },
+      {
+        "id": "18",
+        "name": "Away Kit 25/26 - Kids Edition",
+        "category": "Away Kit",
+        "gender": "Boys",
+        "price_inr": 8700,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Imagen3.jpg?v=1755586934&width=823"
+      },
+      {
+        "id": "19",
+        "name": "Away Kit 25/26 - Light Blue Edition",
+        "category": "Away Kit",
+        "gender": "Boys",
+        "price_inr": 9900,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Cabecera-Man-Third-2025-m.jpg?v=1759222290&width=823"
+      },
+      {
+        "id": "20",
+        "name": "Away Kit 25/26 - Elite Edition",
+        "category": "Away Kit",
+        "gender": "Girls",
+        "price_inr": 10800,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HM3257-855_419385436_D_B_1X1_7636491f-553d-4041-85df-bb80f9a56a52.jpg?v=1755581505&width=823"
+      },
+      {
+        "id": "21",
+        "name": "Goalkeeper Kit 25/26 - Green Edition",
+        "category": "Goalkeeper Kit",
+        "gender": "Kids",
+        "price_inr": 9800,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/IM0463-511_419308725_D_A_4X5ucl_7397f6de-5094-4357-a69b-47fede364964.jpg?v=1753764107&width=1346"
+      },
+      {
+        "id": "22",
+        "name": "Goalkeeper Kit 25/26 - Pink Edition",
+        "category": "Home Kit",
+        "gender": "Girls",
+        "price_inr": 10200,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ5210-455_419384899_D_B_1X1_46a6fab1-6e51-42f9-93e8-998e6266bcf2.jpg?v=1751433731&width=823"
+      },
+      {
+        "id": "23",
+        "name": "Goalkeeper Kit 25/26 - Youth Edition",
+        "category": "Goalkeeper Kit",
+        "gender": "Boys",
+        "price_inr": 8800,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HQ0473-311_419308685_D_C_1X1_2_ucl.jpg?v=1751430788&width=823"
+      },
+      {
+        "id": "24",
+        "name": "Goalkeeper Kit 25/26 - Womens Edition",
+        "category": "Goalkeeper Kit",
+        "gender": "Boys",
+        "price_inr": 9200,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HQ0477-311_419456390_D_A_1X1ucl.jpg?v=1751430537&width=823"
+      },
+      {
+        "id": "25",
+        "name": "Goalkeeper Kit 25/26 - Fan Edition",
+        "category": "Goalkeeper Kit",
+        "gender": "Boys",
+        "price_inr": 8900,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HQ0478-310-VPSRH001_portero.jpg?v=1751433783&width=823"
+      },
+      {
+        "id": "26",
+        "name": "Goalkeeper Kit 25/26 - Limited Edition",
+        "category": "Away Kit",
+        "gender": "Boys",
+        "price_inr": 11200,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ5215-784_415116050_D_D_4X5_22680e22-bc40-4b9e-b872-02fafcec6502.jpg?v=1753762451&width=823"
+      },
+      {
+        "id": "27",
+        "name": "Goalkeeper Kit 25/26 - Retro Edition",
+        "category": "Away Kit",
+        "gender": "Boys",
+        "price_inr": 9300,
+        "image_url": "https://footballmonk.in/wp-content/uploads/2025/09/FC-Barcelona-Away-Raphinha-2025-26-Jersey-1.jpg"
+      },
+      {
+        "id": "28",
+        "name": "Goalkeeper Kit 25/26 - Purple Edition",
+        "category": "Away Kit",
+        "gender": "Girls",
+        "price_inr": 9600,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ5286-784_412912020_D_D_4X5_2_e3697d2c-f0c6-4ae7-8b19-3ecd3144cada.jpg?v=1753763851&width=1346"
+      },
+      {
+        "id": "29",
+        "name": "Goalkeeper Kit 25/26 - Kids Edition",
+        "category": "Away Kit",
+        "gender": "Boys",
+        "price_inr": 8400,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/IM0463-511_419308725_D_A_4X5ucl_7397f6de-5094-4357-a69b-47fede364964.jpg?v=1753764107&width=823"
+      },
+      {
+        "id": "31",
+        "name": "Training Kit 25/26 - Blue Edition",
+        "category": "Training Kit",
+        "gender": "Boys",
+        "price_inr": 7100,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250930A60488_med.jpg?v=1759308100&width=1346"
+      },
+      {
+        "id": "32",
+        "name": "Training Kit 25/26 - Womens Edition",
+        "category": "Training Kit",
+        "gender": "Boys",
+        "price_inr": 7700,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ6374-455_1.jpg?v=1751009088&width=1346"
+      },
+      {
+        "id": "33",
+        "name": "Training Kit 25/26 - Retro Edition",
+        "category": "Training Kit",
+        "gender": "Boys",
+        "price_inr": 7500,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250909A45984_med.jpg?v=1757941100&width=1200"
+      },
+      {
+        "id": "34",
+        "name": "Training Kit 25/26 - Fan Edition",
+        "category": "Training Kit",
+        "gender": "B",
+        "price_inr": 6900,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO240731A50518_77e7ebae-2eaa-481f-990a-eca09ed9aa72.jpg?v=1722588835&width=1346"
+      },
+      {
+        "id": "35",
+        "name": "Training Kit 25/26 - Youth Edition",
+        "category": "Training Kit",
+        "gender": "Kids",
+        "price_inr": 7200,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/f3dec9c2-376d-42b7-aa66-b8c5553d629d/FCB+LK+NK+DF+KIT+STAD+HM.png"
+      },
+      {
+        "id": "36",
+        "name": "Training Kit 25/26 - Limited Edition",
+        "category": "Training Kit",
+        "gender": "Boys",
+        "price_inr": 8300,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ7774-552_1.jpg?v=1751010010&width=1346"
+      },
+      {
+        "id": "37",
+        "name": "Training Kit 25/26 - Kids Edition",
+        "category": "Training Kit",
+        "gender": "Boys",
+        "price_inr": 6800,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ6426-595_415228207_D_A_1X1_0508cad4-c7b1-4430-a5b1-c28347a8da52.jpg?v=1751539182&width=1346"
+      },
+      {
+        "id": "38",
+        "name": "Training Kit 25/26 - Elite Edition",
+        "category": "Training Kit",
+        "gender": "Boys",
+        "price_inr": 8500,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250918A51701_med.jpg?v=1758190481&width=1346"
+      },
+      {
+        "id": "39",
+        "name": "Training Kit 25/26 - Purple Edition",
+        "category": "Training Kit",
+        "gender": "Boys",
+        "price_inr": 7400,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250912A47095_med.jpg?v=1757941027&width=1346"
+      },
+      {
+        "id": "40",
+        "name": "Training Kit 25/26 - Coach Edition",
+        "category": "Home",
+        "gender": "Kids",
+        "price_inr": 9000,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/056afe5e-4c53-48fe-9d67-64193df16932/FCB+Y+NK+DF+JSY+SS+STAD+HM.png"
+      }
+    ],
+    "apparel": [
+      {
+        "id": "1",
+        "name": "FC Barcelona Hoodie - Navy Blue",
+        "category": "Apparel",
+        "gender": "Boys",
+        "price_inr": 6200,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_2025838-2.jpg?v=1752663717&width=1200"
+      },
+      {
+        "id": "2",
+        "name": "FC Barcelona Tracksuit - Red & Blue",
+        "category": "Apparel",
+        "gender": "Girls",
+        "price_inr": 9800,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_20252085_3d36b0fc-ea9c-4dbc-9dbd-e652ea9cca20.jpg?v=1755785933&width=823"
+      },
+      {
+        "id": "3",
+        "name": "FC Barcelona Polo Shirt - Classic Edition",
+        "category": "Jacket",
+        "gender": "Men",
+        "price_inr": 4500,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BZ3A9248.jpg?v=1760351511&width=823"
+      },
+      {
+        "id": "4",
+        "name": "FC Barcelona Sweatshirt - Grey Edition",
+        "category": "T shirts",
+        "gender": "Girls",
+        "price_inr": 5800,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BLMP898004_1.jpg?v=1740579060&width=823"
+      },
+      {
+        "id": "5",
+        "name": "FC Barcelona Windbreaker Jacket",
+        "category": "sleevless",
+        "gender": "Men",
+        "price_inr": 8900,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_20251582-2.jpg?v=1752659222&width=823"
+      },
+      {
+        "id": "6",
+        "name": "FC Barcelona Joggers - Black Edition",
+        "category": "vintage",
+        "gender": "Men",
+        "price_inr": 5600,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/imagen_1_a07ab3d1-de2d-4bd1-8609-c57f5876cb9b.jpg?v=1759143902&width=823"
+      },
+      {
+        "id": "7",
+        "name": "FC Barcelona Crop Top - Women’s Edition",
+        "category": "Apparel",
+        "gender": "Boys",
+        "price_inr": 4200,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/IMG_6325.jpg?v=1737554661&width=823"
+      },
+      {
+        "id": "8",
+        "name": "FC Barcelona Travel Jacket - Player Edition",
+        "category": "Apparel",
+        "gender": "Men",
+        "price_inr": 10400,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_2025408-2.jpg?v=1752663102&width=823"
+      },
+      {
+        "id": "9",
+        "name": "FC Barcelona Casual Tee - Blue Crest",
+        "category": "Apparel",
+        "gender": "Boys",
+        "price_inr": 3200,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/products/700x1060-BLMP000812007-9.jpg?v=1749648688&width=823"
+      },
+      {
+        "id": "10",
+        "name": "FC Barcelona Full Zip Hoodie - Black",
+        "category": "Apparel",
+        "gender": "Girls",
+        "price_inr": 6400,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BARCACapsulaAbril24_FOTO40_3271_18fd3e85-3625-4344-81e6-c88fa4e2b24a.jpg?v=1728370234&width=823"
+      },
+      {
+        "id": "11",
+        "name": "FC Barcelona Jacket - Heritage Edition",
+        "category": "Apparel",
+        "gender": "Girls",
+        "price_inr": 9300,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BARCACapsulaAbril24_FOTO43_3944_d87d0e59-9bf2-4c65-a321-7ca51e355670.jpg?v=1728371499&width=823"
+      },
+      {
+        "id": "12",
+        "name": "FC Barcelona Shorts - Blue Edition",
+        "category": "Apparel",
+        "gender": "Kids",
+        "price_inr": 3400,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO240723A49105_med.jpg?v=1720255011&width=823"
+      },
+      {
+        "id": "13",
+        "name": "FC Barcelona Sweatpants - Red Edition",
+        "category": "Apparel",
+        "gender": "Men",
+        "price_inr": 5300,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO240718A48688_med.jpg?v=1720255615&width=823"
+      },
+      {
+        "id": "14",
+        "name": "FC Barcelona Hoodie - Pink Edition",
+        "category": "Apparel",
+        "gender": "Girls",
+        "price_inr": 6100,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_20252278.jpg?v=1755786225&width=823"
+      },
+      {
+        "id": "15",
+        "name": "FC Barcelona Jacket - Retro Edition",
+        "category": "Apparel",
+        "gender": "Men",
+        "price_inr": 9800,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250919A53446_med.jpg?v=1758276145&width=823"
+      },
+      {
+        "id": "16",
+        "name": "FC Barcelona Pullover Hoodie - Yellow Edition",
+        "category": "Apparel",
+        "gender": "Men",
+        "price_inr": 6400,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250918A51706_med.jpg?v=1758190482&width=823"
+      },
+      {
+        "id": "17",
+        "name": "FC Barcelona T-Shirt - Stadium Collection",
+        "category": "Apparel",
+        "gender": "Kids",
+        "price_inr": 3100,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250912A47095_med.jpg?v=1757941027&width=823"
+      },
+      {
+        "id": "18",
+        "name": "FC Barcelona Sweatshirt - Royal Blue",
+        "category": "Apparel",
+        "gender": "Men",
+        "price_inr": 5900,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ7774-552_1.jpg?v=1751010010&width=823"
+      },
+      {
+        "id": "19",
+        "name": "FC Barcelona Tracksuit - Training Edition",
+        "category": "Apparel",
+        "gender": "Men",
+        "price_inr": 9700,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250930A60488_med.jpg?v=1759308100&width=823"
+      },
+      {
+        "id": "20",
+        "name": "FC Barcelona Jacket - Elite Edition",
+        "category": "Apparel",
+        "gender": "Men",
+        "price_inr": 10500,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO240731A50518_77e7ebae-2eaa-481f-990a-eca09ed9aa72.jpg?v=1722588835&width=823"
+      }
+    ],
+    "new_era": [
+      {
+        "id": 1,
+        "name": "Barcelona x New Era 59FIFTY Cap – Navy/Red",
+        "description": "Official Barça x New Era 59FIFTY fitted cap in navy and red with embroidered crest.",
+        "price_inr": 10900,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/60846898.jpg?v=1761665249&width=823",
+        "label": "LIMITED EDITION",
+        "category": "Classic",
+        "gender": "Boys"
+      },
+      {
+        "id": 2,
+        "name": "Barcelona x New Era 9FORTY Cap – Blaugrana Stripe",
+        "description": "Classic 9FORTY cap featuring Blaugrana stripes and curved brim.",
+        "price_inr": 3900,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/75781_1.jpg?v=1748350225&width=823",
+        "label": "NEW",
+        "category": "Classic",
+        "gender": "Boys"
+      },
+      {
+        "id": 3,
+        "name": "Barcelona x New Era Trucker Cap – Black/Gold Crest",
+        "description": "Mesh-back trucker cap with gold-embroidered FC Barcelona crest.",
+        "price_inr": 4500,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BLMP884079_1.jpg?v=1744630527&width=823",
+        "label": "TRENDING",
+        "category": "Modern",
+        "gender": "Boys"
+      },
+      {
+        "id": 4,
+        "name": "Barcelona x New Era Bucket Hat – Navy",
+        "description": "Stylish navy bucket hat featuring a woven Barça crest patch.",
+        "price_inr": 4900,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BLMP000841018_1.jpg?v=1725977541&width=823",
+        "label": "",
+        "category": "Modern",
+        "gender": "Girls"
+      },
+      {
+        "id": 5,
+        "name": "Barcelona x New Era 9TWENTY Cap – Youth Blaugrana",
+        "description": "Adjustable youth-size cap with classic Barça colors and embroidered logo.",
+        "price_inr": 3000,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Disenosintitulo_37.jpg?v=1756973627&width=823",
+        "label": "YOUTH",
+        "category": "Classic",
+        "gender": "Kids"
+      },
+      {
+        "id": 6,
+        "name": "Barcelona x New Era Beanie – Red Crest",
+        "description": "Warm knitted beanie featuring a red Barça crest patch on the front.",
+        "price_inr": 3500,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BLMP000841018_1.jpg?v=1725977541&width=823",
+        "label": "WINTER",
+        "category": "Modern",
+        "gender": "Girls"
+      },
+      {
+        "id": 7,
+        "name": "Barcelona x New Era Snapback Cap – Retro Blaugrana",
+        "description": "Retro-style snapback cap featuring bold Blaugrana panels.",
+        "price_inr": 4200,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/products/700x1060-BLM3GBLP-2.jpg?v=1680012207&width=823",
+        "label": "RETRO",
+        "category": "Classic",
+        "gender": "Boys"
+      },
+      {
+        "id": 8,
+        "name": "Barcelona x New Era Dad Cap – Grey Crest",
+        "description": "Relaxed fit dad cap in grey with a minimalist Barça crest embroidery.",
+        "price_inr": 3700,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FE610383_1_2dd2db4c-8fb7-4385-a5ee-0cacda3f203f.jpg?v=1720518228&width=823",
+        "label": "",
+        "category": "Modern",
+        "gender": "Girls"
+      },
+      {
+        "id": 9,
+        "name": "Barcelona x New Era Bucket Hat – Beige Crest",
+        "description": "Beige cotton bucket hat with tonal Barça crest embroidery.",
+        "price_inr": 4500,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/60846906.jpg?v=1761665249&width=823",
+        "label": "NEW DROP",
+        "category": "Modern",
+        "gender": "Girls"
+      },
+      {
+        "id": 10,
+        "name": "Barcelona x New Era 59FIFTY Cap – Gold/Black Edition",
+        "description": "Premium fitted cap in black with gold Barça crest detailing.",
+        "price_inr": 12900,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/75781_1_4f2370f1-5255-4c2b-ac09-04aa7bae7303.jpg?v=1748353069&width=823",
+        "label": "EXCLUSIVE",
+        "category": "Classic",
+        "gender": "Boys"
+      },
+      {
+        "id": 11,
+        "name": "Barcelona x New Era Knit Beanie – Blue/Red",
+        "description": "Barça beanie in blue and red stripes with embroidered club crest.",
+        "price_inr": 3200,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/products/700x1060-BLM3GAN-1.jpg?v=1680012212&width=823",
+        "label": "WINTER DROP",
+        "category": "Classic",
+        "gender": "Girls"
+      },
+      {
+        "id": 12,
+        "name": "Barcelona x New Era Trucker Cap – Navy Mesh",
+        "description": "Classic mesh trucker with embroidered FC Barcelona logo.",
+        "price_inr": 4000,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BLMP884079_1.jpg?v=1744630527&width=823",
+        "label": "",
+        "category": "Modern",
+        "gender": "Boys"
+      },
+      {
+        "id": 13,
+        "name": "Barcelona x New Era Flat Brim Cap – White Edition",
+        "description": "White flat-brim cap with embossed Barça logo.",
+        "price_inr": 5600,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/75781_1.jpg?v=1748350225&width=823",
+        "label": "LIMITED DROP",
+        "category": "Modern",
+        "gender": "Girls"
+      },
+      {
+        "id": 14,
+        "name": "Barcelona x New Era Bucket Hat – Youth",
+        "description": "Youth-sized bucket hat with small Barça crest patch.",
+        "price_inr": 3100,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Disenosintitulo_37.jpg?v=1756973627&width=823",
+        "label": "YOUTH",
+        "category": "Classic",
+        "gender": "Kids"
+      },
+      {
+        "id": 15,
+        "name": "Barcelona x New Era 9FORTY Cap – Blackout Edition",
+        "description": "Sleek black cap with tonal embroidered Barça crest.",
+        "price_inr": 5900,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BLMP000841018_1.jpg?v=1725977541&width=823",
+        "label": "TRENDING",
+        "category": "Modern",
+        "gender": "Boys"
+      },
+      {
+        "id": 16,
+        "name": "Barcelona x New Era Snapback – Gold Crest",
+        "description": "Snapback featuring gold crest embroidery on a navy base.",
+        "price_inr": 4800,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/60846906.jpg?v=1761665249&width=823",
+        "label": "HOT ITEM",
+        "category": "Modern",
+        "gender": "Girls"
+      },
+      {
+        "id": 17,
+        "name": "Barcelona x New Era Bucket Hat – Camo Edition",
+        "description": "Camouflage print bucket hat with Barça woven patch.",
+        "price_inr": 5300,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BLMP884079_1.jpg?v=1744630527&width=823",
+        "label": "",
+        "category": "Modern",
+        "gender": "Boys"
+      },
+      {
+        "id": 18,
+        "name": "Barcelona x New Era 9FORTY Cap – Red Crest",
+        "description": "Classic 9FORTY cap with red embroidered FC Barcelona crest.",
+        "price_inr": 4100,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/75781_1_4f2370f1-5255-4c2b-ac09-04aa7bae7303.jpg?v=1748353069&width=823",
+        "label": "NEW",
+        "category": "Classic",
+        "gender": "Girls"
+      },
+      {
+        "id": 19,
+        "name": "Barcelona x New Era Winter Cap – Fleece Lined",
+        "description": "Warm fleece-lined cap for ultimate comfort in winter.",
+        "price_inr": 6500,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BLMP000841018_1.jpg?v=1725977541&width=823",
+        "label": "WINTER SPECIAL",
+        "category": "Modern",
+        "gender": "Girls"
+      },
+      {
+        "id": 20,
+        "name": "Barcelona x New Era 9FORTY Cap – Heritage Edition",
+        "description": "Retro-inspired cap celebrating Barça's classic heritage.",
+        "price_inr": 4700,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/60846898.jpg?v=1761665249&width=823",
+        "label": "HERITAGE",
+        "category": "Classic",
+        "gender": "Boys"
+      }
+    ]
+  },
+  "users": [
+    {
+      "id": "bd23",
+      "firstName": "mbappe",
+      "lastName": "k",
+      "email": "mbappe@123",
+      "password": "123",
+      "cart": []
+    },
+    {
+      "id": "15d6",
+      "firstName": "saalim ",
+      "lastName": "km",
+      "email": "not@123",
+      "password": "123",
+      "cart": []
+    },
+    {
+      "id": "7c69",
+      "firstName": "bhavya ",
+      "lastName": "saalim",
+      "email": "bhavya@123",
+      "password": "123",
+      "cart": []
+    }
+  ]
+}

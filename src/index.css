@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Roboto Condensed utility class for the navbar */
+.roboto-condensed {
+	font-family: "Roboto Condensed", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+.font-oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500; /* You can change to 400, 600, etc. */
+  font-style: normal;
+}
