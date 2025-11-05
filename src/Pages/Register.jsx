@@ -21,14 +21,14 @@ const RegistrationPage = () => {
       ...formData,
       [e.target.name]: e.target.value,
     });
-    // // console.log([e.target.name],e.target.value)
+    // console.log([e.target.name],e.target.value)
     // console.log({...formData})
     // console.log([e.target.name], e.target.value)
   };
 
   //  Handle form submission and send data to JSON server
   const handleSubmit = async (e) => {
-    e.preventDefault();
+    e.preventDefault(); //The page doesn’t reload
 
     try {
       // POST request to JSON Server

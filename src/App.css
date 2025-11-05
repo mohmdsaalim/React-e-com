@@ -19,3 +19,13 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+/* Custom cursor styles */
+.custom-cursor {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
+

@@ -7,7 +7,7 @@ import { useAuth } from "../Context/AuthContext";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);//for menu bar in mobile
   const location = useLocation();
   const { user } = useAuth();
 
@@ -20,7 +20,7 @@ const Navbar = () => {
     { name: "PLAYERS", path: "/Players" },
   ];
 
-  useEffect(() => {
+    useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 40);
     };
@@ -28,7 +28,7 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  useEffect(() => {
+    useEffect(() => {
     // Close mobile menu when route changes
     setMobileMenuOpen(false);
   }, [location]);
@@ -37,18 +37,18 @@ const Navbar = () => {
     // Prevent body scroll when mobile menu is open
     if (mobileMenuOpen) {
       document.body.style.overflow = "hidden";
-    } else {
+         } else {
       document.body.style.overflow = "unset";
-    }
+           }
 
-    return () => {
+       return () => {
       document.body.style.overflow = "unset";
     };
   }, [mobileMenuOpen]);
 
   const isHome = location.pathname === "/";
 
-  return (
+   return (
     <>
       <nav
         className={`fixed top-0 w-full z-50 transition-all duration-300 ${
@@ -103,10 +103,12 @@ const Navbar = () => {
               <FiSearch size={20} />
             </Link>
 
-            {/* Conditional User Section */}
+
+            {/* Conditional User Section proffile and login */}
+
             {user ? (
               <Link
-                to="/Profile"
+                to="/profile"
                 className="flex items-center gap-1 hover:text-[#ffd700] transition-colors"
               >
                 <FiUser size={20} />

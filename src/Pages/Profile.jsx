@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { FiUser, FiMail, FiLogOut, FiShoppingBag, FiClock, FiCheckCircle, FiXCircle, FiEdit, FiMapPin, FiPhone } from "react-icons/fi";
@@ -6,22 +5,13 @@ import { IoShirtOutline } from "react-icons/io5";
 import { useAuth } from "../Context/AuthContext";
 
 const ProfilePage = () => {
-  const { user, logout } = useAuth(); // 👈 Get user & logout from context
+  const { user, logout } = useAuth(); //   user  and  logout from context
   const [orders, setOrders] = useState([]);
   const [activeTab, setActiveTab] = useState("orders");
   const [isEditing, setIsEditing] = useState(false);
   const [editForm, setEditForm] = useState({});
   const navigate = useNavigate();
 
-  // Redirect to login if not logged in
-  useEffect(() => {
-    if (!user) {
-      navigate("/login");
-    } else {
-      setEditForm(user);
-      fetchOrders(user.id);
-    }
-  }, [user, navigate]);
 
   // Fetch user orders from json-server
   const fetchOrders = async (userId) => {
@@ -56,7 +46,7 @@ const ProfilePage = () => {
 
   // Logout handler using AuthContext
   const handleLogout = () => {
-    logout(); // 👈 This clears user from context and localStorage
+    logout(); //  This clears user from context and localStorage
     navigate("/login");
   };
 
@@ -64,9 +54,7 @@ const ProfilePage = () => {
     // Update both localStorage and context
     localStorage.setItem("user", JSON.stringify(editForm));
     
-    // If your AuthContext has an updateUser function, you can add it here
-    // For now, we'll just update localStorage and refresh the page
-    // or you can implement an updateUser function in your context
+    
     window.location.reload(); // Simple solution to reflect changes
   };
 
@@ -166,8 +154,8 @@ const ProfilePage = () => {
                 onClick={handleLogout}
                 className="w-full flex items-center justify-center px-4 py-3 mt-6 text-red-600 border border-red-200 rounded-xl hover:bg-red-50 transition-all"
               >
-                <FiLogOut className="w-5 h-5 mr-2" />
-                Logout
+                <FiLogOut className="w-5 h-5 mr-2" />  
+                Logout 
               </button>
             </div>
           </div>
@@ -179,13 +167,13 @@ const ProfilePage = () => {
               <div className="bg-white rounded-2xl shadow-lg p-8">
                 <div className="flex items-center justify-between mb-6">
                   <h3 className="text-2xl font-bold text-gray-900">Profile Information</h3>
-                  <button
+                  {/* <button
                     onClick={() => setIsEditing(!isEditing)}
                     className="flex items-center px-4 py-2 text-[#004d98] border border-[#004d98] rounded-lg hover:bg-[#004d98] hover:text-white transition-all"
                   >
                     <FiEdit className="w-4 h-4 mr-2" />
                     {isEditing ? "Cancel" : "Edit Profile"}
-                  </button>
+                  </button> */}
                 </div>
 
                 {isEditing ? (

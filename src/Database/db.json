@@ -706,6 +706,22 @@
       "email": "bhavya@123",
       "password": "123",
       "cart": []
+    },
+    {
+      "id": "cb1a",
+      "firstName": "Lamine Yamal",
+      "lastName": "10",
+      "email": "Lamine@123",
+      "password": "123",
+      "cart": []
+    },
+    {
+      "id": "98fe",
+      "firstName": "messi",
+      "lastName": "leo",
+      "email": "messi@123",
+      "password": "123",
+      "cart": []
     }
   ]
 }

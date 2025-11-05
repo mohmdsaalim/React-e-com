@@ -2,15 +2,15 @@ import React from 'react';
 import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './componands/Navbar';
-import Hero from './Pages/Hero';
-import ScrollVelocity from './Pages/Hero1';
-import Example from './Pages/Card';
-import Hero2 from './Pages/Hero2';
+import Hero from './Pages/Homepage/Hero';
+import ScrollVelocity from './Pages/Homepage/Hero1';
+import Example from './Pages/Homepage/Card';
+import Hero2 from './Pages/Homepage/Hero2';
 import Footer from './componands/Footer';
 import LoginPage from './Pages/Login';
 import RegistrationPage from './Pages/Register';
 import Kits from './Pages/Kits';
-import CardSlider2 from './Pages/Card2';
+import CardSlider2 from './Pages/Homepage/Card2';
 import { AuthProvider } from './Context/AuthContext';
 import ProfilePage from './Pages/Profile';
 import Apparel from './Pages/Apparel';
@@ -20,10 +20,6 @@ import ProductDetails from './Pages/ProductDetails';
 // import ProductKits from './Pages/ProductKits';
 import Cart from './Pages/Cart';
 import Newkit from './Pages/New-era';
-
-
-
-
 
 
 
@@ -39,20 +35,20 @@ export default function App() {
     setCartItems([]);
   };
 
-const handleAddToCart = (product) => {
-  const existing = cartItems.find((item) => item.id === product.id);
-  if (existing) {
-    setCartItems(
-      cartItems.map((item) =>
-        item.id === product.id
-          ? { ...item, quantity: item.quantity + 1 }
-          : item
-      )
-    );
-  } else {
-    setCartItems([...cartItems, { ...product, quantity: 1 }]);
-  }
-};
+// const handleAddToCart = (product) => {
+//   const existing = cartItems.find((item) => item.id === product.id);
+//   if (existing) {
+//     setCartItems(
+//    cartItems.map((item) =>
+//         item.id === product.id
+//     ? { ...item, quantity: item.quantity + 1 }
+//           : item
+//       )
+//     );
+//   }   else {
+//     setCartItems([...cartItems, { ...product, quantity: 1 }]);
+//   }
+// };
   return (
 <AuthProvider>
 

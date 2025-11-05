@@ -21,23 +21,24 @@ export default function useProductFilter(dataKey) {
       .catch((err) => console.error("Error fetching data:", err));
   }, [dataKey]);
 
+  // console.log(product)
   // Apply filters + sorting
   useEffect(() => {
     let updated = [...product];
 
-    // 🔍 Search
+    // Search
     if (searchTerm.trim() !== "") {
       updated = updated.filter((p) =>
         p.name.toLowerCase().includes(searchTerm.toLowerCase())
       );
     }
 
-    // 📦 Category filter
+    //  Category filter
     if (category !== "All") {
       updated = updated.filter((p) => p.category === category);
     }
 
-    // 🚻 Gender filter (case-insensitive)
+    // Gender filter (case-insensitive)
     if (gender !== "All") {
       updated = updated.filter(
         (p) => p.gender && p.gender.toLowerCase() === gender.toLowerCase()

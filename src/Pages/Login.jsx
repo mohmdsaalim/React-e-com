@@ -12,13 +12,13 @@ const LoginPage = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
 
-    console.log("",e.preventDefault);
+    // console.log("",e.preventDefault);
 
     try {
       const res = await fetch("http://localhost:3000/users");
       const users = await res.json();
 
-      console.log("users",users)
+      // console.log("users",users)
 
       const foundUser = users.find(
         (u) => u.email.toLowerCase() === email.toLowerCase()
@@ -36,7 +36,10 @@ const LoginPage = () => {
 
       toast.success("Login successful!");
       login(foundUser); // set in context + localStorage
-      navigate("/");
+     setTimeout(()=>{
+       navigate("/")
+      },1500 )
+      
 
     } catch (error) {
       console.error("Error during login:", error);
@@ -83,7 +86,7 @@ const LoginPage = () => {
             type="email"
             required
             value={email}
-            onChange={(e) => setEmail(e.target.value)} // ✅ from context
+            onChange={(e) => setEmail(e.target.value)} //  from context
             className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md text-gray-900 placeholder-gray-400 focus:outline-none"
             placeholder="Email"
           />
@@ -102,7 +105,7 @@ const LoginPage = () => {
             type="password"
             required
             value={password}
-            onChange={(e) => setPassword(e.target.value)} // ✅ from context
+            onChange={(e) => setPassword(e.target.value)} //  from context
             className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md text-gray-900 placeholder-gray-400 focus:outline-none"
             placeholder="Password"
           />
