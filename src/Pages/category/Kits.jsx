@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import useProductFilter from "../Context/useProductFilter";
+import useProductFilter from "../../Context/useProductFilter";
 import { FiFilter, FiX, FiSearch } from "react-icons/fi";
 
 export default function K() {
@@ -65,10 +65,10 @@ export default function K() {
             />
           </div>
 
-          <select
+          <select 
             value={category}
             onChange={(e) => setCategory(e.target.value)}
-            className="px-4 py-2 rounded-md border border-gray-300 focus:border-[#ffffff] focus:ring-2 focus:ring-[#ffffff] focus:ring-opacity-20 transition-all"
+            className="px-4 py-2 rounded-md border border-white focus:border-[#ffffff] focus:ring-2 focus:ring-[#ffffff] focus:ring-opacity-20 transition-all"
           >
             <option value="All">All Categories</option>
             <option value="Home Kit">Home Kit</option>
@@ -80,7 +80,7 @@ export default function K() {
           <select
             value={gender}
             onChange={(e) => setGender(e.target.value)}
-            className="px-4 py-2 rounded-md border border-gray-300 focus:border-[#ffffff] focus:ring-2 focus:ring-[#ffffff] focus:ring-opacity-20 transition-all"
+            className="px-4 py-2 rounded-md border border-white focus:border-[#ffffff] focus:ring-2 focus:ring-[#ffffff] focus:ring-opacity-20 transition-all"
           >
             <option value="All">All Genders</option>
             <option value="Boys">Boys</option>
@@ -91,7 +91,7 @@ export default function K() {
           <select
             value={sortOrder}
             onChange={(e) => setSortOrder(e.target.value)}
-            className="px-4 py-2 rounded-md border border-gray-300 focus:border-[#ffffff] focus:ring-2 focus:ring-[#ffffff] focus:ring-opacity-20 transition-all"
+            className="px-4 py-2 rounded-md border border-white focus:border-[#ffffff] focus:ring-2 focus:ring-[#ffffff] focus:ring-opacity-20 transition-all"
           >
             <option value="default">Sort by</option>
             <option value="lowToHigh">Price: Low → High</option>

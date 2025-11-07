@@ -1,7 +1,6 @@
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import useProductFilter from "../Context/useProductFilter";
+import useProductFilter from "../../Context/useProductFilter";
 import { FiFilter, FiX, FiSearch } from "react-icons/fi";
 
 export default function K() {
@@ -15,7 +14,7 @@ export default function K() {
     setGender,
     sortOrder,
     setSortOrder,
-  } = useProductFilter("apparel");
+  } = useProductFilter("new_era");
 
   const [showFilters, setShowFilters] = useState(false);
 
@@ -38,7 +37,7 @@ export default function K() {
       {/* Page Heading */}
       <div className="mx-auto max-w-7xl px-4 mb-4 mt-2">
         <h2 className="text-4xl sm:text-6xl md:text-8xl lg:text-[120px] font-extrabold text-[#03182e] tracking-wide leading-tight font-oswald mt-9">
-          APPAREL
+          CAPS
         </h2>
       </div>
 
@@ -65,8 +64,8 @@ export default function K() {
               className="w-full pl-10 pr-4 py-2 rounded-md border border-gray-300 focus:border-[#004d98] focus:ring-2 focus:ring-[#004d98] focus:ring-opacity-20 transition-all"
             />
           </div>
-
-          {/* <select
+{/* 
+          <select
             value={category}
             onChange={(e) => setCategory(e.target.value)}
             className="px-4 py-2 rounded-md border border-gray-300 focus:border-[#ffffff] focus:ring-2 focus:ring-[#ffffff] focus:ring-opacity-20 transition-all"
@@ -296,7 +295,7 @@ export default function K() {
                   ₹{p.price_inr}
                 </p>
                 <Link
-                  to={`/product/apparel/${p.id}`}
+                  to={`/product/new_era/${p.id}`}
                   className="inline-block mt-2 text-sm text-[#004d98] font-medium underline hover:text-[#8a023b] transition-colors"
                 >
                   View Details

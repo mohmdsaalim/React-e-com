@@ -14,7 +14,7 @@ export default function Hero2({ className = '' }) {
 
   return (
     <section
-      className={`relative w-full h-[680px] overflow-hidden flex items-center justify-center bg-[#171630] ${className}`}
+      className={`relative w-full h-[680px] overflow-hidden flex items-center justify-center bg-[#050519] ${className}`}
     >
       {/* Background image */}
       <img

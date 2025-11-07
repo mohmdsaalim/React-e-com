@@ -33,7 +33,7 @@ export default function CardSlider() {
                 key={`${product.id}-${index}`} //  Unique key using id + index
                 to={`/product/kids_kits/${product.id}`}
               >
-                <div className="group flexshrink-0 w-[250px] bg-[#060517] overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer ">
+                <div className="group flexshrink-0 w-[250px] bg-[#060517] overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer">
                   
                   {/* Image Section */}
                   <div className="relative">

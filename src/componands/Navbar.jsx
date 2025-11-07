@@ -5,11 +5,13 @@ import { FiSearch, FiUser, FiShoppingCart, FiMenu, FiX } from "react-icons/fi";
 import { IoGlobeOutline } from "react-icons/io5";
 import { useAuth } from "../Context/AuthContext";
 
+
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);//for menu bar in mobile
   const location = useLocation();
   const { user } = useAuth();
+
 
   const menuItems = [
     { name: "HOME", path: "/" },

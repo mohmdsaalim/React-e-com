@@ -46,7 +46,7 @@ export default function Hero() {
   }, [mousePosition]);
 
   return (
-    <section className="relative w-full h-[680px] overflow-hidden flex items-center justify-center">
+    <section className="relative w-full h-[680px] overflow-hidden flex items-center justify-center ">
       {/* Background video with parallax effect */}
       <video
         ref={videoRef}

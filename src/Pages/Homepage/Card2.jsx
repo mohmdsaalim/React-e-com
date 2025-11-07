@@ -19,7 +19,7 @@ export default function CardSlider() {
   // console.log(" this is ",products)
 
   return (
-    <section className="bg-[#171630] text-white py-16 ">
+    <section className="bg-[#14172b] text-white py-16 ">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Section Title */}
         <h2 className="text-2xl font-bold text-[#ffc72c] mb-8 uppercase tracking-wider">
@@ -32,7 +32,7 @@ export default function CardSlider() {
             products.map((product,index) => (
               <Link key={`${product.id}-${index}`} //  Unique key using id + index
               to={`/product/new_era/${product.id}`}>
-                <div className="group flexshrink-0 w-[250px] bg-[#1c1b3a]  overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer">
+                <div className="group flexshrink-0 w-[250px] bg-[#222748] overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer">
                   
                   {/* Image Section */}
                   <div className="relative">
@@ -63,7 +63,7 @@ export default function CardSlider() {
                     </div>
                     <div className="mt-2">
                       <p className="text-sm font-medium">₹{product.price_inr}</p>
-                      <p className="text-xs text-red-400">Few items remaining</p>
+                      {/* <p className="text-xs text-red-400">Few items remaining</p> */}
                     </div>
                   </div>
                 </div>

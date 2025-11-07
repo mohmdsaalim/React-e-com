@@ -8,7 +8,11 @@
         "gender": "Boys",
         "price_inr": 9500,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ5216-456_431720906_D_A_1X1_2.jpg?v=1751429539&width=823",
-        "label": "2025/26"
+        "label": "2025/26",
+        "status": true,
+        "stock_quantity": 45,
+        "materials": "100% Recycled Polyester",
+        "care_instructions": "Machine wash cold, do not bleach"
       },
       {
         "id": "2",
@@ -16,7 +20,11 @@
         "category": "Home Kit",
         "gender": "Girls",
         "price_inr": 9100,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/pedri-ucl_fe2c2d3d-ef36-45c8-93d8-80a01e00910a.webp?v=1752566115&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/pedri-ucl_fe2c2d3d-ef36-45c8-93d8-80a01e00910a.webp?v=1752566115&width=823",
+        "status": false,
+        "stock_quantity": 32,
+        "materials": "100% Polyester",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "3",
@@ -25,7 +33,11 @@
         "gender": "Boys",
         "price_inr": 8700,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/files/lamineyamal-ucl_7c9afdfb-cfe5-43ff-bf30-b74e4e5b837b.webp?v=1752684023&width=823",
-        "label": "Trending"
+        "label": "Trending",
+        "status": true,
+        "stock_quantity": 67,
+        "materials": "100% Polyester",
+        "care_instructions": "Machine washable"
       },
       {
         "id": "4",
@@ -33,7 +45,11 @@
         "category": "Home Kit",
         "gender": "Girls",
         "price_inr": 10500,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FE70420026_1_2ucl.jpg?v=1751429913&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FE70420026_1_2ucl.jpg?v=1751429913&width=823",
+        "status": true,
+        "stock_quantity": 28,
+        "materials": "Advanced Polyester Blend",
+        "care_instructions": "Professional cleaning recommended"
       },
       {
         "id": "5",
@@ -42,15 +58,23 @@
         "gender": "Boys",
         "price_inr": 8200,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Disenosintitulo_38_e900aa6e-6f22-481e-9d0c-27cfa5b14cdd.jpg?v=1758635058&width=823",
-        "label": "Limited Edition"
+        "label": "Limited Edition",
+        "status": true,
+        "stock_quantity": 54,
+        "materials": "100% Cotton-Poly Blend",
+        "care_instructions": "Machine wash gentle"
       },
       {
         "id": "6",
-        "name": "Home Kit 25/26 - Player’s Edition",
+        "name": "Home Kit 25/26 - Player's Edition",
         "category": "Home Kit",
         "gender": "Girls",
         "price_inr": 11200,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ5589-455_415116210_D_B_1X1_81324cc2-e5e9-4c07-b842-f583039182c9_1.jpg?v=1753810671&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ5589-455_415116210_D_B_1X1_81324cc2-e5e9-4c07-b842-f583039182c9_1.jpg?v=1753810671&width=823",
+        "status": true,
+        "stock_quantity": 18,
+        "materials": "Nike Dri-FIT ADV",
+        "care_instructions": "Hand wash recommended"
       },
       {
         "id": "7",
@@ -58,7 +82,11 @@
         "category": "Home Kit",
         "gender": "Boys",
         "price_inr": 7600,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/20_11edcba9-f63c-4e4e-89f2-19aac0effe95.jpg?v=1753180328&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/20_11edcba9-f63c-4e4e-89f2-19aac0effe95.jpg?v=1753180328&width=823",
+        "status": true,
+        "stock_quantity": 89,
+        "materials": "100% Cotton Blend",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "8",
@@ -66,7 +94,11 @@
         "category": "Home Kit",
         "gender": "Girls",
         "price_inr": 9700,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/fermin-ucl.webp?v=1752566115&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/fermin-ucl.webp?v=1752566115&width=823",
+        "status": true,
+        "stock_quantity": 23,
+        "materials": "100% Cotton",
+        "care_instructions": "Machine wash gentle"
       },
       {
         "id": "9",
@@ -74,7 +106,11 @@
         "category": "Home Kit",
         "gender": "Boys",
         "price_inr": 8800,
-        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/85b00cce-943a-4056-a821-e10a245bffd1/FCB+M+NK+DF+JSY+LS+STAD+HM.png"
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/85b00cce-943a-4056-a821-e10a245bffd1/FCB+M+NK+DF+JSY+LS+STAD+HM.png",
+        "status": true,
+        "stock_quantity": 76,
+        "materials": "100% Polyester",
+        "care_instructions": "Machine washable"
       },
       {
         "id": "10",
@@ -82,7 +118,11 @@
         "category": "Home Kit",
         "gender": "Girls",
         "price_inr": 10000,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/base-ambilight.webp?v=12057333375252784091"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/base-ambilight.webp?v=12057333375252784091",
+        "status": true,
+        "stock_quantity": 15,
+        "materials": "Premium Polyester Blend",
+        "care_instructions": "Dry clean recommended"
       },
       {
         "id": "11",
@@ -90,7 +130,11 @@
         "category": "Away Kit",
         "gender": "Boys",
         "price_inr": 12150,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ4603-784_431735711_D_A_1X1_4ebdb94b-be58-4c4a-bceb-d3900f4fdc4f.jpg?v=1753762314&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ4603-784_431735711_D_A_1X1_4ebdb94b-be58-4c4a-bceb-d3900f4fdc4f.jpg?v=1753762314&width=823",
+        "status": true,
+        "stock_quantity": 25,
+        "materials": "100% Polyester",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "12",
@@ -98,7 +142,11 @@
         "category": "Away Kit",
         "gender": "Boys",
         "price_inr": 18550,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HQ9290-511_419456431_D_C_1X1_1ba3ddeb-0a13-42ca-adca-248455d512f0.jpg?v=1753764003&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HQ9290-511_419456431_D_C_1X1_1ba3ddeb-0a13-42ca-adca-248455d512f0.jpg?v=1753764003&width=823",
+        "status": true,
+        "stock_quantity": 12,
+        "materials": "Nike Dri-FIT ADV",
+        "care_instructions": "Hand wash recommended"
       },
       {
         "id": "13",
@@ -106,7 +154,11 @@
         "category": "Away Kit",
         "gender": "Boys",
         "price_inr": 11300,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/IM0461-510_419461958_D_B_1X1_6def7b6c-ab21-4394-b240-020214c3d003.jpg?v=1753773903&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/IM0461-510_419461958_D_B_1X1_6def7b6c-ab21-4394-b240-020214c3d003.jpg?v=1753773903&width=823",
+        "status": true,
+        "stock_quantity": 38,
+        "materials": "100% Polyester",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "14",
@@ -114,7 +166,11 @@
         "category": "Away Kit",
         "gender": "Girls",
         "price_inr": 11000,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Imagen21_c534efa6-44a0-470d-8c83-e0f8cbcefdad.jpg?v=1755588297&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Imagen21_c534efa6-44a0-470d-8c83-e0f8cbcefdad.jpg?v=1755588297&width=823",
+        "status": true,
+        "stock_quantity": 20,
+        "materials": "100% Polyester",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "15",
@@ -122,7 +178,11 @@
         "category": "Away Kit",
         "gender": "Boys",
         "price_inr": 8900,
-        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/19180236-5c30-4bfd-af83-0135482a95ea/FCB+M+NK+DF+JSY+LS+STAD+GKAW.png"
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/19180236-5c30-4bfd-af83-0135482a95ea/FCB+M+NK+DF+JSY+LS+STAD+GKAW.png",
+        "status": true,
+        "stock_quantity": 42,
+        "materials": "100% Polyester",
+        "care_instructions": "Machine washable"
       },
       {
         "id": "16",
@@ -130,7 +190,11 @@
         "category": "Away Kit",
         "gender": "Girls",
         "price_inr": 9100,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Imagen23.jpg?v=1755587196&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Imagen23.jpg?v=1755587196&width=823",
+        "status": true,
+        "stock_quantity": 30,
+        "materials": "100% Polyester",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "17",
@@ -138,7 +202,11 @@
         "category": "Away Kit",
         "gender": "Boys",
         "price_inr": 9700,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250919A53446_med.jpg?v=1758276145&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250919A53446_med.jpg?v=1758276145&width=823",
+        "status": true,
+        "stock_quantity": 18,
+        "materials": "100% Cotton",
+        "care_instructions": "Machine wash gentle"
       },
       {
         "id": "18",
@@ -146,7 +214,11 @@
         "category": "Away Kit",
         "gender": "Boys",
         "price_inr": 8700,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Imagen3.jpg?v=1755586934&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Imagen3.jpg?v=1755586934&width=823",
+        "status": true,
+        "stock_quantity": 55,
+        "materials": "100% Cotton Blend",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "19",
@@ -154,7 +226,11 @@
         "category": "Away Kit",
         "gender": "Boys",
         "price_inr": 9900,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Cabecera-Man-Third-2025-m.jpg?v=1759222290&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Cabecera-Man-Third-2025-m.jpg?v=1759222290&width=823",
+        "status": true,
+        "stock_quantity": 22,
+        "materials": "100% Polyester",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "20",
@@ -162,7 +238,11 @@
         "category": "Away Kit",
         "gender": "Girls",
         "price_inr": 10800,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HM3257-855_419385436_D_B_1X1_7636491f-553d-4041-85df-bb80f9a56a52.jpg?v=1755581505&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HM3257-855_419385436_D_B_1X1_7636491f-553d-4041-85df-bb80f9a56a52.jpg?v=1755581505&width=823",
+        "status": true,
+        "stock_quantity": 16,
+        "materials": "Advanced Polyester Blend",
+        "care_instructions": "Professional cleaning recommended"
       },
       {
         "id": "21",
@@ -170,7 +250,11 @@
         "category": "Goalkeeper Kit",
         "gender": "Kids",
         "price_inr": 9800,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/IM0463-511_419308725_D_A_4X5ucl_7397f6de-5094-4357-a69b-47fede364964.jpg?v=1753764107&width=1346"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/IM0463-511_419308725_D_A_4X5ucl_7397f6de-5094-4357-a69b-47fede364964.jpg?v=1753764107&width=1346",
+        "status": true,
+        "stock_quantity": 28,
+        "materials": "100% Polyester",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "22",
@@ -178,7 +262,11 @@
         "category": "Home Kit",
         "gender": "Girls",
         "price_inr": 10200,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ5210-455_419384899_D_B_1X1_46a6fab1-6e51-42f9-93e8-998e6266bcf2.jpg?v=1751433731&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ5210-455_419384899_D_B_1X1_46a6fab1-6e51-42f9-93e8-998e6266bcf2.jpg?v=1751433731&width=823",
+        "status": true,
+        "stock_quantity": 0,
+        "materials": "100% Polyester",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "23",
@@ -186,7 +274,11 @@
         "category": "Goalkeeper Kit",
         "gender": "Boys",
         "price_inr": 8800,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HQ0473-311_419308685_D_C_1X1_2_ucl.jpg?v=1751430788&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HQ0473-311_419308685_D_C_1X1_2_ucl.jpg?v=1751430788&width=823",
+        "status": true,
+        "stock_quantity": 35,
+        "materials": "100% Cotton-Poly Blend",
+        "care_instructions": "Machine wash gentle"
       },
       {
         "id": "24",
@@ -194,7 +286,11 @@
         "category": "Goalkeeper Kit",
         "gender": "Boys",
         "price_inr": 9200,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HQ0477-311_419456390_D_A_1X1ucl.jpg?v=1751430537&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HQ0477-311_419456390_D_A_1X1ucl.jpg?v=1751430537&width=823",
+        "status": true,
+        "stock_quantity": 19,
+        "materials": "100% Polyester",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "25",
@@ -202,7 +298,11 @@
         "category": "Goalkeeper Kit",
         "gender": "Boys",
         "price_inr": 8900,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HQ0478-310-VPSRH001_portero.jpg?v=1751433783&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HQ0478-310-VPSRH001_portero.jpg?v=1751433783&width=823",
+        "status": true,
+        "stock_quantity": 40,
+        "materials": "100% Polyester",
+        "care_instructions": "Machine washable"
       },
       {
         "id": "26",
@@ -210,7 +310,11 @@
         "category": "Away Kit",
         "gender": "Boys",
         "price_inr": 11200,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ5215-784_415116050_D_D_4X5_22680e22-bc40-4b9e-b872-02fafcec6502.jpg?v=1753762451&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ5215-784_415116050_D_D_4X5_22680e22-bc40-4b9e-b872-02fafcec6502.jpg?v=1753762451&width=823",
+        "status": true,
+        "stock_quantity": 5,
+        "materials": "Advanced Polyester Blend",
+        "care_instructions": "Professional cleaning recommended"
       },
       {
         "id": "27",
@@ -218,7 +322,11 @@
         "category": "Away Kit",
         "gender": "Boys",
         "price_inr": 9300,
-        "image_url": "https://footballmonk.in/wp-content/uploads/2025/09/FC-Barcelona-Away-Raphinha-2025-26-Jersey-1.jpg"
+        "image_url": "https://footballmonk.in/wp-content/uploads/2025/09/FC-Barcelona-Away-Raphinha-2025-26-Jersey-1.jpg",
+        "status": true,
+        "stock_quantity": 24,
+        "materials": "100% Cotton",
+        "care_instructions": "Machine wash gentle"
       },
       {
         "id": "28",
@@ -226,7 +334,11 @@
         "category": "Away Kit",
         "gender": "Girls",
         "price_inr": 9600,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ5286-784_412912020_D_D_4X5_2_e3697d2c-f0c6-4ae7-8b19-3ecd3144cada.jpg?v=1753763851&width=1346"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ5286-784_412912020_D_D_4X5_2_e3697d2c-f0c6-4ae7-8b19-3ecd3144cada.jpg?v=1753763851&width=1346",
+        "status": true,
+        "stock_quantity": 31,
+        "materials": "100% Polyester",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "29",
@@ -234,7 +346,11 @@
         "category": "Away Kit",
         "gender": "Boys",
         "price_inr": 8400,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/IM0463-511_419308725_D_A_4X5ucl_7397f6de-5094-4357-a69b-47fede364964.jpg?v=1753764107&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/IM0463-511_419308725_D_A_4X5ucl_7397f6de-5094-4357-a69b-47fede364964.jpg?v=1753764107&width=823",
+        "status": true,
+        "stock_quantity": 48,
+        "materials": "100% Cotton Blend",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "31",
@@ -242,7 +358,11 @@
         "category": "Training Kit",
         "gender": "Boys",
         "price_inr": 7100,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250930A60488_med.jpg?v=1759308100&width=1346"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250930A60488_med.jpg?v=1759308100&width=1346",
+        "status": false,
+        "stock_quantity": 52,
+        "materials": "100% Polyester",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "32",
@@ -250,7 +370,11 @@
         "category": "Training Kit",
         "gender": "Boys",
         "price_inr": 7700,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ6374-455_1.jpg?v=1751009088&width=1346"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ6374-455_1.jpg?v=1751009088&width=1346",
+        "status": true,
+        "stock_quantity": 26,
+        "materials": "100% Polyester",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "33",
@@ -258,7 +382,11 @@
         "category": "Training Kit",
         "gender": "Boys",
         "price_inr": 7500,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250909A45984_med.jpg?v=1757941100&width=1200"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250909A45984_med.jpg?v=1757941100&width=1200",
+        "status": true,
+        "stock_quantity": 33,
+        "materials": "100% Cotton",
+        "care_instructions": "Machine wash gentle"
       },
       {
         "id": "34",
@@ -266,7 +394,11 @@
         "category": "Training Kit",
         "gender": "B",
         "price_inr": 6900,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO240731A50518_77e7ebae-2eaa-481f-990a-eca09ed9aa72.jpg?v=1722588835&width=1346"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO240731A50518_77e7ebae-2eaa-481f-990a-eca09ed9aa72.jpg?v=1722588835&width=1346",
+        "status": true,
+        "stock_quantity": 44,
+        "materials": "100% Polyester",
+        "care_instructions": "Machine washable"
       },
       {
         "id": "35",
@@ -274,7 +406,11 @@
         "category": "Training Kit",
         "gender": "Kids",
         "price_inr": 7200,
-        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/f3dec9c2-376d-42b7-aa66-b8c5553d629d/FCB+LK+NK+DF+KIT+STAD+HM.png"
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/f3dec9c2-376d-42b7-aa66-b8c5553d629d/FCB+LK+NK+DF+KIT+STAD+HM.png",
+        "status": true,
+        "stock_quantity": 58,
+        "materials": "100% Cotton-Poly Blend",
+        "care_instructions": "Machine wash gentle"
       },
       {
         "id": "36",
@@ -282,7 +418,11 @@
         "category": "Training Kit",
         "gender": "Boys",
         "price_inr": 8300,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ7774-552_1.jpg?v=1751010010&width=1346"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ7774-552_1.jpg?v=1751010010&width=1346",
+        "status": true,
+        "stock_quantity": 3,
+        "materials": "Advanced Polyester Blend",
+        "care_instructions": "Professional cleaning recommended"
       },
       {
         "id": "37",
@@ -290,7 +430,11 @@
         "category": "Training Kit",
         "gender": "Boys",
         "price_inr": 6800,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ6426-595_415228207_D_A_1X1_0508cad4-c7b1-4430-a5b1-c28347a8da52.jpg?v=1751539182&width=1346"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ6426-595_415228207_D_A_1X1_0508cad4-c7b1-4430-a5b1-c28347a8da52.jpg?v=1751539182&width=1346",
+        "status": true,
+        "stock_quantity": 62,
+        "materials": "100% Cotton Blend",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "38",
@@ -298,7 +442,11 @@
         "category": "Training Kit",
         "gender": "Boys",
         "price_inr": 8500,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250918A51701_med.jpg?v=1758190481&width=1346"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250918A51701_med.jpg?v=1758190481&width=1346",
+        "status": true,
+        "stock_quantity": 21,
+        "materials": "Nike Dri-FIT ADV",
+        "care_instructions": "Hand wash recommended"
       },
       {
         "id": "39",
@@ -306,7 +454,11 @@
         "category": "Training Kit",
         "gender": "Boys",
         "price_inr": 7400,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250912A47095_med.jpg?v=1757941027&width=1346"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250912A47095_med.jpg?v=1757941027&width=1346",
+        "status": true,
+        "stock_quantity": 37,
+        "materials": "100% Polyester",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "40",
@@ -314,7 +466,11 @@
         "category": "Home",
         "gender": "Kids",
         "price_inr": 9000,
-        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/056afe5e-4c53-48fe-9d67-64193df16932/FCB+Y+NK+DF+JSY+SS+STAD+HM.png"
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/056afe5e-4c53-48fe-9d67-64193df16932/FCB+Y+NK+DF+JSY+SS+STAD+HM.png",
+        "status": false,
+        "stock_quantity": 0,
+        "materials": "Premium Polyester Blend",
+        "care_instructions": "Dry clean recommended"
       }
     ],
     "apparel": [
@@ -324,7 +480,11 @@
         "category": "Apparel",
         "gender": "Boys",
         "price_inr": 6200,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_2025838-2.jpg?v=1752663717&width=1200"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_2025838-2.jpg?v=1752663717&width=1200",
+        "status": true,
+        "stock_quantity": 15,
+        "materials": "Cotton Blend",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "2",
@@ -332,7 +492,11 @@
         "category": "Apparel",
         "gender": "Girls",
         "price_inr": 9800,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_20252085_3d36b0fc-ea9c-4dbc-9dbd-e652ea9cca20.jpg?v=1755785933&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_20252085_3d36b0fc-ea9c-4dbc-9dbd-e652ea9cca20.jpg?v=1755785933&width=823",
+        "status": true,
+        "stock_quantity": 8,
+        "materials": "Polyester Blend",
+        "care_instructions": "Machine wash gentle"
       },
       {
         "id": "3",
@@ -340,7 +504,11 @@
         "category": "Jacket",
         "gender": "Men",
         "price_inr": 4500,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BZ3A9248.jpg?v=1760351511&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BZ3A9248.jpg?v=1760351511&width=823",
+        "status": true,
+        "stock_quantity": 20,
+        "materials": "Cotton Pique",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "4",
@@ -348,7 +516,11 @@
         "category": "T shirts",
         "gender": "Girls",
         "price_inr": 5800,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BLMP898004_1.jpg?v=1740579060&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BLMP898004_1.jpg?v=1740579060&width=823",
+        "status": true,
+        "stock_quantity": 12,
+        "materials": "Fleece Cotton",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "5",
@@ -356,7 +528,11 @@
         "category": "sleevless",
         "gender": "Men",
         "price_inr": 8900,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_20251582-2.jpg?v=1752659222&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_20251582-2.jpg?v=1752659222&width=823",
+        "status": true,
+        "stock_quantity": 6,
+        "materials": "Nylon Blend",
+        "care_instructions": "Wipe clean only"
       },
       {
         "id": "6",
@@ -364,15 +540,23 @@
         "category": "vintage",
         "gender": "Men",
         "price_inr": 5600,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/imagen_1_a07ab3d1-de2d-4bd1-8609-c57f5876cb9b.jpg?v=1759143902&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/imagen_1_a07ab3d1-de2d-4bd1-8609-c57f5876cb9b.jpg?v=1759143902&width=823",
+        "status": true,
+        "stock_quantity": 18,
+        "materials": "Cotton Jersey",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "7",
-        "name": "FC Barcelona Crop Top - Women’s Edition",
+        "name": "FC Barcelona Crop Top - Women's Edition",
         "category": "Apparel",
         "gender": "Boys",
         "price_inr": 4200,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/IMG_6325.jpg?v=1737554661&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/IMG_6325.jpg?v=1737554661&width=823",
+        "status": true,
+        "stock_quantity": 10,
+        "materials": "Cotton Blend",
+        "care_instructions": "Hand wash recommended"
       },
       {
         "id": "8",
@@ -380,7 +564,11 @@
         "category": "Apparel",
         "gender": "Men",
         "price_inr": 10400,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_2025408-2.jpg?v=1752663102&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_2025408-2.jpg?v=1752663102&width=823",
+        "status": true,
+        "stock_quantity": 4,
+        "materials": "Technical Fabric",
+        "care_instructions": "Dry clean only"
       },
       {
         "id": "9",
@@ -388,7 +576,11 @@
         "category": "Apparel",
         "gender": "Boys",
         "price_inr": 3200,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/products/700x1060-BLMP000812007-9.jpg?v=1749648688&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/products/700x1060-BLMP000812007-9.jpg?v=1749648688&width=823",
+        "status": true,
+        "stock_quantity": 25,
+        "materials": "100% Cotton",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "10",
@@ -396,7 +588,11 @@
         "category": "Apparel",
         "gender": "Girls",
         "price_inr": 6400,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BARCACapsulaAbril24_FOTO40_3271_18fd3e85-3625-4344-81e6-c88fa4e2b24a.jpg?v=1728370234&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BARCACapsulaAbril24_FOTO40_3271_18fd3e85-3625-4344-81e6-c88fa4e2b24a.jpg?v=1728370234&width=823",
+        "status": true,
+        "stock_quantity": 14,
+        "materials": "Cotton Blend",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "11",
@@ -404,7 +600,11 @@
         "category": "Apparel",
         "gender": "Girls",
         "price_inr": 9300,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BARCACapsulaAbril24_FOTO43_3944_d87d0e59-9bf2-4c65-a321-7ca51e355670.jpg?v=1728371499&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BARCACapsulaAbril24_FOTO43_3944_d87d0e59-9bf2-4c65-a321-7ca51e355670.jpg?v=1728371499&width=823",
+        "status": true,
+        "stock_quantity": 7,
+        "materials": "Wool Blend",
+        "care_instructions": "Dry clean recommended"
       },
       {
         "id": "12",
@@ -412,7 +612,11 @@
         "category": "Apparel",
         "gender": "Kids",
         "price_inr": 3400,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO240723A49105_med.jpg?v=1720255011&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO240723A49105_med.jpg?v=1720255011&width=823",
+        "status": true,
+        "stock_quantity": 22,
+        "materials": "Polyester Blend",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "13",
@@ -420,7 +624,11 @@
         "category": "Apparel",
         "gender": "Men",
         "price_inr": 5300,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO240718A48688_med.jpg?v=1720255615&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO240718A48688_med.jpg?v=1720255615&width=823",
+        "status": true,
+        "stock_quantity": 16,
+        "materials": "Fleece Cotton",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "14",
@@ -428,7 +636,11 @@
         "category": "Apparel",
         "gender": "Girls",
         "price_inr": 6100,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_20252278.jpg?v=1755786225&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_20252278.jpg?v=1755786225&width=823",
+        "status": true,
+        "stock_quantity": 9,
+        "materials": "Cotton Blend",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "15",
@@ -436,7 +648,11 @@
         "category": "Apparel",
         "gender": "Men",
         "price_inr": 9800,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250919A53446_med.jpg?v=1758276145&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250919A53446_med.jpg?v=1758276145&width=823",
+        "status": true,
+        "stock_quantity": 5,
+        "materials": "Denim Blend",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "16",
@@ -444,7 +660,11 @@
         "category": "Apparel",
         "gender": "Men",
         "price_inr": 6400,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250918A51706_med.jpg?v=1758190482&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250918A51706_med.jpg?v=1758190482&width=823",
+        "status": true,
+        "stock_quantity": 11,
+        "materials": "Cotton Blend",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "17",
@@ -452,7 +672,11 @@
         "category": "Apparel",
         "gender": "Kids",
         "price_inr": 3100,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250912A47095_med.jpg?v=1757941027&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250912A47095_med.jpg?v=1757941027&width=823",
+        "status": true,
+        "stock_quantity": 30,
+        "materials": "100% Cotton",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "18",
@@ -460,7 +684,11 @@
         "category": "Apparel",
         "gender": "Men",
         "price_inr": 5900,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ7774-552_1.jpg?v=1751010010&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ7774-552_1.jpg?v=1751010010&width=823",
+        "status": true,
+        "stock_quantity": 13,
+        "materials": "Fleece Cotton",
+        "care_instructions": "Machine wash cold"
       },
       {
         "id": "19",
@@ -468,7 +696,11 @@
         "category": "Apparel",
         "gender": "Men",
         "price_inr": 9700,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250930A60488_med.jpg?v=1759308100&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO250930A60488_med.jpg?v=1759308100&width=823",
+        "status": true,
+        "stock_quantity": 8,
+        "materials": "Performance Polyester",
+        "care_instructions": "Machine wash gentle"
       },
       {
         "id": "20",
@@ -476,209 +708,359 @@
         "category": "Apparel",
         "gender": "Men",
         "price_inr": 10500,
-        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO240731A50518_77e7ebae-2eaa-481f-990a-eca09ed9aa72.jpg?v=1722588835&width=823"
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/VO240731A50518_77e7ebae-2eaa-481f-990a-eca09ed9aa72.jpg?v=1722588835&width=823",
+        "status": true,
+        "stock_quantity": 3,
+        "materials": "Technical Fabric",
+        "care_instructions": "Dry clean only"
+      },
+      {
+        "id": "21",
+        "name": "FC Barcelona Training Pants - Black",
+        "category": "Apparel",
+        "gender": "Boys",
+        "price_inr": 4800,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/training-pants-black.jpg?v=1752566115&width=823",
+        "status": true,
+        "stock_quantity": 17,
+        "materials": "Polyester Blend",
+        "care_instructions": "Machine wash cold",
+        "label": "New"
+      },
+      {
+        "id": "22",
+        "name": "FC Barcelona Rain Jacket - Waterproof",
+        "category": "Apparel",
+        "gender": "Men",
+        "price_inr": 11200,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/rain-jacket-2025.jpg?v=1752566115&width=823",
+        "status": true,
+        "stock_quantity": 6,
+        "materials": "Waterproof Nylon",
+        "care_instructions": "Wipe clean only",
+        "label": "Weatherproof"
+      },
+      {
+        "id": "40",
+        "name": "Training Kit 25/26 - Coach Edition",
+        "category": "Home",
+        "gender": "Kids",
+        "price_inr": 9000,
+        "image_url": "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/056afe5e-4c53-48fe-9d67-64193df16932/FCB+Y+NK+DF+JSY+SS+STAD+HM.png",
+        "status": false,
+        "stock_quantity": 0,
+        "materials": "Premium Polyester Blend",
+        "care_instructions": "Dry clean recommended"
       }
     ],
     "new_era": [
       {
-        "id": 1,
+        "id": "1",
         "name": "Barcelona x New Era 59FIFTY Cap – Navy/Red",
         "description": "Official Barça x New Era 59FIFTY fitted cap in navy and red with embroidered crest.",
         "price_inr": 10900,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/files/60846898.jpg?v=1761665249&width=823",
         "label": "LIMITED EDITION",
         "category": "Classic",
-        "gender": "Boys"
+        "gender": "Boys",
+        "status": true,
+        "stock_quantity": 8,
+        "materials": "Wool Blend",
+        "care_instructions": "Spot clean only"
       },
       {
-        "id": 2,
+        "id": "2",
         "name": "Barcelona x New Era 9FORTY Cap – Blaugrana Stripe",
         "description": "Classic 9FORTY cap featuring Blaugrana stripes and curved brim.",
         "price_inr": 3900,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/files/75781_1.jpg?v=1748350225&width=823",
         "label": "NEW",
         "category": "Classic",
-        "gender": "Boys"
+        "gender": "Boys",
+        "status": true,
+        "stock_quantity": 25,
+        "materials": "Cotton Twill",
+        "care_instructions": "Hand wash recommended"
       },
       {
-        "id": 3,
+        "id": "3",
         "name": "Barcelona x New Era Trucker Cap – Black/Gold Crest",
         "description": "Mesh-back trucker cap with gold-embroidered FC Barcelona crest.",
         "price_inr": 4500,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BLMP884079_1.jpg?v=1744630527&width=823",
         "label": "TRENDING",
         "category": "Modern",
-        "gender": "Boys"
+        "gender": "Boys",
+        "status": true,
+        "stock_quantity": 18,
+        "materials": "Polyester Mesh",
+        "care_instructions": "Wipe clean only"
       },
       {
-        "id": 4,
+        "id": "4",
         "name": "Barcelona x New Era Bucket Hat – Navy",
         "description": "Stylish navy bucket hat featuring a woven Barça crest patch.",
         "price_inr": 4900,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BLMP000841018_1.jpg?v=1725977541&width=823",
         "label": "",
         "category": "Modern",
-        "gender": "Girls"
+        "gender": "Girls",
+        "status": true,
+        "stock_quantity": 15,
+        "materials": "Cotton Canvas",
+        "care_instructions": "Hand wash cold"
       },
       {
-        "id": 5,
+        "id": "5",
         "name": "Barcelona x New Era 9TWENTY Cap – Youth Blaugrana",
         "description": "Adjustable youth-size cap with classic Barça colors and embroidered logo.",
         "price_inr": 3000,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Disenosintitulo_37.jpg?v=1756973627&width=823",
         "label": "YOUTH",
         "category": "Classic",
-        "gender": "Kids"
+        "gender": "Kids",
+        "status": true,
+        "stock_quantity": 30,
+        "materials": "Cotton Blend",
+        "care_instructions": "Machine wash gentle"
       },
       {
-        "id": 6,
+        "id": "6",
         "name": "Barcelona x New Era Beanie – Red Crest",
         "description": "Warm knitted beanie featuring a red Barça crest patch on the front.",
         "price_inr": 3500,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BLMP000841018_1.jpg?v=1725977541&width=823",
         "label": "WINTER",
         "category": "Modern",
-        "gender": "Girls"
+        "gender": "Girls",
+        "status": true,
+        "stock_quantity": 22,
+        "materials": "Acrylic Wool Blend",
+        "care_instructions": "Hand wash cold"
       },
       {
-        "id": 7,
+        "id": "7",
         "name": "Barcelona x New Era Snapback Cap – Retro Blaugrana",
         "description": "Retro-style snapback cap featuring bold Blaugrana panels.",
         "price_inr": 4200,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/products/700x1060-BLM3GBLP-2.jpg?v=1680012207&width=823",
         "label": "RETRO",
         "category": "Classic",
-        "gender": "Boys"
+        "gender": "Boys",
+        "status": true,
+        "stock_quantity": 12,
+        "materials": "Cotton Twill",
+        "care_instructions": "Spot clean recommended"
       },
       {
-        "id": 8,
+        "id": "8",
         "name": "Barcelona x New Era Dad Cap – Grey Crest",
         "description": "Relaxed fit dad cap in grey with a minimalist Barça crest embroidery.",
         "price_inr": 3700,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FE610383_1_2dd2db4c-8fb7-4385-a5ee-0cacda3f203f.jpg?v=1720518228&width=823",
         "label": "",
         "category": "Modern",
-        "gender": "Girls"
+        "gender": "Girls",
+        "status": true,
+        "stock_quantity": 20,
+        "materials": "Cotton Blend",
+        "care_instructions": "Hand wash cold"
       },
       {
-        "id": 9,
+        "id": "9",
         "name": "Barcelona x New Era Bucket Hat – Beige Crest",
         "description": "Beige cotton bucket hat with tonal Barça crest embroidery.",
         "price_inr": 4500,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/files/60846906.jpg?v=1761665249&width=823",
         "label": "NEW DROP",
         "category": "Modern",
-        "gender": "Girls"
+        "gender": "Girls",
+        "status": true,
+        "stock_quantity": 14,
+        "materials": "Cotton Canvas",
+        "care_instructions": "Hand wash only"
       },
       {
-        "id": 10,
+        "id": "10",
         "name": "Barcelona x New Era 59FIFTY Cap – Gold/Black Edition",
         "description": "Premium fitted cap in black with gold Barça crest detailing.",
         "price_inr": 12900,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/files/75781_1_4f2370f1-5255-4c2b-ac09-04aa7bae7303.jpg?v=1748353069&width=823",
         "label": "EXCLUSIVE",
         "category": "Classic",
-        "gender": "Boys"
+        "gender": "Boys",
+        "status": true,
+        "stock_quantity": 5,
+        "materials": "Wool Blend",
+        "care_instructions": "Dry clean only"
       },
       {
-        "id": 11,
+        "id": "11",
         "name": "Barcelona x New Era Knit Beanie – Blue/Red",
         "description": "Barça beanie in blue and red stripes with embroidered club crest.",
         "price_inr": 3200,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/products/700x1060-BLM3GAN-1.jpg?v=1680012212&width=823",
         "label": "WINTER DROP",
         "category": "Classic",
-        "gender": "Girls"
+        "gender": "Girls",
+        "status": true,
+        "stock_quantity": 28,
+        "materials": "Acrylic Blend",
+        "care_instructions": "Hand wash cold"
       },
       {
-        "id": 12,
+        "id": "12",
         "name": "Barcelona x New Era Trucker Cap – Navy Mesh",
         "description": "Classic mesh trucker with embroidered FC Barcelona logo.",
         "price_inr": 4000,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BLMP884079_1.jpg?v=1744630527&width=823",
         "label": "",
         "category": "Modern",
-        "gender": "Boys"
+        "gender": "Boys",
+        "status": true,
+        "stock_quantity": 16,
+        "materials": "Polyester Mesh",
+        "care_instructions": "Wipe clean only"
       },
       {
-        "id": 13,
+        "id": "13",
         "name": "Barcelona x New Era Flat Brim Cap – White Edition",
         "description": "White flat-brim cap with embossed Barça logo.",
         "price_inr": 5600,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/files/75781_1.jpg?v=1748350225&width=823",
         "label": "LIMITED DROP",
         "category": "Modern",
-        "gender": "Girls"
+        "gender": "Girls",
+        "status": true,
+        "stock_quantity": 9,
+        "materials": "Cotton Twill",
+        "care_instructions": "Spot clean only"
       },
       {
-        "id": 14,
+        "id": "14",
         "name": "Barcelona x New Era Bucket Hat – Youth",
         "description": "Youth-sized bucket hat with small Barça crest patch.",
         "price_inr": 3100,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Disenosintitulo_37.jpg?v=1756973627&width=823",
         "label": "YOUTH",
         "category": "Classic",
-        "gender": "Kids"
+        "gender": "Kids",
+        "status": true,
+        "stock_quantity": 35,
+        "materials": "Cotton Blend",
+        "care_instructions": "Machine wash gentle"
       },
       {
-        "id": 15,
+        "id": "15",
         "name": "Barcelona x New Era 9FORTY Cap – Blackout Edition",
         "description": "Sleek black cap with tonal embroidered Barça crest.",
         "price_inr": 5900,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BLMP000841018_1.jpg?v=1725977541&width=823",
         "label": "TRENDING",
         "category": "Modern",
-        "gender": "Boys"
+        "gender": "Boys",
+        "status": true,
+        "stock_quantity": 11,
+        "materials": "Cotton Twill",
+        "care_instructions": "Hand wash recommended"
       },
       {
-        "id": 16,
+        "id": "16",
         "name": "Barcelona x New Era Snapback – Gold Crest",
         "description": "Snapback featuring gold crest embroidery on a navy base.",
         "price_inr": 4800,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/files/60846906.jpg?v=1761665249&width=823",
         "label": "HOT ITEM",
         "category": "Modern",
-        "gender": "Girls"
+        "gender": "Girls",
+        "status": true,
+        "stock_quantity": 13,
+        "materials": "Cotton Blend",
+        "care_instructions": "Spot clean only"
       },
       {
-        "id": 17,
+        "id": "17",
         "name": "Barcelona x New Era Bucket Hat – Camo Edition",
         "description": "Camouflage print bucket hat with Barça woven patch.",
         "price_inr": 5300,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BLMP884079_1.jpg?v=1744630527&width=823",
         "label": "",
         "category": "Modern",
-        "gender": "Boys"
+        "gender": "Boys",
+        "status": true,
+        "stock_quantity": 10,
+        "materials": "Polyester Blend",
+        "care_instructions": "Hand wash only"
       },
       {
-        "id": 18,
+        "id": "18",
         "name": "Barcelona x New Era 9FORTY Cap – Red Crest",
         "description": "Classic 9FORTY cap with red embroidered FC Barcelona crest.",
         "price_inr": 4100,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/files/75781_1_4f2370f1-5255-4c2b-ac09-04aa7bae7303.jpg?v=1748353069&width=823",
         "label": "NEW",
         "category": "Classic",
-        "gender": "Girls"
+        "gender": "Girls",
+        "status": true,
+        "stock_quantity": 19,
+        "materials": "Cotton Twill",
+        "care_instructions": "Hand wash cold"
       },
       {
-        "id": 19,
+        "id": "19",
         "name": "Barcelona x New Era Winter Cap – Fleece Lined",
         "description": "Warm fleece-lined cap for ultimate comfort in winter.",
         "price_inr": 6500,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BLMP000841018_1.jpg?v=1725977541&width=823",
         "label": "WINTER SPECIAL",
         "category": "Modern",
-        "gender": "Girls"
+        "gender": "Girls",
+        "status": true,
+        "stock_quantity": 7,
+        "materials": "Wool Fleece Blend",
+        "care_instructions": "Dry clean recommended"
       },
       {
-        "id": 20,
+        "id": "20",
         "name": "Barcelona x New Era 9FORTY Cap – Heritage Edition",
         "description": "Retro-inspired cap celebrating Barça's classic heritage.",
         "price_inr": 4700,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/files/60846898.jpg?v=1761665249&width=823",
         "label": "HERITAGE",
         "category": "Classic",
-        "gender": "Boys"
+        "gender": "Boys",
+        "status": true,
+        "stock_quantity": 14,
+        "materials": "Cotton Twill",
+        "care_instructions": "Hand wash recommended"
+      },
+      {
+        "id": "21",
+        "name": "Barcelona x New Era Visor - Summer Edition",
+        "description": "Lightweight visor perfect for summer matches.",
+        "price_inr": 2800,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/new-era-visor.jpg?v=1752566115&width=823",
+        "label": "Summer",
+        "category": "Modern",
+        "gender": "Girls",
+        "status": true,
+        "stock_quantity": 24,
+        "materials": "Polyester Blend",
+        "care_instructions": "Wipe clean only"
+      },
+      {
+        "id": "22",
+        "name": "Barcelona x New Era Scarf - Wool Blend",
+        "description": "Warm wool blend scarf with classic Barça stripes.",
+        "price_inr": 5200,
+        "image_url": "https://store.fcbarcelona.com/cdn/shop/files/new-era-scarf.jpg?v=1752566115&width=823",
+        "label": "Winter",
+        "category": "Classic",
+        "gender": "Boys",
+        "status": true,
+        "stock_quantity": 17,
+        "materials": "Wool Acrylic Blend",
+        "care_instructions": "Dry clean only"
       }
     ]
   },
@@ -689,39 +1071,488 @@
       "lastName": "k",
       "email": "mbappe@123",
       "password": "123",
+      "cart": [],
+      "wishlist": [
+        {
+          "productId": "1",
+          "name": "Home Kit 25/26 - Lamine Yamal Edition",
+          "category": "kids_kits",
+          "price_inr": 9500,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ5216-456_431720906_D_A_1X1_2.jpg?v=1751429539&width=823",
+          "materials": "100% Recycled Polyester",
+          "care_instructions": "Machine wash cold, do not bleach",
+          "addedDate": "2025-11-07T08:39:22.758Z"
+        },
+        {
+          "productId": 1,
+          "name": "Barcelona x New Era 59FIFTY Cap – Navy/Red",
+          "category": "new_era",
+          "price_inr": 10900,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/60846898.jpg?v=1761665249&width=823",
+          "materials": "Wool Blend",
+          "care_instructions": "Spot clean only",
+          "addedDate": "2025-11-07T09:05:51.830Z"
+        }
+      ],
+      "shippingAddress": {
+        "fullName": "saalim",
+        "email": "mbappe123@gmail.com",
+        "phone": "8089749450",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594",
+        "country": "India"
+      },
+      "orders": [
+        "FCB1762524152723Q4AGX",
+        "FCB1762524771334V2IG8",
+        "FCB17625278964593YTYW",
+        "FCB1762528150560GLGQ6",
+        "FCB17625283433314RK6E",
+        "FCB1762528528900J0KT5",
+        "FCB1762528629483G26M5",
+        "FCB1762529120348SC4HU",
+        "FCB1762529493224QJP5B",
+        "FCB17625309986890KH8K",
+        "FCB1762531030424MY9Z7"
+      ]
+    },
+    {
+      "id": "8a71",
+      "firstName": "alihafiz",
+      "lastName": "p",
+      "email": "alihafizp2@gamil.com",
+      "password": "Alihafizp@123",
       "cart": []
     },
     {
-      "id": "15d6",
-      "firstName": "saalim ",
+      "id": "3891",
+      "firstName": "Saalim",
       "lastName": "km",
-      "email": "not@123",
+      "email": "saalim@123",
+      "password": "123",
+      "cart": [],
+      "shippingAddress": {
+        "fullName": "saalim",
+        "email": "saalim@gmail.com",
+        "phone": "8089749450",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594",
+        "country": "India"
+      },
+      "orders": [
+        "FCB1762531795675RMILC"
+      ]
+    },
+    {
+      "id": "ba00",
+      "firstName": "bhavya",
+      "lastName": "suresh",
+      "email": "bhavyasuresh@gmail.com",
+      "password": "123",
+      "cart": [],
+      "shippingAddress": {
+        "fullName": "Bhavya",
+        "email": "bhavyasuresh@gmail.com",
+        "phone": "8089749450",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594",
+        "country": "India"
+      },
+      "orders": [
+        "FCB1762532086359CUBGT",
+        "FCB1762532126042U578Z"
+      ]
+    },
+    {
+      "id": "7d33",
+      "firstName": "musthafa",
+      "lastName": "km",
+      "email": "musthafa@123",
       "password": "123",
       "cart": []
     },
     {
-      "id": "7c69",
-      "firstName": "bhavya ",
-      "lastName": "saalim",
-      "email": "bhavya@123",
+      "id": "e80f",
+      "firstName": "nhvmg",
+      "lastName": "mhvmhg",
+      "email": "bhavyasuresh@gmail.com",
       "password": "123",
       "cart": []
     },
     {
-      "id": "cb1a",
-      "firstName": "Lamine Yamal",
-      "lastName": "10",
-      "email": "Lamine@123",
-      "password": "123",
-      "cart": []
+      "id": "user_1762533901089_q9yf3",
+      "firstName": "Saalim",
+      "lastName": "km",
+      "email": "muhammedsaalim005@gmail.com",
+      "password": "123123",
+      "cart": [],
+      "wishlist": [],
+      "orders": [],
+      "shippingAddress": {},
+      "createdAt": "2025-11-07T16:45:01.089Z",
+      "updatedAt": "2025-11-07T16:45:01.089Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "FCB1762524152723Q4AGX",
+      "userId": "bd23",
+      "items": [
+        {
+          "productId": "4",
+          "name": "Home Kit 25/26 - Women's Player Version",
+          "category": "kids_kits",
+          "price_inr": 10500,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FE70420026_1_2ucl.jpg?v=1751429913&width=823",
+          "size": "S",
+          "quantity": 1,
+          "materials": "Advanced Polyester Blend",
+          "care_instructions": "Professional cleaning recommended",
+          "addedDate": "2025-11-07T14:00:41.574Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "saalim",
+        "email": "mbappe123@gmail.com",
+        "phone": "8089749450",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594",
+        "country": "India"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "Cancelled",
+      "paymentStatus": "pending",
+      "subtotal": 10500,
+      "shipping": 0,
+      "tax": 1890,
+      "total": 12390,
+      "createdAt": "2025-11-07T14:02:32.723Z",
+      "updatedAt": "2025-11-07T14:02:32.723Z"
     },
     {
-      "id": "98fe",
-      "firstName": "messi",
-      "lastName": "leo",
-      "email": "messi@123",
-      "password": "123",
-      "cart": []
+      "id": "FCB1762524771334V2IG8",
+      "userId": "bd23",
+      "items": [
+        {
+          "productId": "1",
+          "name": "FC Barcelona Hoodie - Navy Blue",
+          "category": "apparel",
+          "price_inr": 6200,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_2025838-2.jpg?v=1752663717&width=1200",
+          "size": "S",
+          "quantity": 1,
+          "materials": "Cotton Blend",
+          "care_instructions": "Machine wash cold",
+          "addedDate": "2025-11-07T14:12:36.781Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "saalim",
+        "email": "mbappe123@gmail.com",
+        "phone": "8089749450",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594",
+        "country": "India"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "subtotal": 6200,
+      "shipping": 0,
+      "tax": 1116,
+      "total": 7316,
+      "createdAt": "2025-11-07T14:12:51.334Z",
+      "updatedAt": "2025-11-07T14:12:51.334Z"
+    },
+    {
+      "id": "FCB1762529120348SC4HU",
+      "userId": "bd23",
+      "items": [
+        {
+          "productId": "2",
+          "name": "FC Barcelona Tracksuit - Red & Blue",
+          "category": "apparel",
+          "price_inr": 9800,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_20252085_3d36b0fc-ea9c-4dbc-9dbd-e652ea9cca20.jpg?v=1755785933&width=823",
+          "size": "XL",
+          "quantity": 1,
+          "materials": "Polyester Blend",
+          "care_instructions": "Machine wash gentle",
+          "addedDate": "2025-11-07T15:24:07.600Z"
+        },
+        {
+          "productId": "10",
+          "name": "FC Barcelona Full Zip Hoodie - Black",
+          "category": "apparel",
+          "price_inr": 6400,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BARCACapsulaAbril24_FOTO40_3271_18fd3e85-3625-4344-81e6-c88fa4e2b24a.jpg?v=1728370234&width=823",
+          "size": "XL",
+          "quantity": 1,
+          "materials": "Cotton Blend",
+          "care_instructions": "Machine wash cold",
+          "addedDate": "2025-11-07T15:24:32.031Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "saalim",
+        "email": "mbappe123@gmail.com",
+        "phone": "8089749450",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594",
+        "country": "India"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "subtotal": 16200,
+      "shipping": 0,
+      "tax": 2916,
+      "total": 19116,
+      "createdAt": "2025-11-07T15:25:20.348Z",
+      "updatedAt": "2025-11-07T15:25:20.348Z"
+    },
+    {
+      "id": "FCB1762529493224QJP5B",
+      "userId": "bd23",
+      "items": [
+        {
+          "productId": "5",
+          "name": "Home Kit 25/26 - Youth Edition",
+          "category": "kids_kits",
+          "price_inr": 8200,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Disenosintitulo_38_e900aa6e-6f22-481e-9d0c-27cfa5b14cdd.jpg?v=1758635058&width=823",
+          "size": "S",
+          "quantity": 1,
+          "materials": "100% Cotton-Poly Blend",
+          "care_instructions": "Machine wash gentle",
+          "addedDate": "2025-11-07T15:28:08.221Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "saalim",
+        "email": "mbappe123@gmail.com",
+        "phone": "8089749450",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594",
+        "country": "India"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "subtotal": 8200,
+      "shipping": 0,
+      "tax": 1476,
+      "total": 9676,
+      "createdAt": "2025-11-07T15:31:33.224Z",
+      "updatedAt": "2025-11-07T15:31:33.224Z"
+    },
+    {
+      "id": "FCB17625309986890KH8K",
+      "userId": "bd23",
+      "items": [
+        {
+          "productId": "3",
+          "name": "Home Kit 25/26 - Classic Edition",
+          "category": "kids_kits",
+          "price_inr": 8700,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/lamineyamal-ucl_7c9afdfb-cfe5-43ff-bf30-b74e4e5b837b.webp?v=1752684023&width=823",
+          "size": "S",
+          "quantity": 2,
+          "materials": "100% Polyester",
+          "care_instructions": "Machine washable",
+          "addedDate": "2025-11-07T15:50:55.473Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "saalim",
+        "email": "mbappe123@gmail.com",
+        "phone": "8089749450",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594",
+        "country": "India"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "subtotal": 17400,
+      "shipping": 0,
+      "tax": 3132,
+      "total": 20532,
+      "createdAt": "2025-11-07T15:56:38.689Z",
+      "updatedAt": "2025-11-07T15:56:38.689Z"
+    },
+    {
+      "id": "FCB1762531030424MY9Z7",
+      "userId": "bd23",
+      "items": [
+        {
+          "productId": "4",
+          "name": "Home Kit 25/26 - Women's Player Version",
+          "category": "kids_kits",
+          "price_inr": 10500,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FE70420026_1_2ucl.jpg?v=1751429913&width=823",
+          "size": "S",
+          "quantity": 1,
+          "materials": "Advanced Polyester Blend",
+          "care_instructions": "Professional cleaning recommended",
+          "addedDate": "2025-11-07T15:57:04.022Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "saalim",
+        "email": "mbappe123@gmail.com",
+        "phone": "8089749450",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594",
+        "country": "India"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "subtotal": 10500,
+      "shipping": 0,
+      "tax": 1890,
+      "total": 12390,
+      "createdAt": "2025-11-07T15:57:10.424Z",
+      "updatedAt": "2025-11-07T15:57:10.424Z"
+    },
+    {
+      "id": "FCB1762531795675RMILC",
+      "userId": "3891",
+      "items": [
+        {
+          "productId": "3",
+          "name": "Home Kit 25/26 - Classic Edition",
+          "category": "kids_kits",
+          "price_inr": 8700,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/lamineyamal-ucl_7c9afdfb-cfe5-43ff-bf30-b74e4e5b837b.webp?v=1752684023&width=823",
+          "size": "S",
+          "quantity": 1,
+          "materials": "100% Polyester",
+          "care_instructions": "Machine washable",
+          "addedDate": "2025-11-07T16:09:22.958Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "saalim",
+        "email": "saalim@gmail.com",
+        "phone": "8089749450",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594",
+        "country": "India"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "subtotal": 8700,
+      "shipping": 0,
+      "tax": 1566,
+      "total": 10266,
+      "createdAt": "2025-11-07T16:09:55.675Z",
+      "updatedAt": "2025-11-07T16:09:55.675Z"
+    },
+    {
+      "id": "FCB1762532086359CUBGT",
+      "userId": "ba00",
+      "items": [
+        {
+          "productId": "3",
+          "name": "Home Kit 25/26 - Classic Edition",
+          "category": "kids_kits",
+          "price_inr": 8700,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/lamineyamal-ucl_7c9afdfb-cfe5-43ff-bf30-b74e4e5b837b.webp?v=1752684023&width=823",
+          "size": "S",
+          "quantity": 2,
+          "materials": "100% Polyester",
+          "care_instructions": "Machine washable",
+          "addedDate": "2025-11-07T16:14:25.542Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "Bhavya",
+        "email": "bhavyasuresh@gmail.com",
+        "phone": "8089749450",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594",
+        "country": "India"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "subtotal": 17400,
+      "shipping": 0,
+      "tax": 3132,
+      "total": 20532,
+      "createdAt": "2025-11-07T16:14:46.359Z",
+      "updatedAt": "2025-11-07T16:14:46.359Z"
+    },
+    {
+      "id": "FCB1762532126042U578Z",
+      "userId": "ba00",
+      "items": [
+        {
+          "productId": "3",
+          "name": "Barcelona x New Era Trucker Cap – Black/Gold Crest",
+          "category": "new_era",
+          "price_inr": 4500,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BLMP884079_1.jpg?v=1744630527&width=823",
+          "size": "S",
+          "quantity": 1,
+          "materials": "Polyester Mesh",
+          "care_instructions": "Wipe clean only",
+          "addedDate": "2025-11-07T16:15:22.458Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "Bhavya",
+        "email": "bhavyasuresh@gmail.com",
+        "phone": "8089749450",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594",
+        "country": "India"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "subtotal": 4500,
+      "shipping": 199,
+      "tax": 810,
+      "total": 5509,
+      "createdAt": "2025-11-07T16:15:26.042Z",
+      "updatedAt": "2025-11-07T16:15:26.042Z"
     }
   ]
 }

@@ -28,4 +28,21 @@
   z-index: 9999;
   mix-blend-mode: difference;
 }
-
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+/* Add this to index.css or App.css */
+select option {
+  background-color: rgb(154, 150, 150); /* dropdown background */
+  color: #ffffff; /* text color */
+  font-weight: 500;
+  padding: 8px;
+}

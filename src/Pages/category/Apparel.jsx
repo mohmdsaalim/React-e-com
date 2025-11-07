@@ -1,6 +1,7 @@
+
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import useProductFilter from "../Context/useProductFilter";
+import useProductFilter from "../../Context/useProductFilter";
 import { FiFilter, FiX, FiSearch } from "react-icons/fi";
 
 export default function K() {
@@ -14,7 +15,7 @@ export default function K() {
     setGender,
     sortOrder,
     setSortOrder,
-  } = useProductFilter("new_era");
+  } = useProductFilter("apparel");
 
   const [showFilters, setShowFilters] = useState(false);
 
@@ -37,7 +38,7 @@ export default function K() {
       {/* Page Heading */}
       <div className="mx-auto max-w-7xl px-4 mb-4 mt-2">
         <h2 className="text-4xl sm:text-6xl md:text-8xl lg:text-[120px] font-extrabold text-[#03182e] tracking-wide leading-tight font-oswald mt-9">
-          CAPS
+          APPAREL
         </h2>
       </div>
 
@@ -64,23 +65,11 @@ export default function K() {
               className="w-full pl-10 pr-4 py-2 rounded-md border border-gray-300 focus:border-[#004d98] focus:ring-2 focus:ring-[#004d98] focus:ring-opacity-20 transition-all"
             />
           </div>
-{/* 
-          <select
-            value={category}
-            onChange={(e) => setCategory(e.target.value)}
-            className="px-4 py-2 rounded-md border border-gray-300 focus:border-[#ffffff] focus:ring-2 focus:ring-[#ffffff] focus:ring-opacity-20 transition-all"
-          >
-            <option value="All">All Categories</option>
-            <option value="Home Kit">Home Kit</option>
-            <option value="Away Kit">Away Kit</option>
-            <option value="Goalkeeper Kit">Goalkeeper Kit</option>
-            <option value="Training Kit">Training Kit</option>
-          </select> */}
-
+          {/* sett here cat????....*/}
           <select
             value={gender}
             onChange={(e) => setGender(e.target.value)}
-            className="px-4 py-2 rounded-md border border-gray-300 focus:border-[#ffffff] focus:ring-2 focus:ring-[#ffffff] focus:ring-opacity-20 transition-all"
+            className="px-4 py-2 rounded-md border border-white focus:border-[#ffffff] focus:ring-2 focus:ring-[#ffffff] focus:ring-opacity-20 transition-all"
           >
             <option value="All">All Genders</option>
             <option value="Boys">Boys</option>
@@ -91,7 +80,7 @@ export default function K() {
           <select
             value={sortOrder}
             onChange={(e) => setSortOrder(e.target.value)}
-            className="px-4 py-2 rounded-md border border-gray-300 focus:border-[#ffffff] focus:ring-2 focus:ring-[#ffffff] focus:ring-opacity-20 transition-all"
+            className="px-4 py-2 rounded-md border border-white focus:border-[#ffffff] focus:ring-2 focus:ring-[#ffffff] focus:ring-opacity-20 transition-all"
           >
             <option value="default">Sort by</option>
             <option value="lowToHigh">Price: Low → High</option>
@@ -154,8 +143,8 @@ export default function K() {
                   placeholder="Search kits..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="w-full pl-10 pr-4 py-3 rounded-lg border border-gray-300 focus:border-[#004d98] focus:ring-2 focus:ring-[#004d98] focus:ring-opacity-20 transition-all"
-                />
+                  className="w-full pl-10 pr-4 py-3 rounded-lg border border-gray-300 focus:border-[#ffffff] focus:ring-2 focus:ring-[#ffffff] focus:ring-opacity-20 focus:outline-none outline-none transition-all"
+/>
               </div>
             </div>
 
@@ -164,17 +153,7 @@ export default function K() {
               <label className="block text-sm font-medium text-gray-700 mb-2">
                 Category
               </label>
-              {/* <select
-                value={category}
-                onChange={(e) => setCategory(e.target.value)}
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#004d98] focus:ring-2 focus:ring-[#004d98] focus:ring-opacity-20 transition-all"
-              >
-                <option value="All">All Categories</option>
-                <option value="Home Kit">Home Kit</option>
-                <option value="Away Kit">Away Kit</option>
-                <option value="Goalkeeper Kit">Goalkeeper Kit</option>
-                <option value="Training Kit">Training Kit</option>
-              </select> */}
+           
             </div>
 
             {/* Gender */}
@@ -185,7 +164,7 @@ export default function K() {
               <select
                 value={gender}
                 onChange={(e) => setGender(e.target.value)}
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#004d98] focus:ring-2 focus:ring-[#004d98] focus:ring-opacity-20 transition-all"
+                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#ffffff] focus:ring-2 focus:ring-[#ffffff] focus:ring-opacity-20 ransition-all"
               >
                 <option value="All">All Genders</option>
                 <option value="Boys">Boys</option>
@@ -295,7 +274,7 @@ export default function K() {
                   ₹{p.price_inr}
                 </p>
                 <Link
-                  to={`/product/new_era/${p.id}`}
+                  to={`/product/apparel/${p.id}`}
                   className="inline-block mt-2 text-sm text-[#004d98] font-medium underline hover:text-[#8a023b] transition-colors"
                 >
                   View Details

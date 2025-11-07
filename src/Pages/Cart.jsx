@@ -1,6 +1,6 @@
-
 import React, { useEffect, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
+import axios from "axios";
 import { 
   FiShoppingCart, 
   FiPackage, 
@@ -24,65 +24,167 @@ export default function Cart() {
   const [discountCode, setDiscountCode] = useState("");
   const [appliedDiscount, setAppliedDiscount] = useState(0);
   const [updatingQuantity, setUpdatingQuantity] = useState(null);
+  const [currentUser, setCurrentUser] = useState(null);
+  const [loading, setLoading] = useState(true);
 
-  // Load cart from localStorage
+  // Load cart from user data
   useEffect(() => {
-    const storedCart = JSON.parse(localStorage.getItem("cart")) || [];
-    setCartItems(storedCart);
+    loadUserCart();
   }, []);
 
-  // Remove item
-  const removeItem = (id, name) => {
-    const updated = cartItems.filter((item) => item.id !== id);
-    setCartItems(updated);
-    localStorage.setItem("cart", JSON.stringify(updated));
-    
-    toast.success(
-      <div className="flex items-center space-x-2">
-        <FiTrash2 className="w-4 h-4" />
-        <span>Removed {name} from cart</span>
-      </div>,
-      {
-        style: {
-          background: '#f0f9ff',
-          color: '#0369a1',
-          border: '1px solid #bae6fd',
+  const loadUserCart = async () => {
+    try {
+      setLoading(true);
+      const userData = localStorage.getItem("currentUser");
+      if (userData) {
+        const user = JSON.parse(userData);
+        setCurrentUser(user);
+        setCartItems(user.cart || []);
+      } else {
+        // Fallback: Get user from API
+        const response = await axios.get("http://localhost:3000/users");
+        const users = response.data;
+        if (users.length > 0) {
+          const user = users[0]; // For demo, using first user
+          setCurrentUser(user);
+          setCartItems(user.cart || []);
+          localStorage.setItem("currentUser", JSON.stringify(user));
         }
       }
-    );
+    } catch (error) {
+      console.error("Error loading user cart:", error);
+      toast.error("Failed to load cart data");
+      // Fallback to localStorage if API fails
+      const storedCart = JSON.parse(localStorage.getItem("cart")) || [];
+      setCartItems(storedCart);
+    } finally {
+      setLoading(false);
+    }
   };
 
-  // Clear all
-  const clearCart = () => {
+  // Update user in database
+  const updateUserInDatabase = async (updatedUser) => {
+    try {
+      await axios.put(`http://localhost:3000/users/${updatedUser.id}`, updatedUser);
+      setCurrentUser(updatedUser);
+      localStorage.setItem("currentUser", JSON.stringify(updatedUser));
+      return true;
+    } catch (error) {
+      console.error("Error updating user:", error);
+      return false;
+    }
+  };
+
+  // Remove item from cart
+  const removeItem = async (productId, name) => {
+    try {
+      if (!currentUser) {
+        toast.error("User not found. Please login again.");
+        return;
+      }
+
+      const updatedCart = cartItems.filter((item) => item.productId !== productId);
+      const updatedUser = {
+        ...currentUser,
+        cart: updatedCart
+      };
+
+      const success = await updateUserInDatabase(updatedUser);
+      
+      if (success) {
+        setCartItems(updatedCart);
+        toast.success(
+          <div className="flex items-center space-x-2">
+            <FiTrash2 className="w-4 h-4" />
+            <span>Removed {name} from cart</span>
+          </div>,
+          {
+            style: {
+              background: '#f0f9ff',
+              color: '#0369a1',
+              border: '1px solid #bae6fd',
+            }
+          }
+        );
+      } else {
+        throw new Error("Failed to update cart");
+      }
+    } catch (error) {
+      toast.error("Failed to remove item from cart");
+      console.error("Error removing item:", error);
+    }
+  };
+
+  // Clear all items from cart
+  const clearCart = async () => {
     if (cartItems.length === 0) return;
     
     if (window.confirm("Are you sure you want to clear your entire cart?")) {
-      localStorage.removeItem("cart");
-      setCartItems([]);
-      toast.success("Cart cleared successfully!", {
-        icon: '🛒',
-      });
+      try {
+        if (!currentUser) {
+          toast.error("User not found. Please login again.");
+          return;
+        }
+
+        const updatedUser = {
+          ...currentUser,
+          cart: []
+        };
+
+        const success = await updateUserInDatabase(updatedUser);
+        
+        if (success) {
+          setCartItems([]);
+          toast.success("Cart cleared successfully!", {
+            icon: '🛒',
+          });
+        } else {
+          throw new Error("Failed to clear cart");
+        }
+      } catch (error) {
+        toast.error("Failed to clear cart");
+        console.error("Error clearing cart:", error);
+      }
     }
   };
 
   // Update quantity
-  const updateQuantity = async (id, newQuantity) => {
+  const updateQuantity = async (productId, newQuantity) => {
     if (newQuantity < 1) return;
     
-    setUpdatingQuantity(id);
-    
-    // Simulate API delay
-    await new Promise(resolve => setTimeout(resolve, 300));
-    
-    const updated = cartItems.map((item) =>
-      item.id === id ? { ...item, quantity: newQuantity } : item
-    );
-    setCartItems(updated);
-    localStorage.setItem("cart", JSON.stringify(updated));
-    setUpdatingQuantity(null);
+    try {
+      setUpdatingQuantity(productId);
+
+      if (!currentUser) {
+        toast.error("User not found. Please login again.");
+        return;
+      }
+
+      const updatedCart = cartItems.map((item) =>
+        item.productId === productId ? { ...item, quantity: newQuantity } : item
+      );
+
+      const updatedUser = {
+        ...currentUser,
+        cart: updatedCart
+      };
+
+      const success = await updateUserInDatabase(updatedUser);
+      
+      if (success) {
+        setCartItems(updatedCart);
+      } else {
+        throw new Error("Failed to update quantity");
+      }
+    } catch (error) {
+      toast.error("Failed to update quantity");
+      console.error("Error updating quantity:", error);
+    } finally {
+      setUpdatingQuantity(null);
+    }
   };
 
-  // Pricing
+  // Pricing calculations
   const subtotal = cartItems.reduce(
     (total, item) => total + (item.price_inr || item.price || 0) * (item.quantity || 1),
     0
@@ -122,7 +224,7 @@ export default function Cart() {
         {/* Product Image */}
         <div className="flex-shrink-0 relative">
           <Link 
-            to={`/product/${item.category || 'apparel'}/${item.id}`}
+            to={`/product/${item.category || 'apparel'}/${item.productId}`}
             className="block"
           >
             <img
@@ -142,7 +244,7 @@ export default function Cart() {
             {/* Product Info */}
             <div className="flex-1 space-y-3">
               <Link 
-                to={`/product/${item.category || 'apparel'}/${item.id}`}
+                to={`/product/${item.category || 'apparel'}/${item.productId}`}
                 className="group block"
               >
                 <h3 className="text-xl font-bold text-gray-900 group-hover:text-[#004d98] transition-colors leading-tight">
@@ -166,15 +268,15 @@ export default function Cart() {
                 <span className="text-sm font-semibold text-gray-700">Quantity:</span>
                 <div className="flex items-center gap-3 bg-gray-50 rounded-xl p-1.5 border border-gray-200">
                   <button
-                    onClick={() => updateQuantity(item.id, (item.quantity || 1) - 1)}
-                    disabled={updatingQuantity === item.id || (item.quantity || 1) <= 1}
+                    onClick={() => updateQuantity(item.productId, (item.quantity || 1) - 1)}
+                    disabled={updatingQuantity === item.productId || (item.quantity || 1) <= 1}
                     className="w-8 h-8 flex items-center justify-center bg-white border border-gray-300 rounded-lg hover:bg-gray-100 disabled:opacity-40 disabled:cursor-not-allowed transition-all shadow-sm"
                   >
                     <FiMinus className="w-3 h-3 text-gray-600" />
                   </button>
                   
                   <span className="w-12 text-center font-bold text-gray-900 text-lg">
-                    {updatingQuantity === item.id ? (
+                    {updatingQuantity === item.productId ? (
                       <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-[#004d98] mx-auto"></div>
                     ) : (
                       item.quantity || 1
@@ -182,8 +284,8 @@ export default function Cart() {
                   </span>
                   
                   <button
-                    onClick={() => updateQuantity(item.id, (item.quantity || 1) + 1)}
-                    disabled={updatingQuantity === item.id}
+                    onClick={() => updateQuantity(item.productId, (item.quantity || 1) + 1)}
+                    disabled={updatingQuantity === item.productId}
                     className="w-8 h-8 flex items-center justify-center bg-white border border-gray-300 rounded-lg hover:bg-gray-100 disabled:opacity-40 disabled:cursor-not-allowed transition-all shadow-sm"
                   >
                     <FiPlus className="w-3 h-3 text-gray-600" />
@@ -204,7 +306,7 @@ export default function Cart() {
               </div>
               
               <button
-                onClick={() => removeItem(item.id, item.name)}
+                onClick={() => removeItem(item.productId, item.name)}
                 className="flex items-center gap-2 px-4 py-2 text-red-600 hover:text-red-700 hover:bg-red-50 font-medium transition-all rounded-lg border border-red-200 group"
               >
                 <FiTrash2 className="w-4 h-4 group-hover:scale-110 transition-transform" />
@@ -216,6 +318,16 @@ export default function Cart() {
       </div>
     </div>
   );
+
+  // Loading State
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50 pt-24 pb-16 flex items-center justify-center">
+        <Toaster position="top-right" />
+        <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-[#004d98]"></div>
+      </div>
+    );
+  }
 
   // Empty Cart State
   if (cartItems.length === 0) {
@@ -316,7 +428,7 @@ export default function Cart() {
             {/* Cart Items */}
             <div className="space-y-6">
               {cartItems.map((item) => (
-                <CartItem key={`${item.id}-${item.size}`} item={item} />
+                <CartItem key={`${item.productId}-${item.size}`} item={item} />
               ))}
             </div>
 
@@ -477,3 +589,8 @@ export default function Cart() {
     </div>
   );
 }
+
+
+
+
+
