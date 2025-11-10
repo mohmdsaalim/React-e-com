@@ -1,4 +1,3 @@
-
 import React, { useRef, useEffect, useState } from 'react';
 import { HiOutlineArrowRight } from 'react-icons/hi';
 import Barcavdo1 from '../../assets/Barcavdo1.mp4';
@@ -9,6 +8,7 @@ export default function Hero() {
   const navigate = useNavigate();
   const videoRef = useRef(null);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const [showContent, setShowContent] = useState(false);
   
   const handleNavigate = () => {
     navigate("/kits");
@@ -32,6 +32,15 @@ export default function Hero() {
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
     };
+  }, []);
+
+  // Show content after 3 seconds
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowContent(true);
+    }, 500);
+
+    return () => clearTimeout(timer);
   }, []);
 
   // Apply transform to video based on mouse position
@@ -64,13 +73,17 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-20 text-center flex flex-col items-center gap-3 px-4">
         <h1 className="text-5xl md:text-7xl roboto-condensed font-extrabold uppercase tracking-wider">
-          <span className="roboto-condensed text-white">FC</span>{' '}
-          <span className="roboto-condensed text-gray-200">BARCELONA</span>
+          <span className={`roboto-condensed text-white transition-opacity duration-1000 ${showContent ? 'opacity-100' : 'opacity-0'}`}>
+            FC
+          </span>{' '}
+          <span className={`roboto-condensed text-gray-200 transition-opacity duration-1000 ${showContent ? 'opacity-100' : 'opacity-0'}`}>
+            BARCELONA
+          </span>
         </h1>
 
         <button 
           onClick={handleNavigate} 
-          className="bg-[#ffbb00] text-[#1a1d3a] px-8 py-3 font-segoe font-bold text-lg rounded-md shadow-lg hover:bg-[#d9ce72] hover:-translate-y-1 transition-transform flex items-center gap-3"
+          className={`bg-[#ffbb00] text-[#1a1d3a] px-8 py-3 font-segoe font-bold text-lg rounded-md shadow-lg hover:bg-[#d9ce72] hover:-translate-y-1 transition-all duration-1000 flex items-center gap-3 ${showContent ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-1'}`}
         >
           SHOP NOW
           <HiOutlineArrowRight size={22} />

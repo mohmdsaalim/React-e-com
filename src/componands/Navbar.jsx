@@ -67,7 +67,7 @@ const Navbar = () => {
             <img
               src="https://store.fcbarcelona.com/cdn/shop/t/9/assets/logo-simple-white.svg?v=15706832919691285971675422275"
               alt="FC Barcelona"
-              className="w-20 h-20 md:w-[120px] md:h-[120px]"
+              className="w-25 h-25 md:w-[120px] md:h-[120px]"
             />
           </Link>
 

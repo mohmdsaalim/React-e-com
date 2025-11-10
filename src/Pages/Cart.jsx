@@ -545,7 +545,7 @@ export default function Cart() {
                   </button>
                 </div>
                 <p className="text-sm text-gray-500 mt-3 font-medium">
-                  Try: <span className="text-[#004d98] font-bold">BARCA10</span> (10% off) or <span className="text-[#004d98] font-bold">CULERS20</span> (20% off)
+                  Try: <span className="text-[#004d98] font-bold">BARXXX10</span> (10% off) or <span className="text-[#004d98] font-bold">CULXXX20</span> (20% off)
                 </p>
               </div>
 

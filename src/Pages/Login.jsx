@@ -6,44 +6,26 @@
 // import toast, { Toaster } from "react-hot-toast";
 
 // const LoginPage = () => {
-//   const { email, setEmail, password, setPassword, login } = useAuth();
+//   const { email, setEmail, password, setPassword, login, loading } = useAuth();
 //   const navigate = useNavigate();
 
-//   const handleLogin = async (e) => {
+//   const handleSubmit = async (e) => {
 //     e.preventDefault();
 
-//     // console.log("",e.preventDefault);
+//     if (!email || !password) {
+//       toast.error("Please fill in all fields");
+//       return;
+//     }
 
-//     try {
-//       const res = await fetch("http://localhost:3000/users");
-//       const users = await res.json();
-
-//       // console.log("users",users)
-
-//       const foundUser = users.find(
-//         (u) => u.email.toLowerCase() === email.toLowerCase()
-//       );
-
-//       if (!foundUser) {
-//         toast.error("❌ No user found with this email!");
-//         return;
-//       }
-
-//       if (foundUser.password !== password) {
-//         toast.error("❌ Incorrect password!");
-//         return;
-//       }
-
-//       toast.success("Login successful!");
-//       login(foundUser); // set in context + localStorage
-//      setTimeout(()=>{
-//        navigate("/")
-//       },1500 )
-      
-
-//     } catch (error) {
-//       console.error("Error during login:", error);
-//       toast.error("Something went wrong. Please try again!");
+//     const result = await login(email, password);
+    
+//     if (result.success) {
+//       toast.success(" Login successful!");
+//       setTimeout(() => {
+//         navigate("/");
+//       }, 1500);
+//     } else {
+//       toast.error(result.error);
 //     }
 //   };
 
@@ -72,7 +54,7 @@
 //         className="w-70 h-70 mx-auto mb-0 object-contain"
 //       />
 
-//       <form onSubmit={handleLogin} className="w-full max-w-md space-y-6">
+//       <form onSubmit={handleSubmit} className="w-full max-w-md space-y-6">
 //         <div>
 //           <label
 //             htmlFor="email"
@@ -86,7 +68,7 @@
 //             type="email"
 //             required
 //             value={email}
-//             onChange={(e) => setEmail(e.target.value)} //  from context
+//             onChange={(e) => setEmail(e.target.value)}
 //             className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md text-gray-900 placeholder-gray-400 focus:outline-none"
 //             placeholder="Email"
 //           />
@@ -105,7 +87,7 @@
 //             type="password"
 //             required
 //             value={password}
-//             onChange={(e) => setPassword(e.target.value)} //  from context
+//             onChange={(e) => setPassword(e.target.value)}
 //             className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md text-gray-900 placeholder-gray-400 focus:outline-none"
 //             placeholder="Password"
 //           />
@@ -113,9 +95,10 @@
 
 //         <button
 //           type="submit"
-//           className="w-full py-2 px-4 bg-[#ffc72c] text-black font-medium rounded-md hover:bg-[#f2a31b] transition-colors duration-200 font-oswald"
+//           disabled={loading}
+//           className="w-full py-2 px-4 bg-[#ffc72c] text-black font-medium rounded-md hover:bg-[#f2a31b] transition-colors duration-200 font-oswald disabled:opacity-50 disabled:cursor-not-allowed"
 //         >
-//           SIGN IN
+//           {loading ? "SIGNING IN..." : "SIGN IN"}
 //         </button>
 
 //         <div className="text-center">
@@ -132,8 +115,6 @@
 // };
 
 // export default LoginPage;
-
-
 
 
 
@@ -161,7 +142,12 @@ const LoginPage = () => {
     if (result.success) {
       toast.success(" Login successful!");
       setTimeout(() => {
-        navigate("/");
+        // ✅ ADD THIS CHECK - Redirect admin to admin panel, user to home
+        if (result.isAdmin) {
+          navigate('/admin/Adashboard'); // Admin goes to admin panel
+        } else {
+          navigate('/'); // Regular user goes to home
+        }
       }, 1500);
     } else {
       toast.error(result.error);

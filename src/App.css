@@ -46,3 +46,7 @@ select option {
   font-weight: 500;
   padding: 8px;
 }
+/* Global black background */
+html, body {
+  background-color: #000000;
+}

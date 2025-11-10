@@ -9,7 +9,7 @@
         "price_inr": 9500,
         "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ5216-456_431720906_D_A_1X1_2.jpg?v=1751429539&width=823",
         "label": "2025/26",
-        "status": true,
+        "status": "in_stock",
         "stock_quantity": 45,
         "materials": "100% Recycled Polyester",
         "care_instructions": "Machine wash cold, do not bleach"
@@ -1066,219 +1066,156 @@
   },
   "users": [
     {
-      "id": "bd23",
-      "firstName": "mbappe",
-      "lastName": "k",
-      "email": "mbappe@123",
-      "password": "123",
+      "id": "user_1762575665752_xep9g",
+      "firstName": "Messi",
+      "lastName": "leo",
+      "email": "leoMessi@gmail.com",
+      "password": "123123",
       "cart": [],
-      "wishlist": [
+      "wishlist": [],
+      "orders": [
+        "FCB1762575761123T9M64",
+        "FCB1762584389902T09T1"
+      ],
+      "shippingAddress": {
+        "fullName": "m",
+        "email": "leoMessi@gmail.com",
+        "phone": "8089749455",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594"
+      },
+      "createdAt": "2025-11-08T04:21:05.752Z",
+      "updatedAt": "2025-11-10T17:43:36.236Z",
+      "status": "suspended"
+    },
+    {
+      "id": "user_1762584527042_wzm5t",
+      "firstName": "muhammed inshad",
+      "lastName": "inshad",
+      "email": "muhammed123@gmai.com",
+      "password": "12345678",
+      "cart": [
         {
           "productId": "1",
           "name": "Home Kit 25/26 - Lamine Yamal Edition",
           "category": "kids_kits",
           "price_inr": 9500,
           "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ5216-456_431720906_D_A_1X1_2.jpg?v=1751429539&width=823",
+          "size": "S",
+          "quantity": 1,
           "materials": "100% Recycled Polyester",
           "care_instructions": "Machine wash cold, do not bleach",
-          "addedDate": "2025-11-07T08:39:22.758Z"
+          "addedDate": "2025-11-08T17:56:24.778Z"
         },
         {
-          "productId": 1,
-          "name": "Barcelona x New Era 59FIFTY Cap – Navy/Red",
+          "productId": "2",
+          "name": "Barcelona x New Era 9FORTY Cap – Blaugrana Stripe",
           "category": "new_era",
-          "price_inr": 10900,
-          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/60846898.jpg?v=1761665249&width=823",
-          "materials": "Wool Blend",
-          "care_instructions": "Spot clean only",
-          "addedDate": "2025-11-07T09:05:51.830Z"
+          "price_inr": 3900,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/75781_1.jpg?v=1748350225&width=823",
+          "size": "S",
+          "quantity": 1,
+          "materials": "Cotton Twill",
+          "care_instructions": "Hand wash recommended",
+          "addedDate": "2025-11-08T17:57:34.994Z"
         }
       ],
-      "shippingAddress": {
-        "fullName": "saalim",
-        "email": "mbappe123@gmail.com",
-        "phone": "8089749450",
-        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
-        "city": "Palakkad",
-        "state": "Kerala",
-        "pincode": "678594",
-        "country": "India"
-      },
-      "orders": [
-        "FCB1762524152723Q4AGX",
-        "FCB1762524771334V2IG8",
-        "FCB17625278964593YTYW",
-        "FCB1762528150560GLGQ6",
-        "FCB17625283433314RK6E",
-        "FCB1762528528900J0KT5",
-        "FCB1762528629483G26M5",
-        "FCB1762529120348SC4HU",
-        "FCB1762529493224QJP5B",
-        "FCB17625309986890KH8K",
-        "FCB1762531030424MY9Z7"
-      ]
-    },
-    {
-      "id": "8a71",
-      "firstName": "alihafiz",
-      "lastName": "p",
-      "email": "alihafizp2@gamil.com",
-      "password": "Alihafizp@123",
-      "cart": []
-    },
-    {
-      "id": "3891",
-      "firstName": "Saalim",
-      "lastName": "km",
-      "email": "saalim@123",
-      "password": "123",
-      "cart": [],
-      "shippingAddress": {
-        "fullName": "saalim",
-        "email": "saalim@gmail.com",
-        "phone": "8089749450",
-        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
-        "city": "Palakkad",
-        "state": "Kerala",
-        "pincode": "678594",
-        "country": "India"
-      },
-      "orders": [
-        "FCB1762531795675RMILC"
-      ]
-    },
-    {
-      "id": "ba00",
-      "firstName": "bhavya",
-      "lastName": "suresh",
-      "email": "bhavyasuresh@gmail.com",
-      "password": "123",
-      "cart": [],
-      "shippingAddress": {
-        "fullName": "Bhavya",
-        "email": "bhavyasuresh@gmail.com",
-        "phone": "8089749450",
-        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
-        "city": "Palakkad",
-        "state": "Kerala",
-        "pincode": "678594",
-        "country": "India"
-      },
-      "orders": [
-        "FCB1762532086359CUBGT",
-        "FCB1762532126042U578Z"
-      ]
-    },
-    {
-      "id": "7d33",
-      "firstName": "musthafa",
-      "lastName": "km",
-      "email": "musthafa@123",
-      "password": "123",
-      "cart": []
-    },
-    {
-      "id": "e80f",
-      "firstName": "nhvmg",
-      "lastName": "mhvmhg",
-      "email": "bhavyasuresh@gmail.com",
-      "password": "123",
-      "cart": []
-    },
-    {
-      "id": "user_1762533901089_q9yf3",
-      "firstName": "Saalim",
-      "lastName": "km",
-      "email": "muhammedsaalim005@gmail.com",
-      "password": "123123",
-      "cart": [],
       "wishlist": [],
       "orders": [],
       "shippingAddress": {},
-      "createdAt": "2025-11-07T16:45:01.089Z",
-      "updatedAt": "2025-11-07T16:45:01.089Z"
+      "createdAt": "2025-11-08T06:48:47.042Z",
+      "updatedAt": "2025-11-10T17:43:57.670Z",
+      "status": "active"
+    },
+    {
+      "id": "user_1762762784887_8fz34",
+      "firstName": "New",
+      "lastName": "km",
+      "email": "new@gmail.com",
+      "password": "123456",
+      "role": "admin",
+      "cart": [
+        {
+          "productId": "1",
+          "name": "Home Kit 25/26 - Lamine Yamal Edition",
+          "category": "kids_kits",
+          "price_inr": 9500,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ5216-456_431720906_D_A_1X1_2.jpg?v=1751429539&width=823",
+          "size": "S",
+          "quantity": 1,
+          "materials": "100% Recycled Polyester",
+          "care_instructions": "Machine wash cold, do not bleach",
+          "addedDate": "2025-11-10T13:38:23.823Z"
+        }
+      ],
+      "wishlist": [],
+      "orders": [],
+      "shippingAddress": {},
+      "createdAt": "2025-11-10T08:19:44.887Z",
+      "updatedAt": "2025-11-10T17:43:55.918Z",
+      "status": "active"
+    },
+    {
+      "id": "user_1762782101688_77f13",
+      "firstName": "barca",
+      "lastName": "off",
+      "email": "barca@gmail.com",
+      "password": "123456",
+      "role": "user",
+      "status": "active",
+      "cart": [],
+      "wishlist": [],
+      "orders": [
+        "FCB1762782228392QEC4V"
+      ],
+      "shippingAddress": {
+        "fullName": "saalim",
+        "email": "barca@gmail.com",
+        "phone": "8089749450",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594"
+      },
+      "createdAt": "2025-11-10T13:41:41.688Z",
+      "updatedAt": "2025-11-10T13:41:41.688Z"
+    },
+    {
+      "id": "user_1762783193563_bogsm",
+      "firstName": "ronaldo",
+      "lastName": "cr",
+      "email": "rono@gmail.com",
+      "password": "123456",
+      "role": "user",
+      "status": "active",
+      "cart": [],
+      "wishlist": [],
+      "orders": [
+        "FCB1762783266305MSTOB",
+        "FCB1762788299115N0TP4",
+        "FCB1762789413533YMEP8",
+        "FCB17627897540347QEZ3"
+      ],
+      "shippingAddress": {
+        "fullName": "rono",
+        "email": "rono@gmail.com",
+        "phone": "9961156111",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594"
+      },
+      "items": [],
+      "createdAt": "2025-11-10T13:59:53.563Z",
+      "updatedAt": "2025-11-10T13:59:53.563Z"
     }
   ],
   "orders": [
     {
-      "id": "FCB1762524152723Q4AGX",
-      "userId": "bd23",
-      "items": [
-        {
-          "productId": "4",
-          "name": "Home Kit 25/26 - Women's Player Version",
-          "category": "kids_kits",
-          "price_inr": 10500,
-          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FE70420026_1_2ucl.jpg?v=1751429913&width=823",
-          "size": "S",
-          "quantity": 1,
-          "materials": "Advanced Polyester Blend",
-          "care_instructions": "Professional cleaning recommended",
-          "addedDate": "2025-11-07T14:00:41.574Z"
-        }
-      ],
-      "shippingInfo": {
-        "fullName": "saalim",
-        "email": "mbappe123@gmail.com",
-        "phone": "8089749450",
-        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
-        "city": "Palakkad",
-        "state": "Kerala",
-        "pincode": "678594",
-        "country": "India"
-      },
-      "paymentMethod": "cod",
-      "orderNotes": "",
-      "status": "Cancelled",
-      "paymentStatus": "pending",
-      "subtotal": 10500,
-      "shipping": 0,
-      "tax": 1890,
-      "total": 12390,
-      "createdAt": "2025-11-07T14:02:32.723Z",
-      "updatedAt": "2025-11-07T14:02:32.723Z"
-    },
-    {
-      "id": "FCB1762524771334V2IG8",
-      "userId": "bd23",
-      "items": [
-        {
-          "productId": "1",
-          "name": "FC Barcelona Hoodie - Navy Blue",
-          "category": "apparel",
-          "price_inr": 6200,
-          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_2025838-2.jpg?v=1752663717&width=1200",
-          "size": "S",
-          "quantity": 1,
-          "materials": "Cotton Blend",
-          "care_instructions": "Machine wash cold",
-          "addedDate": "2025-11-07T14:12:36.781Z"
-        }
-      ],
-      "shippingInfo": {
-        "fullName": "saalim",
-        "email": "mbappe123@gmail.com",
-        "phone": "8089749450",
-        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
-        "city": "Palakkad",
-        "state": "Kerala",
-        "pincode": "678594",
-        "country": "India"
-      },
-      "paymentMethod": "cod",
-      "orderNotes": "",
-      "status": "pending",
-      "paymentStatus": "pending",
-      "subtotal": 6200,
-      "shipping": 0,
-      "tax": 1116,
-      "total": 7316,
-      "createdAt": "2025-11-07T14:12:51.334Z",
-      "updatedAt": "2025-11-07T14:12:51.334Z"
-    },
-    {
       "id": "FCB1762529120348SC4HU",
-      "userId": "bd23",
+      "userId": null,
       "items": [
         {
           "productId": "2",
@@ -1317,18 +1254,18 @@
       },
       "paymentMethod": "cod",
       "orderNotes": "",
-      "status": "pending",
+      "status": "confirmed",
       "paymentStatus": "pending",
       "subtotal": 16200,
       "shipping": 0,
       "tax": 2916,
       "total": 19116,
       "createdAt": "2025-11-07T15:25:20.348Z",
-      "updatedAt": "2025-11-07T15:25:20.348Z"
+      "updatedAt": "2025-11-10T07:13:28.075Z"
     },
     {
       "id": "FCB1762529493224QJP5B",
-      "userId": "bd23",
+      "userId": null,
       "items": [
         {
           "productId": "5",
@@ -1355,170 +1292,18 @@
       },
       "paymentMethod": "cod",
       "orderNotes": "",
-      "status": "pending",
+      "status": "confirmed",
       "paymentStatus": "pending",
       "subtotal": 8200,
       "shipping": 0,
       "tax": 1476,
       "total": 9676,
       "createdAt": "2025-11-07T15:31:33.224Z",
-      "updatedAt": "2025-11-07T15:31:33.224Z"
-    },
-    {
-      "id": "FCB17625309986890KH8K",
-      "userId": "bd23",
-      "items": [
-        {
-          "productId": "3",
-          "name": "Home Kit 25/26 - Classic Edition",
-          "category": "kids_kits",
-          "price_inr": 8700,
-          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/lamineyamal-ucl_7c9afdfb-cfe5-43ff-bf30-b74e4e5b837b.webp?v=1752684023&width=823",
-          "size": "S",
-          "quantity": 2,
-          "materials": "100% Polyester",
-          "care_instructions": "Machine washable",
-          "addedDate": "2025-11-07T15:50:55.473Z"
-        }
-      ],
-      "shippingInfo": {
-        "fullName": "saalim",
-        "email": "mbappe123@gmail.com",
-        "phone": "8089749450",
-        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
-        "city": "Palakkad",
-        "state": "Kerala",
-        "pincode": "678594",
-        "country": "India"
-      },
-      "paymentMethod": "cod",
-      "orderNotes": "",
-      "status": "pending",
-      "paymentStatus": "pending",
-      "subtotal": 17400,
-      "shipping": 0,
-      "tax": 3132,
-      "total": 20532,
-      "createdAt": "2025-11-07T15:56:38.689Z",
-      "updatedAt": "2025-11-07T15:56:38.689Z"
-    },
-    {
-      "id": "FCB1762531030424MY9Z7",
-      "userId": "bd23",
-      "items": [
-        {
-          "productId": "4",
-          "name": "Home Kit 25/26 - Women's Player Version",
-          "category": "kids_kits",
-          "price_inr": 10500,
-          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FE70420026_1_2ucl.jpg?v=1751429913&width=823",
-          "size": "S",
-          "quantity": 1,
-          "materials": "Advanced Polyester Blend",
-          "care_instructions": "Professional cleaning recommended",
-          "addedDate": "2025-11-07T15:57:04.022Z"
-        }
-      ],
-      "shippingInfo": {
-        "fullName": "saalim",
-        "email": "mbappe123@gmail.com",
-        "phone": "8089749450",
-        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
-        "city": "Palakkad",
-        "state": "Kerala",
-        "pincode": "678594",
-        "country": "India"
-      },
-      "paymentMethod": "cod",
-      "orderNotes": "",
-      "status": "pending",
-      "paymentStatus": "pending",
-      "subtotal": 10500,
-      "shipping": 0,
-      "tax": 1890,
-      "total": 12390,
-      "createdAt": "2025-11-07T15:57:10.424Z",
-      "updatedAt": "2025-11-07T15:57:10.424Z"
-    },
-    {
-      "id": "FCB1762531795675RMILC",
-      "userId": "3891",
-      "items": [
-        {
-          "productId": "3",
-          "name": "Home Kit 25/26 - Classic Edition",
-          "category": "kids_kits",
-          "price_inr": 8700,
-          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/lamineyamal-ucl_7c9afdfb-cfe5-43ff-bf30-b74e4e5b837b.webp?v=1752684023&width=823",
-          "size": "S",
-          "quantity": 1,
-          "materials": "100% Polyester",
-          "care_instructions": "Machine washable",
-          "addedDate": "2025-11-07T16:09:22.958Z"
-        }
-      ],
-      "shippingInfo": {
-        "fullName": "saalim",
-        "email": "saalim@gmail.com",
-        "phone": "8089749450",
-        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
-        "city": "Palakkad",
-        "state": "Kerala",
-        "pincode": "678594",
-        "country": "India"
-      },
-      "paymentMethod": "cod",
-      "orderNotes": "",
-      "status": "pending",
-      "paymentStatus": "pending",
-      "subtotal": 8700,
-      "shipping": 0,
-      "tax": 1566,
-      "total": 10266,
-      "createdAt": "2025-11-07T16:09:55.675Z",
-      "updatedAt": "2025-11-07T16:09:55.675Z"
-    },
-    {
-      "id": "FCB1762532086359CUBGT",
-      "userId": "ba00",
-      "items": [
-        {
-          "productId": "3",
-          "name": "Home Kit 25/26 - Classic Edition",
-          "category": "kids_kits",
-          "price_inr": 8700,
-          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/lamineyamal-ucl_7c9afdfb-cfe5-43ff-bf30-b74e4e5b837b.webp?v=1752684023&width=823",
-          "size": "S",
-          "quantity": 2,
-          "materials": "100% Polyester",
-          "care_instructions": "Machine washable",
-          "addedDate": "2025-11-07T16:14:25.542Z"
-        }
-      ],
-      "shippingInfo": {
-        "fullName": "Bhavya",
-        "email": "bhavyasuresh@gmail.com",
-        "phone": "8089749450",
-        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
-        "city": "Palakkad",
-        "state": "Kerala",
-        "pincode": "678594",
-        "country": "India"
-      },
-      "paymentMethod": "cod",
-      "orderNotes": "",
-      "status": "pending",
-      "paymentStatus": "pending",
-      "subtotal": 17400,
-      "shipping": 0,
-      "tax": 3132,
-      "total": 20532,
-      "createdAt": "2025-11-07T16:14:46.359Z",
-      "updatedAt": "2025-11-07T16:14:46.359Z"
+      "updatedAt": "2025-11-10T07:13:30.337Z"
     },
     {
       "id": "FCB1762532126042U578Z",
-      "userId": "ba00",
+      "userId": null,
       "items": [
         {
           "productId": "3",
@@ -1553,6 +1338,529 @@
       "total": 5509,
       "createdAt": "2025-11-07T16:15:26.042Z",
       "updatedAt": "2025-11-07T16:15:26.042Z"
+    },
+    {
+      "id": "FCB17625376279328CBAV",
+      "userId": null,
+      "items": [
+        {
+          "productId": "14",
+          "name": "Away Kit 25/26 - Special Tribute",
+          "category": "kids_kits",
+          "price_inr": 11000,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Imagen21_c534efa6-44a0-470d-8c83-e0f8cbcefdad.jpg?v=1755588297&width=823",
+          "size": "M",
+          "quantity": 1,
+          "materials": "100% Polyester",
+          "care_instructions": "Machine wash cold",
+          "addedDate": "2025-11-07T17:46:49.881Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "saalim",
+        "email": "mbappe123@gmail.com",
+        "phone": "8089749450",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594",
+        "country": "India"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "subtotal": 11000,
+      "shipping": 0,
+      "tax": 1980,
+      "total": 12980,
+      "createdAt": "2025-11-07T17:47:07.932Z",
+      "updatedAt": "2025-11-07T17:47:07.932Z"
+    },
+    {
+      "id": "FCB1762574682984L13FW",
+      "userId": null,
+      "items": [
+        {
+          "productId": "3",
+          "name": "FC Barcelona Polo Shirt - Classic Edition",
+          "category": "apparel",
+          "price_inr": 4500,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BZ3A9248.jpg?v=1760351511&width=823",
+          "size": "S",
+          "quantity": 1,
+          "materials": "Cotton Pique",
+          "care_instructions": "Machine wash cold",
+          "addedDate": "2025-11-08T04:04:34.683Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "saalim",
+        "email": "mbappe123@gmail.com",
+        "phone": "8089749450",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594",
+        "country": "India"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "subtotal": 4500,
+      "shipping": 199,
+      "tax": 810,
+      "total": 5509,
+      "createdAt": "2025-11-08T04:04:42.984Z",
+      "updatedAt": "2025-11-08T04:04:42.984Z"
+    },
+    {
+      "id": "FCB1762575379169NH4R1",
+      "userId": null,
+      "items": [
+        {
+          "productId": "3",
+          "name": "Home Kit 25/26 - Classic Edition",
+          "category": "kids_kits",
+          "price_inr": 8700,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/lamineyamal-ucl_7c9afdfb-cfe5-43ff-bf30-b74e4e5b837b.webp?v=1752684023&width=823",
+          "size": "S",
+          "quantity": 1,
+          "materials": "100% Polyester",
+          "care_instructions": "Machine washable",
+          "addedDate": "2025-11-08T04:16:11.702Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "saalim",
+        "email": "mbappe123@gmail.com",
+        "phone": "8089749450",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594",
+        "country": "India"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "subtotal": 8700,
+      "shipping": 0,
+      "tax": 1566,
+      "total": 10266,
+      "createdAt": "2025-11-08T04:16:19.169Z",
+      "updatedAt": "2025-11-08T04:16:19.169Z"
+    },
+    {
+      "id": "FCB1762575458300YH5NB",
+      "userId": null,
+      "items": [
+        {
+          "productId": "3",
+          "name": "FC Barcelona Polo Shirt - Classic Edition",
+          "category": "apparel",
+          "price_inr": 4500,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BZ3A9248.jpg?v=1760351511&width=823",
+          "size": "S",
+          "quantity": 1,
+          "materials": "Cotton Pique",
+          "care_instructions": "Machine wash cold",
+          "addedDate": "2025-11-08T04:17:00.119Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "saalim",
+        "email": "mbappe123@gmail.com",
+        "phone": "8089749450",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594",
+        "country": "India"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "subtotal": 4500,
+      "shipping": 199,
+      "tax": 810,
+      "total": 5509,
+      "createdAt": "2025-11-08T04:17:38.300Z",
+      "updatedAt": "2025-11-08T04:17:38.300Z"
+    },
+    {
+      "id": "FCB1762575478383EJK07",
+      "userId": null,
+      "items": [
+        {
+          "productId": "3",
+          "name": "FC Barcelona Polo Shirt - Classic Edition",
+          "category": "apparel",
+          "price_inr": 4500,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BZ3A9248.jpg?v=1760351511&width=823",
+          "size": "S",
+          "quantity": 1,
+          "materials": "Cotton Pique",
+          "care_instructions": "Machine wash cold",
+          "addedDate": "2025-11-08T04:17:51.100Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "saalim",
+        "email": "mbappe123@gmail.com",
+        "phone": "8089749450",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594",
+        "country": "India"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "subtotal": 4500,
+      "shipping": 199,
+      "tax": 810,
+      "total": 5509,
+      "createdAt": "2025-11-08T04:17:58.383Z",
+      "updatedAt": "2025-11-08T04:17:58.383Z"
+    },
+    {
+      "id": "FCB1762575761123T9M64",
+      "userId": "user_1762575665752_xep9g",
+      "items": [
+        {
+          "productId": "4",
+          "name": "Home Kit 25/26 - Women's Player Version",
+          "category": "kids_kits",
+          "price_inr": 10500,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FE70420026_1_2ucl.jpg?v=1751429913&width=823",
+          "size": "S",
+          "quantity": 2,
+          "materials": "Advanced Polyester Blend",
+          "care_instructions": "Professional cleaning recommended",
+          "addedDate": "2025-11-08T04:21:30.037Z"
+        },
+        {
+          "productId": "3",
+          "name": "Home Kit 25/26 - Classic Edition",
+          "category": "kids_kits",
+          "price_inr": 8700,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/lamineyamal-ucl_7c9afdfb-cfe5-43ff-bf30-b74e4e5b837b.webp?v=1752684023&width=823",
+          "size": "S",
+          "quantity": 1,
+          "materials": "100% Polyester",
+          "care_instructions": "Machine washable",
+          "addedDate": "2025-11-08T04:21:51.320Z"
+        },
+        {
+          "productId": "5",
+          "name": "Home Kit 25/26 - Youth Edition",
+          "category": "kids_kits",
+          "price_inr": 8200,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Disenosintitulo_38_e900aa6e-6f22-481e-9d0c-27cfa5b14cdd.jpg?v=1758635058&width=823",
+          "size": "M",
+          "quantity": 1,
+          "materials": "100% Cotton-Poly Blend",
+          "care_instructions": "Machine wash gentle",
+          "addedDate": "2025-11-08T04:21:55.452Z"
+        },
+        {
+          "productId": "3",
+          "name": "Home Kit 25/26 - Classic Edition",
+          "category": "kids_kits",
+          "price_inr": 8700,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/lamineyamal-ucl_7c9afdfb-cfe5-43ff-bf30-b74e4e5b837b.webp?v=1752684023&width=823",
+          "size": "M",
+          "quantity": 1,
+          "materials": "100% Polyester",
+          "care_instructions": "Machine washable",
+          "addedDate": "2025-11-08T04:21:57.869Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "m",
+        "email": "leoMessi@gmail.com",
+        "phone": "8089749455",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "Cancelled",
+      "paymentStatus": "pending",
+      "subtotal": 46600,
+      "shipping": 0,
+      "tax": 8388,
+      "total": 54988,
+      "createdAt": "2025-11-08T04:22:41.123Z",
+      "updatedAt": "2025-11-08T04:22:41.123Z"
+    },
+    {
+      "id": "FCB1762584389902T09T1",
+      "userId": "user_1762575665752_xep9g",
+      "items": [
+        {
+          "productId": "4",
+          "name": "Home Kit 25/26 - Women's Player Version",
+          "category": "kids_kits",
+          "price_inr": 10500,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FE70420026_1_2ucl.jpg?v=1751429913&width=823",
+          "size": "S",
+          "quantity": 2,
+          "materials": "Advanced Polyester Blend",
+          "care_instructions": "Professional cleaning recommended",
+          "addedDate": "2025-11-08T06:45:58.202Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "m",
+        "email": "leoMessi@gmail.com",
+        "phone": "8089749455",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "subtotal": 21000,
+      "shipping": 0,
+      "tax": 3780,
+      "total": 24780,
+      "createdAt": "2025-11-08T06:46:29.902Z",
+      "updatedAt": "2025-11-08T06:46:29.902Z"
+    },
+    {
+      "id": "FCB1762670061527E3TXG",
+      "userId": null,
+      "items": [
+        {
+          "productId": "1",
+          "name": "Home Kit 25/26 - Lamine Yamal Edition",
+          "category": "kids_kits",
+          "price_inr": 9500,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ5216-456_431720906_D_A_1X1_2.jpg?v=1751429539&width=823",
+          "size": "S",
+          "quantity": 1,
+          "materials": "100% Recycled Polyester",
+          "care_instructions": "Machine wash cold, do not bleach",
+          "addedDate": "2025-11-09T06:33:52.410Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "saalim",
+        "email": "mbappe123@gmail.com",
+        "phone": "8089749450",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594",
+        "country": "India"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "subtotal": 9500,
+      "shipping": 0,
+      "tax": 1710,
+      "total": 11210,
+      "createdAt": "2025-11-09T06:34:21.527Z",
+      "updatedAt": "2025-11-09T06:34:21.527Z"
+    },
+    {
+      "id": "FCB1762782228392QEC4V",
+      "userId": "user_1762782101688_77f13",
+      "items": [
+        {
+          "productId": "2",
+          "name": "FC Barcelona Tracksuit - Red & Blue",
+          "category": "apparel",
+          "price_inr": 9800,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_20252085_3d36b0fc-ea9c-4dbc-9dbd-e652ea9cca20.jpg?v=1755785933&width=823",
+          "size": "S",
+          "quantity": 1,
+          "materials": "Polyester Blend",
+          "care_instructions": "Machine wash gentle",
+          "addedDate": "2025-11-10T13:43:06.658Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "saalim",
+        "email": "barca@gmail.com",
+        "phone": "8089749450",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "confirmed",
+      "paymentStatus": "pending",
+      "subtotal": 9800,
+      "shipping": 0,
+      "tax": 1764,
+      "total": 11564,
+      "createdAt": "2025-11-10T13:43:48.392Z",
+      "updatedAt": "2025-11-10T13:45:07.123Z"
+    },
+    {
+      "id": "FCB1762783266305MSTOB",
+      "userId": "user_1762783193563_bogsm",
+      "items": [
+        {
+          "productId": "1",
+          "name": "Home Kit 25/26 - Lamine Yamal Edition",
+          "category": "kids_kits",
+          "price_inr": 9500,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ5216-456_431720906_D_A_1X1_2.jpg?v=1751429539&width=823",
+          "size": "M",
+          "quantity": 1,
+          "materials": "100% Recycled Polyester",
+          "care_instructions": "Machine wash cold, do not bleach",
+          "addedDate": "2025-11-10T14:00:35.338Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "rono",
+        "email": "rono@gmail.com",
+        "phone": "9961156111",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "shipped",
+      "paymentStatus": "pending",
+      "subtotal": 9500,
+      "shipping": 0,
+      "tax": 1710,
+      "total": 11210,
+      "createdAt": "2025-11-10T14:01:06.305Z",
+      "updatedAt": "2025-11-10T14:02:48.503Z"
+    },
+    {
+      "id": "FCB1762788299115N0TP4",
+      "userId": "user_1762783193563_bogsm",
+      "items": [
+        {
+          "productId": "3",
+          "name": "Home Kit 25/26 - Classic Edition",
+          "category": "kids_kits",
+          "price_inr": 8700,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/lamineyamal-ucl_7c9afdfb-cfe5-43ff-bf30-b74e4e5b837b.webp?v=1752684023&width=823",
+          "size": "S",
+          "quantity": 1,
+          "materials": "100% Polyester",
+          "care_instructions": "Machine washable",
+          "addedDate": "2025-11-10T15:22:57.090Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "rono",
+        "email": "rono@gmail.com",
+        "phone": "9961156111",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "confirmed",
+      "paymentStatus": "pending",
+      "subtotal": 8700,
+      "shipping": 0,
+      "tax": 1566,
+      "total": 10266,
+      "createdAt": "2025-11-10T15:24:59.115Z",
+      "updatedAt": "2025-11-10T15:44:23.596Z"
+    },
+    {
+      "id": "FCB1762789413533YMEP8",
+      "userId": "user_1762783193563_bogsm",
+      "items": [
+        {
+          "productId": "2",
+          "name": "FC Barcelona Tracksuit - Red & Blue",
+          "category": "apparel",
+          "price_inr": 9800,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_20252085_3d36b0fc-ea9c-4dbc-9dbd-e652ea9cca20.jpg?v=1755785933&width=823",
+          "size": "S",
+          "quantity": 1,
+          "materials": "Polyester Blend",
+          "care_instructions": "Machine wash gentle",
+          "addedDate": "2025-11-10T15:43:29.249Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "rono",
+        "email": "rono@gmail.com",
+        "phone": "9961156111",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "processing",
+      "paymentStatus": "pending",
+      "subtotal": 9800,
+      "shipping": 0,
+      "tax": 1764,
+      "total": 11564,
+      "createdAt": "2025-11-10T15:43:33.533Z",
+      "updatedAt": "2025-11-10T15:44:19.730Z"
+    },
+    {
+      "id": "FCB17627897540347QEZ3",
+      "userId": "user_1762783193563_bogsm",
+      "items": [
+        {
+          "productId": "3",
+          "name": "Home Kit 25/26 - Classic Edition",
+          "category": "kids_kits",
+          "price_inr": 8700,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/lamineyamal-ucl_7c9afdfb-cfe5-43ff-bf30-b74e4e5b837b.webp?v=1752684023&width=823",
+          "size": "S",
+          "quantity": 1,
+          "materials": "100% Polyester",
+          "care_instructions": "Machine washable",
+          "addedDate": "2025-11-10T15:48:13.783Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "rono",
+        "email": "rono@gmail.com",
+        "phone": "9961156111",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "cancelled",
+      "paymentStatus": "pending",
+      "subtotal": 8700,
+      "shipping": 0,
+      "tax": 1566,
+      "total": 10266,
+      "createdAt": "2025-11-10T15:49:14.034Z",
+      "updatedAt": "2025-11-10T15:49:14.034Z"
     }
   ]
 }
