@@ -3,6 +3,7 @@ import { useParams, Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { FiShoppingCart, FiHeart, FiShare2, FiArrowLeft, FiStar, FiTruck, FiShield, FiRefreshCw, FiCheck } from "react-icons/fi";
 import toast, { Toaster } from "react-hot-toast";
+import { usersAPI, productsAPI } from "../api";
 
 export default function ProductDetails() {
   const { category, id } = useParams();
@@ -35,7 +36,7 @@ export default function ProductDetails() {
       checkIfInCart(user);
     } else {
       // Fallback: Get user from API (you might want to implement proper authentication)
-      axios.get("http://localhost:3000/users")
+      axios.get(usersAPI)
         .then(res => {
           const users = res.data;
           if (users.length > 0) {
@@ -52,7 +53,7 @@ export default function ProductDetails() {
   useEffect(() => {
     setLoading(true);
     axios
-      .get("http://localhost:3000/products")
+      .get(productsAPI)
       .then((res) => {
         const categoryData = res.data[currentCategory] || [];
         const found = categoryData.find((p) => String(p.id) === String(id));
@@ -75,7 +76,7 @@ export default function ProductDetails() {
   useEffect(() => {
     if (product) {
       axios
-        .get("http://localhost:3000/products")
+        .get(productsAPI)
         .then((res) => {
           const all = res.data[currentCategory] || [];
           const similar = all.filter(
@@ -108,7 +109,7 @@ export default function ProductDetails() {
 
   const updateUserInDatabase = async (updatedUser) => {
     try {
-      await axios.put(`http://localhost:3000/users/${updatedUser.id}`, updatedUser);
+      await axios.put(`${usersAPI}/${updatedUser.id}`, updatedUser);
       setCurrentUser(updatedUser);
       localStorage.setItem("currentUser", JSON.stringify(updatedUser));
       return true;
@@ -395,18 +396,20 @@ export default function ProductDetails() {
         </Link>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
-          {/* Product Images */}
-          <div className="space-y-4">
-            {/* Main Image */}
-            <div className="relative overflow-hidden rounded-2xl bg-white shadow-2xl transform hover:scale-[1.02] transition-transform duration-300">
-              <img
-                src={productImages[selectedImage]}
-                alt={product.name}
-                className="w-full h-100 lg:h-[500px] object-contain"
-              />
-              <div className="absolute top-4 right-4 flex space-x-2">
+
+<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-12">
+    {/* Product Images */}
+    <div className="space-y-0">
+      {/* Main Image */}
+      <div className="rounded-2xl overflow-hidden">
+        <img
+          src={productImages[selectedImage]}
+          alt={product.name}
+          className="w-4/5 h-auto object-cover mx-auto"
+        />
+      </div>
+              {/* <div className="absolute top-4 right-4 flex space-x-2">
                 <button 
                   onClick={handleAddToWishlist}
                   disabled={!product.status}
@@ -420,8 +423,7 @@ export default function ProductDetails() {
                 >
                   <FiShare2 className="w-5 h-5 text-gray-700" />
                 </button>
-              </div>
-            </div>
+              </div> */}
 
             {/* Thumbnail Gallery */}
             <div className="flex space-x-3 overflow-x-auto pb-2">

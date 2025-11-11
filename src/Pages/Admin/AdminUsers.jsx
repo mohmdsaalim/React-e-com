@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FiSearch, FiFilter, FiEye, FiEdit, FiTrash2, FiUser, FiMail, FiCalendar, FiShoppingBag, FiCheckCircle, FiXCircle, FiPlus, FiDownload } from 'react-icons/fi';
 import axios from 'axios';
 import toast, { Toaster } from 'react-hot-toast';
+import { usersAPI } from '../../api';
 
 const UserManagement = () => {
   const [users, setUsers] = useState([]);
@@ -36,7 +37,7 @@ const UserManagement = () => {
   const fetchUsers = async () => {
     try {
       setLoading(true);
-      const response = await axios.get('http://localhost:3000/users');
+      const response = await axios.get(usersAPI);
       setUsers(response.data);
     } catch (error) {
       console.error('Error fetching users:', error);
@@ -102,7 +103,7 @@ const UserManagement = () => {
   // User actions
   const updateUserStatus = async (userId, newStatus) => {
     try {
-      await axios.patch(`http://localhost:3000/users/${userId}`, {
+      await axios.patch(`${usersAPI}/${userId}`, {
         status: newStatus,
         updatedAt: new Date().toISOString()
       });
@@ -120,7 +121,7 @@ const UserManagement = () => {
 
   const updateUserRole = async (userId, newRole) => {
     try {
-      await axios.patch(`http://localhost:3000/users/${userId}`, {
+      await axios.patch(`${usersAPI}/${userId}`, {
         role: newRole,
         updatedAt: new Date().toISOString()
       });
@@ -140,7 +141,7 @@ const UserManagement = () => {
     if (!window.confirm('Are you sure you want to delete this user? This action cannot be undone.')) return;
 
     try {
-      await axios.delete(`http://localhost:3000/users/${userId}`);
+      await axios.delete(`${usersAPI}/${userId}`);
       setUsers(prev => prev.filter(user => user.id !== userId));
       setSelectedUsers(prev => prev.filter(id => id !== userId));
       toast.success('User deleted successfully');
@@ -158,7 +159,7 @@ const UserManagement = () => {
 
     try {
       const updatePromises = selectedUsers.map(userId =>
-        axios.patch(`http://localhost:3000/users/${userId}`, {
+        axios.patch(`${usersAPI}/${userId}`, {
           status: newStatus,
           updatedAt: new Date().toISOString()
         })
@@ -180,7 +181,7 @@ const UserManagement = () => {
 
   const addNewUser = async (userData) => {
     try {
-      const newUser = {
+      const users= {
         id: `user_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
         firstName: userData.name.split(' ')[0],
         lastName: userData.name.split(' ').slice(1).join(' ') || '',
@@ -196,7 +197,7 @@ const UserManagement = () => {
         updatedAt: new Date().toISOString()
       };
 
-      const response = await axios.post('http://localhost:3000/users', newUser);
+      const response = await axios.post(usersAPI, users);
       setUsers(prev => [...prev, response.data]);
       setShowAddUser(false);
       toast.success('User created successfully');

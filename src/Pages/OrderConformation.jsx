@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import axios from "axios";
 import { FiCheck, FiTruck, FiHome, FiShoppingBag } from "react-icons/fi";
+import { ordersAPI } from "../api";
 
 export default function OrderConfirmation() {
   const { orderId } = useParams();
@@ -15,7 +16,7 @@ export default function OrderConfirmation() {
 
   const fetchOrderDetails = async () => {
     try {
-      const response = await axios.get(`http://localhost:3000/orders/${orderId}`);
+      const response = await axios.get(`${ordersAPI}/${orderId}`);
       setOrder(response.data);
     } catch (error) {
       console.error("Error fetching order details:", error);

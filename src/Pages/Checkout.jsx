@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import { ordersAPI, usersAPI } from "../api";
 import { 
   FiArrowLeft, 
   FiCreditCard, 
@@ -121,7 +122,7 @@ export default function Checkout() {
   // Create order in database
   const createOrder = async (orderData) => {
     try {
-      const response = await axios.post("http://localhost:3000/orders", orderData);
+      const response = await axios.post(ordersAPI, orderData);
       return response.data;
     } catch (error) {
       console.error("Error creating order:", error);
@@ -132,7 +133,7 @@ export default function Checkout() {
   // Update user in database
   const updateUserInDatabase = async (updatedUser) => {
     try {
-      await axios.put(`http://localhost:3000/users/${updatedUser.id}`, updatedUser);
+      await axios.put(`${usersAPI}/${updatedUser.id}`, updatedUser);
       localStorage.setItem("currentUser", JSON.stringify(updatedUser));
       return true;
     } catch (error) {

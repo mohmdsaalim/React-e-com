@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { FiUser, FiMail, FiLogOut, FiShoppingBag, FiClock, FiCheckCircle, FiXCircle, FiEdit, FiMapPin, FiPhone, FiPackage, FiTruck } from "react-icons/fi";
 import { IoShirtOutline } from "react-icons/io5";
 import { useAuth } from "../Context/AuthContext";
+import { ordersAPI, usersAPI } from "../api";
 
 const ProfilePage = () => {
   const { user, logout } = useAuth();
@@ -30,7 +31,7 @@ const ProfilePage = () => {
       setLoadingOrders(true);
       
       // Fetch all orders and filter by user email
-      const res = await fetch(`http://localhost:3000/orders`);
+      const res = await fetch(ordersAPI);
       const allOrders = await res.json();
       
       // Filter orders by user email
@@ -83,7 +84,7 @@ const ProfilePage = () => {
     if (!window.confirm("Are you sure you want to cancel this order?")) return;
 
     try {
-      await fetch(`http://localhost:3000/orders/${orderId}`, {
+      await fetch(`${ordersAPI}/${orderId}`, {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ status: "cancelled" }), // lowercase to match your system
@@ -112,7 +113,7 @@ const ProfilePage = () => {
       localStorage.setItem("currentUser", JSON.stringify({ ...user, ...editForm }));
       
       // Also update in database
-      const response = await fetch(`http://localhost:3000/users/${user.id}`, {
+      const response = await fetch(`${usersAPI}/${user.id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",

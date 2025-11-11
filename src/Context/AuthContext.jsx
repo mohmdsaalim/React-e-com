@@ -285,6 +285,7 @@
 
 import React, { createContext, useContext, useState, useEffect } from "react";
 import axios from "axios";
+import { usersAPI } from "../api";
 
 const AuthContext = createContext();
 
@@ -316,7 +317,7 @@ export const AuthProvider = ({ children }) => {
   // Check if email already exists
   const checkEmailExists = async (email) => {
     try {
-      const response = await axios.get(`http://localhost:3000/users?email=${email}`);
+      const response = await axios.get(`${usersAPI}?email=${email}`);
       return response.data.length > 0;
     } catch (error) {
       console.error('Error checking email:', error);
@@ -352,7 +353,7 @@ export const AuthProvider = ({ children }) => {
       };
 
       // Create new user
-      const response = await axios.post('http://localhost:3000/users', newUser);
+      const response = await axios.post(usersAPI, newUser);
       
       setLoading(false);
       return { success: true, user: response.data };
@@ -368,7 +369,7 @@ export const AuthProvider = ({ children }) => {
   const login = async (email, password) => {
     setLoading(true);
     try {
-      const response = await axios.get(`http://localhost:3000/users?email=${email}`);
+      const response = await axios.get(`${usersAPI}?email=${email}`);
       const users = response.data;
       
       if (users.length > 0) {

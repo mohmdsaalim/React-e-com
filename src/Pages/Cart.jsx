@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
+import { usersAPI } from "../api";
 import { 
   FiShoppingCart, 
   FiPackage, 
@@ -42,7 +43,7 @@ export default function Cart() {
         setCartItems(user.cart || []);
       } else {
         // Fallback: Get user from API
-        const response = await axios.get("http://localhost:3000/users");
+        const response = await axios.get(usersAPI);
         const users = response.data;
         if (users.length > 0) {
           const user = users[0]; // For demo, using first user
@@ -65,7 +66,7 @@ export default function Cart() {
   // Update user in database
   const updateUserInDatabase = async (updatedUser) => {
     try {
-      await axios.put(`http://localhost:3000/users/${updatedUser.id}`, updatedUser);
+      await axios.put(`${usersAPI}/${updatedUser.id}`, updatedUser);
       setCurrentUser(updatedUser);
       localStorage.setItem("currentUser", JSON.stringify(updatedUser));
       return true;

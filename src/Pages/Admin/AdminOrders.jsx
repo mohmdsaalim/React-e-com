@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FiSearch, FiFilter, FiEye, FiEdit, FiTrash2, FiPackage, FiTruck, FiCheckCircle, FiXCircle, FiRefreshCw, FiDownload, FiUser, FiMail, FiMapPin } from 'react-icons/fi';
 import axios from 'axios';
 import toast, { Toaster } from 'react-hot-toast';
+import { ordersAPI } from '../../api';
 
 const OrderManagement = () => {
   const [orders, setOrders] = useState([]);
@@ -29,7 +30,7 @@ const OrderManagement = () => {
   const fetchOrders = async () => {
     try {
       setLoading(true);
-      const response = await axios.get('http://localhost:3000/orders');
+      const response = await axios.get(ordersAPI);
       setOrders(response.data);
     } catch (error) {
       console.error('Error fetching orders:', error);
@@ -113,7 +114,7 @@ const OrderManagement = () => {
   // Order actions
   const updateOrderStatus = async (orderId, newStatus) => {
     try {
-      await axios.patch(`http://localhost:3000/orders/${orderId}`, {
+      await axios.patch(`${ordersAPI}/${orderId}`, {
         status: newStatus,
         updatedAt: new Date().toISOString()
       });
@@ -133,7 +134,7 @@ const OrderManagement = () => {
     if (!window.confirm('Are you sure you want to delete this order?')) return;
 
     try {
-      await axios.delete(`http://localhost:3000/orders/${orderId}`);
+      await axios.delete(`${ordersAPI}/${orderId}`);
       setOrders(prev => prev.filter(order => order.id !== orderId));
       toast.success('Order deleted successfully');
     } catch (error) {
@@ -150,7 +151,7 @@ const OrderManagement = () => {
 
     try {
       const updatePromises = selectedOrders.map(orderId =>
-        axios.patch(`http://localhost:3000/orders/${orderId}`, {
+        axios.patch(`${ordersAPI}/${orderId}`, {
           status: newStatus,
           updatedAt: new Date().toISOString()
         })

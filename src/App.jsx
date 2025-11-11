@@ -110,7 +110,7 @@ import ProductDetails from './Pages/ProductDetails';
 import Cart from './Pages/Cart';
 import Newkit from './Pages/category/New-era';
 import ScrollToTop from './componands/ScrollTop';
-import PlayersPage from './Pages/Players';
+import PlayersPage from './Pages/category/Players';
 import Checkout from './Pages/Checkout';
 import OrderConfirmation from './Pages/OrderConformation';
 
@@ -122,6 +122,9 @@ import AdminHome from './Pages/Admin/AdminHome';
 import AdminUsers from './Pages/Admin/AdminUsers';
 import AdminProducts from './Pages/Admin/AdminProducts';
 import AdminOrders from './Pages/Admin/AdminOrders';
+
+
+
 
 
 
@@ -153,14 +156,14 @@ export default function App() {
                           className="custom-scroll-text mb- [-0px] p-4"
                         />
                         <Hero2 className="mt-1" />
-                        <div style={{ height: '600px', position: 'relative', backgroundColor: 'black'}}>
-                          <CircularGallery 
+                        {/* <div style={{ height: '600px', position: 'relative', backgroundColor: 'black'}}> */}
+                          {/* <CircularGallery 
                             bend={1} 
                             textColor="#ffffff" 
                             borderRadius={0} 
                             scrollEase={0.10}  
-                            />
-                        </div>
+                            /> */}
+                        {/* </div> */}
                         <CardSlider2/>
                       </div>
                    
@@ -194,7 +197,7 @@ export default function App() {
         {/* <Route path="/admin/*" element={<AdminLayout />}>
   <Route path="dashboard" element={<AdminHome />} />
   </Route> */}
-    
+  
 
         </Routes>
       </div>

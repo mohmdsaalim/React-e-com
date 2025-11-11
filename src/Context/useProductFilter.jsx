@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { productsAPI } from "../api";
 
 export default function useProductFilter(dataKey) {
   const [product, setProduct] = useState([]);
@@ -9,11 +10,12 @@ export default function useProductFilter(dataKey) {
   const [category, setCategory] = useState("All");
   const [gender, setGender] = useState("All");
   const [sortOrder, setSortOrder] = useState("default");
+  
 
   // Fetch products
   useEffect(() => {
     axios
-      .get("http://localhost:3000/products")
+      .get(productsAPI)
       .then((res) => {
         setProduct(res.data[dataKey] || []);
         setFilteredProducts(res.data[dataKey] || []);

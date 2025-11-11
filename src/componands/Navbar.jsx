@@ -94,16 +94,16 @@ const Navbar = () => {
           {/* Right Icons */}
           <div className="flex items-center gap-4 sm:gap-5">
             <Link
-              to="/language"
+              to=""
               className="hidden sm:flex items-center gap-2 hover:text-[#ffd700] transition-colors"
             >
               <IoGlobeOutline size={20} />
               <span className="text-sm font-semibold">EN</span>
             </Link>
 
-            <Link to="/kits" className="hover:text-[#ffd700] transition-colors">
+            {/* <Link to="/kits" className="hover:text-[#ffd700] transition-colors">
               <FiSearch size={20} />
-            </Link>
+            </Link> */}
 
 
             {/* Conditional User Section proffile and login */}
