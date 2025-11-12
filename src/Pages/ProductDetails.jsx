@@ -454,7 +454,7 @@ export default function ProductDetails() {
               <span className="px-3 py-1 bg-[#004d98]/10 text-[#004d98] text-sm font-medium rounded-full">
                 {product.category}
               </span>
-              <div className="flex items-center space-x-1">
+              {/* <div className="flex items-center space-x-1">
                 {[1, 2, 3, 4, 5].map((star) => (
                   <FiStar
                     key={star}
@@ -462,7 +462,7 @@ export default function ProductDetails() {
                   />
                 ))}
                 <span className="text-sm text-gray-600 ml-1">(4.8)</span>
-              </div>
+              </div> */}
             </div>
 
             {/* Product Title */}

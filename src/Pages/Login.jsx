@@ -142,7 +142,7 @@ const LoginPage = () => {
     if (result.success) {
       toast.success(" Login successful!");
       setTimeout(() => {
-        // ✅ ADD THIS CHECK - Redirect admin to admin panel, user to home
+        //  ADD THIS CHECK - Redirect admin to admin panel, user to home
         if (result.isAdmin) {
           navigate('/admin/Adashboard'); // Admin goes to admin panel
         } else {

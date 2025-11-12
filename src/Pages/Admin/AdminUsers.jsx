@@ -12,7 +12,7 @@ const UserManagement = () => {
   const [roleFilter, setRoleFilter] = useState('all');
   const [selectedUsers, setSelectedUsers] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(10);
+  const [itemsPerPage] = useState(10); //pagination
   const [viewUser, setViewUser] = useState(null);
   const [editUser, setEditUser] = useState(null);
   const [showAddUser, setShowAddUser] = useState(false);

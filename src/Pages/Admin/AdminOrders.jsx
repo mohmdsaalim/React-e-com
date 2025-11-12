@@ -358,7 +358,7 @@ const OrderManagement = () => {
                     checked={selectedOrders.length === currentOrders.length && currentOrders.length > 0}
                     onChange={(e) => {
                       if (e.target.checked) {
-                        setSelectedOrders(currentOrders.map(order => order.id));
+                        setSelectedOrders(currentOrders.reverse().map(order => order.id));
                       } else {
                         setSelectedOrders([]);
                       }
@@ -387,7 +387,7 @@ const OrderManagement = () => {
               </tr>
             </thead>
             <tbody className="bg-white divide-y divide-gray-200">
-              {currentOrders.map((order) => {
+              {currentOrders.reverse().map((order) => {
                 const statusConfig = statusOptions.find(s => s.value === order.status) || statusOptions[0];
                 const StatusIcon = statusConfig.icon;
                 

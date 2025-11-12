@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { productsAPI } from "../../api"
 import { 
   FiPackage, 
   FiPlus, 
@@ -73,7 +72,7 @@ const AdminProducts = () => {
   const fetchProducts = async () => {
     try {
       setLoading(true);
-      const response = await axios.get(productsAPI);
+      const response = await axios.get('http://localhost:3000/products');
       
       // Flatten products from all categories (kids_kits, apparel, new_era)
       const allProducts = [
@@ -156,7 +155,7 @@ const AdminProducts = () => {
     if (!window.confirm('Are you sure you want to delete this product? This action cannot be undone.')) return;
 
     try {
-      await axios.delete(`${productsAPI}/${productId}`);
+      await axios.delete(`http://localhost:3000/products/${productId}`);
       setProducts(prev => prev.filter(product => product.id !== productId));
       setSelectedProducts(prev => prev.filter(id => id !== productId));
       toast.success('Product deleted successfully');
@@ -176,7 +175,7 @@ const AdminProducts = () => {
 
     try {
       const deletePromises = selectedProducts.map(productId =>
-        axios.delete(`${productsAPI}/${productId}`)
+        axios.delete(`http://localhost:3000/products/${productId}`)
       );
 
       await Promise.all(deletePromises);
@@ -215,7 +214,7 @@ const AdminProducts = () => {
       }
 
       // Update the product in the correct collection
-      const response = await axios.patch(`${productsAPI}/${productId}`, {
+      const response = await axios.patch(`http://localhost:3000/${product.collection}/${productId}`, {
         stock_quantity: newStockQuantity,
         status: newStockQuantity > 0
       });
@@ -242,7 +241,7 @@ const AdminProducts = () => {
       const maxId = Math.max(...products.map(p => parseInt(p.id)), 0);
       const newId = maxId + 1;
 
-      const Products = {
+      const newProduct = {
         ...productData,
         id: newId.toString(), // Ensure ID is string to match your data
         status: parseInt(productData.stock_quantity) > 0,
@@ -264,7 +263,7 @@ const AdminProducts = () => {
 
       console.log('Adding to collection:', collection, 'with data:', newProduct);
 
-      const response = await axios.post(`http://localhost:3000/${collection}`, Products);
+      const response = await axios.post(`http://localhost:3000/${collection}`, newProduct);
       
       // Add the collection info to the product for local state management
       const productWithCollection = { ...response.data, collection };

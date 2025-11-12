@@ -1071,32 +1071,7 @@
       "lastName": "leo",
       "email": "leoMessi@gmail.com",
       "password": "123123",
-      "cart": [
-        {
-          "productId": "2",
-          "name": "FC Barcelona Tracksuit - Red & Blue",
-          "category": "apparel",
-          "price_inr": 9800,
-          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_20252085_3d36b0fc-ea9c-4dbc-9dbd-e652ea9cca20.jpg?v=1755785933&width=823",
-          "size": "S",
-          "quantity": 1,
-          "materials": "Polyester Blend",
-          "care_instructions": "Machine wash gentle",
-          "addedDate": "2025-11-11T06:36:22.594Z"
-        },
-        {
-          "productId": "4",
-          "name": "Home Kit 25/26 - Women's Player Version",
-          "category": "kids_kits",
-          "price_inr": 10500,
-          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FE70420026_1_2ucl.jpg?v=1751429913&width=823",
-          "size": "S",
-          "quantity": 1,
-          "materials": "Advanced Polyester Blend",
-          "care_instructions": "Professional cleaning recommended",
-          "addedDate": "2025-11-11T07:53:27.158Z"
-        }
-      ],
+      "cart": [],
       "wishlist": [],
       "orders": [
         "FCB1762575761123T9M64",
@@ -1112,9 +1087,9 @@
         "pincode": "678594"
       },
       "createdAt": "2025-11-08T04:21:05.752Z",
-      "updatedAt": "2025-11-11T11:12:46.386Z",
-      "status": "active",
-      "role": "admin"
+      "updatedAt": "2025-11-12T12:20:44.655Z",
+      "status": "suspended",
+      "role": "customer"
     },
     {
       "id": "user_1762584527042_wzm5t",
@@ -1152,7 +1127,7 @@
       "orders": [],
       "shippingAddress": {},
       "createdAt": "2025-11-08T06:48:47.042Z",
-      "updatedAt": "2025-11-11T08:24:02.459Z",
+      "updatedAt": "2025-11-11T13:02:51.563Z",
       "status": "active",
       "role": "customer"
     },
@@ -1214,7 +1189,20 @@
       "password": "123456",
       "role": "user",
       "status": "active",
-      "cart": [],
+      "cart": [
+        {
+          "productId": "3",
+          "name": "FC Barcelona Polo Shirt - Classic Edition",
+          "category": "apparel",
+          "price_inr": 4500,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BZ3A9248.jpg?v=1760351511&width=823",
+          "size": "M",
+          "quantity": 1,
+          "materials": "Cotton Pique",
+          "care_instructions": "Machine wash cold",
+          "addedDate": "2025-11-12T06:35:24.550Z"
+        }
+      ],
       "wishlist": [],
       "orders": [
         "FCB1762783266305MSTOB",
@@ -1222,7 +1210,8 @@
         "FCB1762789413533YMEP8",
         "FCB17627897540347QEZ3",
         "FCB1762852473833EEM14",
-        "FCB1762852582749U7CI2"
+        "FCB1762852582749U7CI2",
+        "FCB1762929264567934G5"
       ],
       "shippingAddress": {
         "fullName": "rono",
@@ -1238,249 +1227,51 @@
       "updatedAt": "2025-11-10T13:59:53.563Z",
       "phone": "9961156111",
       "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad"
+    },
+    {
+      "id": "user_1762949747932_pypeb",
+      "firstName": "user",
+      "lastName": "non",
+      "email": "user@gmail.com",
+      "password": "123456",
+      "role": "user",
+      "status": "active",
+      "cart": [],
+      "wishlist": [],
+      "orders": [],
+      "shippingAddress": {},
+      "items": [],
+      "createdAt": "2025-11-12T12:15:47.932Z",
+      "updatedAt": "2025-11-12T12:15:47.932Z"
+    },
+    {
+      "id": "user_1762949815253_vszlu",
+      "firstName": "User",
+      "lastName": "User",
+      "email": "User123@gmail.com",
+      "password": "User123@gmail.com",
+      "role": "user",
+      "status": "active",
+      "cart": [],
+      "wishlist": [],
+      "orders": [
+        "FCB1762949986457XUCZM"
+      ],
+      "shippingAddress": {
+        "fullName": "user",
+        "email": "User123@gmail.com",
+        "phone": "8089645321",
+        "address": "kozhikode",
+        "city": "kozhikode",
+        "state": "123456",
+        "pincode": "123456"
+      },
+      "items": [],
+      "createdAt": "2025-11-12T12:16:55.253Z",
+      "updatedAt": "2025-11-12T12:16:55.253Z"
     }
   ],
   "orders": [
-    {
-      "id": "FCB1762529120348SC4HU",
-      "userId": null,
-      "items": [
-        {
-          "productId": "2",
-          "name": "FC Barcelona Tracksuit - Red & Blue",
-          "category": "apparel",
-          "price_inr": 9800,
-          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_20252085_3d36b0fc-ea9c-4dbc-9dbd-e652ea9cca20.jpg?v=1755785933&width=823",
-          "size": "XL",
-          "quantity": 1,
-          "materials": "Polyester Blend",
-          "care_instructions": "Machine wash gentle",
-          "addedDate": "2025-11-07T15:24:07.600Z"
-        },
-        {
-          "productId": "10",
-          "name": "FC Barcelona Full Zip Hoodie - Black",
-          "category": "apparel",
-          "price_inr": 6400,
-          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BARCACapsulaAbril24_FOTO40_3271_18fd3e85-3625-4344-81e6-c88fa4e2b24a.jpg?v=1728370234&width=823",
-          "size": "XL",
-          "quantity": 1,
-          "materials": "Cotton Blend",
-          "care_instructions": "Machine wash cold",
-          "addedDate": "2025-11-07T15:24:32.031Z"
-        }
-      ],
-      "shippingInfo": {
-        "fullName": "saalim",
-        "email": "mbappe123@gmail.com",
-        "phone": "8089749450",
-        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
-        "city": "Palakkad",
-        "state": "Kerala",
-        "pincode": "678594",
-        "country": "India"
-      },
-      "paymentMethod": "cod",
-      "orderNotes": "",
-      "status": "pending",
-      "paymentStatus": "pending",
-      "subtotal": 16200,
-      "shipping": 0,
-      "tax": 2916,
-      "total": 19116,
-      "createdAt": "2025-11-07T15:25:20.348Z",
-      "updatedAt": "2025-11-11T09:12:30.215Z"
-    },
-    {
-      "id": "FCB1762529493224QJP5B",
-      "userId": null,
-      "items": [
-        {
-          "productId": "5",
-          "name": "Home Kit 25/26 - Youth Edition",
-          "category": "kids_kits",
-          "price_inr": 8200,
-          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Disenosintitulo_38_e900aa6e-6f22-481e-9d0c-27cfa5b14cdd.jpg?v=1758635058&width=823",
-          "size": "S",
-          "quantity": 1,
-          "materials": "100% Cotton-Poly Blend",
-          "care_instructions": "Machine wash gentle",
-          "addedDate": "2025-11-07T15:28:08.221Z"
-        }
-      ],
-      "shippingInfo": {
-        "fullName": "saalim",
-        "email": "mbappe123@gmail.com",
-        "phone": "8089749450",
-        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
-        "city": "Palakkad",
-        "state": "Kerala",
-        "pincode": "678594",
-        "country": "India"
-      },
-      "paymentMethod": "cod",
-      "orderNotes": "",
-      "status": "confirmed",
-      "paymentStatus": "pending",
-      "subtotal": 8200,
-      "shipping": 0,
-      "tax": 1476,
-      "total": 9676,
-      "createdAt": "2025-11-07T15:31:33.224Z",
-      "updatedAt": "2025-11-10T07:13:30.337Z"
-    },
-    {
-      "id": "FCB1762532126042U578Z",
-      "userId": null,
-      "items": [
-        {
-          "productId": "3",
-          "name": "Barcelona x New Era Trucker Cap – Black/Gold Crest",
-          "category": "new_era",
-          "price_inr": 4500,
-          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BLMP884079_1.jpg?v=1744630527&width=823",
-          "size": "S",
-          "quantity": 1,
-          "materials": "Polyester Mesh",
-          "care_instructions": "Wipe clean only",
-          "addedDate": "2025-11-07T16:15:22.458Z"
-        }
-      ],
-      "shippingInfo": {
-        "fullName": "Bhavya",
-        "email": "bhavyasuresh@gmail.com",
-        "phone": "8089749450",
-        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
-        "city": "Palakkad",
-        "state": "Kerala",
-        "pincode": "678594",
-        "country": "India"
-      },
-      "paymentMethod": "cod",
-      "orderNotes": "",
-      "status": "pending",
-      "paymentStatus": "pending",
-      "subtotal": 4500,
-      "shipping": 199,
-      "tax": 810,
-      "total": 5509,
-      "createdAt": "2025-11-07T16:15:26.042Z",
-      "updatedAt": "2025-11-07T16:15:26.042Z"
-    },
-    {
-      "id": "FCB17625376279328CBAV",
-      "userId": null,
-      "items": [
-        {
-          "productId": "14",
-          "name": "Away Kit 25/26 - Special Tribute",
-          "category": "kids_kits",
-          "price_inr": 11000,
-          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Imagen21_c534efa6-44a0-470d-8c83-e0f8cbcefdad.jpg?v=1755588297&width=823",
-          "size": "M",
-          "quantity": 1,
-          "materials": "100% Polyester",
-          "care_instructions": "Machine wash cold",
-          "addedDate": "2025-11-07T17:46:49.881Z"
-        }
-      ],
-      "shippingInfo": {
-        "fullName": "saalim",
-        "email": "mbappe123@gmail.com",
-        "phone": "8089749450",
-        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
-        "city": "Palakkad",
-        "state": "Kerala",
-        "pincode": "678594",
-        "country": "India"
-      },
-      "paymentMethod": "cod",
-      "orderNotes": "",
-      "status": "pending",
-      "paymentStatus": "pending",
-      "subtotal": 11000,
-      "shipping": 0,
-      "tax": 1980,
-      "total": 12980,
-      "createdAt": "2025-11-07T17:47:07.932Z",
-      "updatedAt": "2025-11-07T17:47:07.932Z"
-    },
-    {
-      "id": "FCB1762574682984L13FW",
-      "userId": null,
-      "items": [
-        {
-          "productId": "3",
-          "name": "FC Barcelona Polo Shirt - Classic Edition",
-          "category": "apparel",
-          "price_inr": 4500,
-          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BZ3A9248.jpg?v=1760351511&width=823",
-          "size": "S",
-          "quantity": 1,
-          "materials": "Cotton Pique",
-          "care_instructions": "Machine wash cold",
-          "addedDate": "2025-11-08T04:04:34.683Z"
-        }
-      ],
-      "shippingInfo": {
-        "fullName": "saalim",
-        "email": "mbappe123@gmail.com",
-        "phone": "8089749450",
-        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
-        "city": "Palakkad",
-        "state": "Kerala",
-        "pincode": "678594",
-        "country": "India"
-      },
-      "paymentMethod": "cod",
-      "orderNotes": "",
-      "status": "pending",
-      "paymentStatus": "pending",
-      "subtotal": 4500,
-      "shipping": 199,
-      "tax": 810,
-      "total": 5509,
-      "createdAt": "2025-11-08T04:04:42.984Z",
-      "updatedAt": "2025-11-08T04:04:42.984Z"
-    },
-    {
-      "id": "FCB1762575379169NH4R1",
-      "userId": null,
-      "items": [
-        {
-          "productId": "3",
-          "name": "Home Kit 25/26 - Classic Edition",
-          "category": "kids_kits",
-          "price_inr": 8700,
-          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/lamineyamal-ucl_7c9afdfb-cfe5-43ff-bf30-b74e4e5b837b.webp?v=1752684023&width=823",
-          "size": "S",
-          "quantity": 1,
-          "materials": "100% Polyester",
-          "care_instructions": "Machine washable",
-          "addedDate": "2025-11-08T04:16:11.702Z"
-        }
-      ],
-      "shippingInfo": {
-        "fullName": "saalim",
-        "email": "mbappe123@gmail.com",
-        "phone": "8089749450",
-        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
-        "city": "Palakkad",
-        "state": "Kerala",
-        "pincode": "678594",
-        "country": "India"
-      },
-      "paymentMethod": "cod",
-      "orderNotes": "",
-      "status": "pending",
-      "paymentStatus": "pending",
-      "subtotal": 8700,
-      "shipping": 0,
-      "tax": 1566,
-      "total": 10266,
-      "createdAt": "2025-11-08T04:16:19.169Z",
-      "updatedAt": "2025-11-08T04:16:19.169Z"
-    },
     {
       "id": "FCB1762575458300YH5NB",
       "userId": null,
@@ -1517,7 +1308,7 @@
       "tax": 810,
       "total": 5509,
       "createdAt": "2025-11-08T04:17:38.300Z",
-      "updatedAt": "2025-11-08T04:17:38.300Z"
+      "updatedAt": "2025-11-12T09:23:12.946Z"
     },
     {
       "id": "FCB1762575478383EJK07",
@@ -1548,14 +1339,14 @@
       },
       "paymentMethod": "cod",
       "orderNotes": "",
-      "status": "pending",
+      "status": "delivered",
       "paymentStatus": "pending",
       "subtotal": 4500,
       "shipping": 199,
       "tax": 810,
       "total": 5509,
       "createdAt": "2025-11-08T04:17:58.383Z",
-      "updatedAt": "2025-11-08T04:17:58.383Z"
+      "updatedAt": "2025-11-12T06:55:06.682Z"
     },
     {
       "id": "FCB1762575761123T9M64",
@@ -1621,14 +1412,14 @@
       },
       "paymentMethod": "cod",
       "orderNotes": "",
-      "status": "Cancelled",
+      "status": "pending",
       "paymentStatus": "pending",
       "subtotal": 46600,
       "shipping": 0,
       "tax": 8388,
       "total": 54988,
       "createdAt": "2025-11-08T04:22:41.123Z",
-      "updatedAt": "2025-11-08T04:22:41.123Z"
+      "updatedAt": "2025-11-12T06:54:47.267Z"
     },
     {
       "id": "FCB1762584389902T09T1",
@@ -1658,14 +1449,14 @@
       },
       "paymentMethod": "cod",
       "orderNotes": "",
-      "status": "pending",
+      "status": "cancelled",
       "paymentStatus": "pending",
       "subtotal": 21000,
       "shipping": 0,
       "tax": 3780,
       "total": 24780,
       "createdAt": "2025-11-08T06:46:29.902Z",
-      "updatedAt": "2025-11-08T06:46:29.902Z"
+      "updatedAt": "2025-11-12T06:54:37.832Z"
     },
     {
       "id": "FCB1762670061527E3TXG",
@@ -1733,14 +1524,14 @@
       },
       "paymentMethod": "cod",
       "orderNotes": "",
-      "status": "confirmed",
+      "status": "pending",
       "paymentStatus": "pending",
       "subtotal": 9800,
       "shipping": 0,
       "tax": 1764,
       "total": 11564,
       "createdAt": "2025-11-10T13:43:48.392Z",
-      "updatedAt": "2025-11-10T13:45:07.123Z"
+      "updatedAt": "2025-11-12T06:26:50.282Z"
     },
     {
       "id": "FCB1762783266305MSTOB",
@@ -1770,14 +1561,14 @@
       },
       "paymentMethod": "cod",
       "orderNotes": "",
-      "status": "shipped",
+      "status": "pending",
       "paymentStatus": "pending",
       "subtotal": 9500,
       "shipping": 0,
       "tax": 1710,
       "total": 11210,
       "createdAt": "2025-11-10T14:01:06.305Z",
-      "updatedAt": "2025-11-10T14:02:48.503Z"
+      "updatedAt": "2025-11-12T06:26:51.831Z"
     },
     {
       "id": "FCB1762788299115N0TP4",
@@ -1807,14 +1598,14 @@
       },
       "paymentMethod": "cod",
       "orderNotes": "",
-      "status": "confirmed",
+      "status": "pending",
       "paymentStatus": "pending",
       "subtotal": 8700,
       "shipping": 0,
       "tax": 1566,
       "total": 10266,
       "createdAt": "2025-11-10T15:24:59.115Z",
-      "updatedAt": "2025-11-10T15:44:23.596Z"
+      "updatedAt": "2025-11-12T06:27:02.215Z"
     },
     {
       "id": "FCB1762789413533YMEP8",
@@ -1844,14 +1635,14 @@
       },
       "paymentMethod": "cod",
       "orderNotes": "",
-      "status": "processing",
+      "status": "confirmed",
       "paymentStatus": "pending",
       "subtotal": 9800,
       "shipping": 0,
       "tax": 1764,
       "total": 11564,
       "createdAt": "2025-11-10T15:43:33.533Z",
-      "updatedAt": "2025-11-10T15:44:19.730Z"
+      "updatedAt": "2025-11-12T12:21:21.821Z"
     },
     {
       "id": "FCB17627897540347QEZ3",
@@ -1881,63 +1672,14 @@
       },
       "paymentMethod": "cod",
       "orderNotes": "",
-      "status": "cancelled",
+      "status": "confirmed",
       "paymentStatus": "pending",
       "subtotal": 8700,
       "shipping": 0,
       "tax": 1566,
       "total": 10266,
       "createdAt": "2025-11-10T15:49:14.034Z",
-      "updatedAt": "2025-11-10T15:49:14.034Z"
-    },
-    {
-      "id": "FCB17628428255344H77E",
-      "userId": "user_1762762784887_8fz34",
-      "items": [
-        {
-          "productId": "1",
-          "name": "Home Kit 25/26 - Lamine Yamal Edition",
-          "category": "kids_kits",
-          "price_inr": 9500,
-          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/HJ5216-456_431720906_D_A_1X1_2.jpg?v=1751429539&width=823",
-          "size": "S",
-          "quantity": 1,
-          "materials": "100% Recycled Polyester",
-          "care_instructions": "Machine wash cold, do not bleach",
-          "addedDate": "2025-11-10T13:38:23.823Z"
-        },
-        {
-          "productId": "4",
-          "name": "Home Kit 25/26 - Women's Player Version",
-          "category": "kids_kits",
-          "price_inr": 10500,
-          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FE70420026_1_2ucl.jpg?v=1751429913&width=823",
-          "size": "S",
-          "quantity": 1,
-          "materials": "Advanced Polyester Blend",
-          "care_instructions": "Professional cleaning recommended",
-          "addedDate": "2025-11-11T06:33:29.635Z"
-        }
-      ],
-      "shippingInfo": {
-        "fullName": "saalim",
-        "email": "muhammedsaalim005@gmail.com",
-        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
-        "city": "Palakkad",
-        "state": "Kerala",
-        "pincode": "678594",
-        "phone": "8089749450"
-      },
-      "paymentMethod": "cod",
-      "orderNotes": "",
-      "status": "pending",
-      "paymentStatus": "pending",
-      "subtotal": 20000,
-      "shipping": 0,
-      "tax": 3600,
-      "total": 23600,
-      "createdAt": "2025-11-11T06:33:45.534Z",
-      "updatedAt": "2025-11-11T06:33:45.534Z"
+      "updatedAt": "2025-11-12T12:21:14.738Z"
     },
     {
       "id": "FCB1762852473833EEM14",
@@ -2012,6 +1754,104 @@
       "total": 7316,
       "createdAt": "2025-11-11T09:16:22.749Z",
       "updatedAt": "2025-11-11T11:26:40.958Z"
+    },
+    {
+      "id": "FCB1762929264567934G5",
+      "userId": "user_1762783193563_bogsm",
+      "items": [
+        {
+          "productId": "3",
+          "name": "FC Barcelona Polo Shirt - Classic Edition",
+          "category": "apparel",
+          "price_inr": 4500,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/BZ3A9248.jpg?v=1760351511&width=823",
+          "size": "S",
+          "quantity": 1,
+          "materials": "Cotton Pique",
+          "care_instructions": "Machine wash cold",
+          "addedDate": "2025-11-12T06:34:13.950Z"
+        },
+        {
+          "productId": "8",
+          "name": "FC Barcelona Travel Jacket - Player Edition",
+          "category": "apparel",
+          "price_inr": 10400,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_2025408-2.jpg?v=1752663102&width=823",
+          "size": "M",
+          "quantity": 1,
+          "materials": "Technical Fabric",
+          "care_instructions": "Dry clean only",
+          "addedDate": "2025-11-12T06:34:19.183Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "rono",
+        "email": "rono@gmail.com",
+        "phone": "9961156111",
+        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
+        "city": "Palakkad",
+        "state": "Kerala",
+        "pincode": "678594"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "subtotal": 14900,
+      "shipping": 0,
+      "tax": 2682,
+      "total": 17582,
+      "createdAt": "2025-11-12T06:34:24.567Z",
+      "updatedAt": "2025-11-12T06:34:24.567Z"
+    },
+    {
+      "id": "FCB1762949986457XUCZM",
+      "userId": "user_1762949815253_vszlu",
+      "items": [
+        {
+          "productId": "1",
+          "name": "FC Barcelona Hoodie - Navy Blue",
+          "category": "apparel",
+          "price_inr": 6200,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_2025838-2.jpg?v=1752663717&width=1200",
+          "size": "S",
+          "quantity": 1,
+          "materials": "Cotton Blend",
+          "care_instructions": "Machine wash cold",
+          "addedDate": "2025-11-12T12:18:11.456Z"
+        },
+        {
+          "productId": "3",
+          "name": "Home Kit 25/26 - Classic Edition",
+          "category": "kids_kits",
+          "price_inr": 8700,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/lamineyamal-ucl_7c9afdfb-cfe5-43ff-bf30-b74e4e5b837b.webp?v=1752684023&width=823",
+          "size": "S",
+          "quantity": 1,
+          "materials": "100% Polyester",
+          "care_instructions": "Machine washable",
+          "addedDate": "2025-11-12T12:18:20.989Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "user",
+        "email": "User123@gmail.com",
+        "phone": "8089645321",
+        "address": "kozhikode",
+        "city": "kozhikode",
+        "state": "123456",
+        "pincode": "123456"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "subtotal": 14900,
+      "shipping": 0,
+      "tax": 2682,
+      "total": 17582,
+      "createdAt": "2025-11-12T12:19:46.457Z",
+      "updatedAt": "2025-11-12T12:19:46.457Z"
     }
   ]
 }
