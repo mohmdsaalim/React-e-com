@@ -1087,7 +1087,7 @@
         "pincode": "678594"
       },
       "createdAt": "2025-11-08T04:21:05.752Z",
-      "updatedAt": "2025-11-12T12:20:44.655Z",
+      "updatedAt": "2025-11-15T05:41:19.732Z",
       "status": "suspended",
       "role": "customer"
     },
@@ -1127,8 +1127,8 @@
       "orders": [],
       "shippingAddress": {},
       "createdAt": "2025-11-08T06:48:47.042Z",
-      "updatedAt": "2025-11-11T13:02:51.563Z",
-      "status": "active",
+      "updatedAt": "2025-11-12T14:03:04.408Z",
+      "status": "suspended",
       "role": "customer"
     },
     {
@@ -1250,12 +1250,15 @@
       "lastName": "User",
       "email": "User123@gmail.com",
       "password": "User123@gmail.com",
-      "role": "user",
+      "role": "admin",
       "status": "active",
       "cart": [],
       "wishlist": [],
       "orders": [
-        "FCB1762949986457XUCZM"
+        "FCB1762949986457XUCZM",
+        "FCB1762955762404OUHF8",
+        "FCB1762956123845BK7CM",
+        "FCB1762956125649QZI1W"
       ],
       "shippingAddress": {
         "fullName": "user",
@@ -1268,7 +1271,23 @@
       },
       "items": [],
       "createdAt": "2025-11-12T12:16:55.253Z",
-      "updatedAt": "2025-11-12T12:16:55.253Z"
+      "updatedAt": "2025-11-15T05:39:31.806Z"
+    },
+    {
+      "id": "user_1762956469729_xutbo",
+      "firstName": "user1",
+      "lastName": "1",
+      "email": "user1234@gmail.com",
+      "password": "user1234@gmail.com",
+      "role": "user",
+      "status": "active",
+      "cart": [],
+      "wishlist": [],
+      "orders": [],
+      "shippingAddress": {},
+      "items": [],
+      "createdAt": "2025-11-12T14:07:49.729Z",
+      "updatedAt": "2025-11-12T14:07:49.729Z"
     }
   ],
   "orders": [
@@ -1561,14 +1580,14 @@
       },
       "paymentMethod": "cod",
       "orderNotes": "",
-      "status": "pending",
+      "status": "confirmed",
       "paymentStatus": "pending",
       "subtotal": 9500,
       "shipping": 0,
       "tax": 1710,
       "total": 11210,
       "createdAt": "2025-11-10T14:01:06.305Z",
-      "updatedAt": "2025-11-12T06:26:51.831Z"
+      "updatedAt": "2025-11-15T05:44:07.798Z"
     },
     {
       "id": "FCB1762788299115N0TP4",
@@ -1598,14 +1617,14 @@
       },
       "paymentMethod": "cod",
       "orderNotes": "",
-      "status": "pending",
+      "status": "confirmed",
       "paymentStatus": "pending",
       "subtotal": 8700,
       "shipping": 0,
       "tax": 1566,
       "total": 10266,
       "createdAt": "2025-11-10T15:24:59.115Z",
-      "updatedAt": "2025-11-12T06:27:02.215Z"
+      "updatedAt": "2025-11-12T14:03:50.849Z"
     },
     {
       "id": "FCB1762789413533YMEP8",
@@ -1645,80 +1664,6 @@
       "updatedAt": "2025-11-12T12:21:21.821Z"
     },
     {
-      "id": "FCB17627897540347QEZ3",
-      "userId": "user_1762783193563_bogsm",
-      "items": [
-        {
-          "productId": "3",
-          "name": "Home Kit 25/26 - Classic Edition",
-          "category": "kids_kits",
-          "price_inr": 8700,
-          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/lamineyamal-ucl_7c9afdfb-cfe5-43ff-bf30-b74e4e5b837b.webp?v=1752684023&width=823",
-          "size": "S",
-          "quantity": 1,
-          "materials": "100% Polyester",
-          "care_instructions": "Machine washable",
-          "addedDate": "2025-11-10T15:48:13.783Z"
-        }
-      ],
-      "shippingInfo": {
-        "fullName": "rono",
-        "email": "rono@gmail.com",
-        "phone": "9961156111",
-        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
-        "city": "Palakkad",
-        "state": "Kerala",
-        "pincode": "678594"
-      },
-      "paymentMethod": "cod",
-      "orderNotes": "",
-      "status": "confirmed",
-      "paymentStatus": "pending",
-      "subtotal": 8700,
-      "shipping": 0,
-      "tax": 1566,
-      "total": 10266,
-      "createdAt": "2025-11-10T15:49:14.034Z",
-      "updatedAt": "2025-11-12T12:21:14.738Z"
-    },
-    {
-      "id": "FCB1762852473833EEM14",
-      "userId": "user_1762783193563_bogsm",
-      "items": [
-        {
-          "productId": "2",
-          "name": "FC Barcelona Tracksuit - Red & Blue",
-          "category": "apparel",
-          "price_inr": 9800,
-          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FCB_ECOMMERCE_20252085_3d36b0fc-ea9c-4dbc-9dbd-e652ea9cca20.jpg?v=1755785933&width=823",
-          "size": "S",
-          "quantity": 2,
-          "materials": "Polyester Blend",
-          "care_instructions": "Machine wash gentle",
-          "addedDate": "2025-11-11T09:14:27.483Z"
-        }
-      ],
-      "shippingInfo": {
-        "fullName": "rono",
-        "email": "rono@gmail.com",
-        "phone": "9961156111",
-        "address": "Parakkal house, Vallikode post, Puduppariyaram, Palakkad",
-        "city": "Palakkad",
-        "state": "Kerala",
-        "pincode": "678594"
-      },
-      "paymentMethod": "cod",
-      "orderNotes": "",
-      "status": "pending",
-      "paymentStatus": "pending",
-      "subtotal": 19600,
-      "shipping": 0,
-      "tax": 3528,
-      "total": 23128,
-      "createdAt": "2025-11-11T09:14:33.833Z",
-      "updatedAt": "2025-11-11T09:14:33.833Z"
-    },
-    {
       "id": "FCB1762852582749U7CI2",
       "userId": "user_1762783193563_bogsm",
       "items": [
@@ -1753,7 +1698,7 @@
       "tax": 1116,
       "total": 7316,
       "createdAt": "2025-11-11T09:16:22.749Z",
-      "updatedAt": "2025-11-11T11:26:40.958Z"
+      "updatedAt": "2025-11-15T05:45:00.897Z"
     },
     {
       "id": "FCB1762929264567934G5",
@@ -1852,6 +1797,153 @@
       "total": 17582,
       "createdAt": "2025-11-12T12:19:46.457Z",
       "updatedAt": "2025-11-12T12:19:46.457Z"
+    },
+    {
+      "id": "FCB1762955762404OUHF8",
+      "userId": "user_1762949815253_vszlu",
+      "items": [
+        {
+          "productId": "4",
+          "name": "Home Kit 25/26 - Women's Player Version",
+          "category": "kids_kits",
+          "price_inr": 10500,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FE70420026_1_2ucl.jpg?v=1751429913&width=823",
+          "size": "S",
+          "quantity": 1,
+          "materials": "Advanced Polyester Blend",
+          "care_instructions": "Professional cleaning recommended",
+          "addedDate": "2025-11-12T13:51:34.755Z"
+        },
+        {
+          "productId": "5",
+          "name": "Home Kit 25/26 - Youth Edition",
+          "category": "kids_kits",
+          "price_inr": 8200,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/Disenosintitulo_38_e900aa6e-6f22-481e-9d0c-27cfa5b14cdd.jpg?v=1758635058&width=823",
+          "size": "M",
+          "quantity": 1,
+          "materials": "100% Cotton-Poly Blend",
+          "care_instructions": "Machine wash gentle",
+          "addedDate": "2025-11-12T13:51:39.087Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "user",
+        "email": "User123@gmail.com",
+        "phone": "8089645321",
+        "address": "kozhikode",
+        "city": "kozhikode",
+        "state": "123456",
+        "pincode": "123456"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "subtotal": 18700,
+      "shipping": 0,
+      "tax": 3366,
+      "total": 22066,
+      "createdAt": "2025-11-12T13:56:02.404Z",
+      "updatedAt": "2025-11-12T13:56:02.404Z"
+    },
+    {
+      "id": "FCB1762956123845BK7CM",
+      "userId": "user_1762949815253_vszlu",
+      "items": [
+        {
+          "productId": "4",
+          "name": "Home Kit 25/26 - Women's Player Version",
+          "category": "kids_kits",
+          "price_inr": 10500,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FE70420026_1_2ucl.jpg?v=1751429913&width=823",
+          "size": "S",
+          "quantity": 1,
+          "materials": "Advanced Polyester Blend",
+          "care_instructions": "Professional cleaning recommended",
+          "addedDate": "2025-11-12T14:01:37.094Z"
+        },
+        {
+          "productId": "3",
+          "name": "Home Kit 25/26 - Classic Edition",
+          "category": "kids_kits",
+          "price_inr": 8700,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/lamineyamal-ucl_7c9afdfb-cfe5-43ff-bf30-b74e4e5b837b.webp?v=1752684023&width=823",
+          "size": "M",
+          "quantity": 1,
+          "materials": "100% Polyester",
+          "care_instructions": "Machine washable",
+          "addedDate": "2025-11-12T14:01:43.793Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "user",
+        "email": "User123@gmail.com",
+        "phone": "8089645321",
+        "address": "kozhikode",
+        "city": "kozhikode",
+        "state": "123456",
+        "pincode": "123456"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "subtotal": 19200,
+      "shipping": 0,
+      "tax": 3456,
+      "total": 22656,
+      "createdAt": "2025-11-12T14:02:03.845Z",
+      "updatedAt": "2025-11-12T14:02:03.845Z"
+    },
+    {
+      "id": "FCB1762956125649QZI1W",
+      "userId": "user_1762949815253_vszlu",
+      "items": [
+        {
+          "productId": "4",
+          "name": "Home Kit 25/26 - Women's Player Version",
+          "category": "kids_kits",
+          "price_inr": 10500,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/FE70420026_1_2ucl.jpg?v=1751429913&width=823",
+          "size": "S",
+          "quantity": 1,
+          "materials": "Advanced Polyester Blend",
+          "care_instructions": "Professional cleaning recommended",
+          "addedDate": "2025-11-12T14:01:37.094Z"
+        },
+        {
+          "productId": "3",
+          "name": "Home Kit 25/26 - Classic Edition",
+          "category": "kids_kits",
+          "price_inr": 8700,
+          "image_url": "https://store.fcbarcelona.com/cdn/shop/files/lamineyamal-ucl_7c9afdfb-cfe5-43ff-bf30-b74e4e5b837b.webp?v=1752684023&width=823",
+          "size": "M",
+          "quantity": 1,
+          "materials": "100% Polyester",
+          "care_instructions": "Machine washable",
+          "addedDate": "2025-11-12T14:01:43.793Z"
+        }
+      ],
+      "shippingInfo": {
+        "fullName": "user",
+        "email": "User123@gmail.com",
+        "phone": "8089645321",
+        "address": "kozhikode",
+        "city": "kozhikode",
+        "state": "123456",
+        "pincode": "123456"
+      },
+      "paymentMethod": "cod",
+      "orderNotes": "",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "subtotal": 19200,
+      "shipping": 0,
+      "tax": 3456,
+      "total": 22656,
+      "createdAt": "2025-11-12T14:02:05.649Z",
+      "updatedAt": "2025-11-12T14:02:05.649Z"
     }
   ]
 }

@@ -10,8 +10,8 @@ const ProfilePage = () => {
   const [orders, setOrders] = useState([]);
   const [activeTab, setActiveTab] = useState("orders");
   const [isEditing, setIsEditing] = useState(false);
-  const [editForm, setEditForm] = useState({});
   const [loadingOrders, setLoadingOrders] = useState(true);
+  const [editForm, setEditForm] = useState({});
   const navigate = useNavigate();
 
   // Status configuration that matches OrderManagement
